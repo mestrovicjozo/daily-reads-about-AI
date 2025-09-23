@@ -1,0 +1,100 @@
+# Digest Agent Configuration
+
+# Topics to track
+topics:
+  - name: "LLMs"
+    keywords: ["large language model", "LLM", "GPT", "transformer", "language model"]
+    seed_urls:
+      - "https://arxiv.org/rss/cs.CL"
+      - "https://openai.com/blog/rss/"
+      - "https://ai.googleblog.com/feeds/posts/default"
+      - "https://huggingface.co/blog/feed.xml"
+      - "https://medium.com/feed/tag/large-language-models"
+      - "https://medium.com/feed/tag/llm"
+      - "https://cohere.com/blog"             # allowlist HTML crawl
+      - "https://weaviate.io/blog"            # allowlist HTML crawl
+      - "https://milvus.io/blog"              # allowlist HTML crawl
+      - "https://blog.langchain.dev"          # allowlist HTML crawl
+
+  - name: "RAG"
+    keywords: ["retrieval-augmented generation", "RAG", "retrieval", "document retrieval", "vector database", "embedding"]
+    seed_urls:
+      - "https://arxiv.org/rss/cs.IR"
+      - "https://ai.meta.com/blog/rss/"
+      - "https://medium.com/feed/tag/rag"
+      - "https://medium.com/feed/tag/retrieval-augmented-generation"
+      - "https://huggingface.co/blog/feed.xml"
+      - "https://weaviate.io/blog/rss.xml"
+      - "https://blog.langchain.dev/rss/"
+      - "https://milvus.io/blog/feed.xml"
+      - "https://www.pinecone.io/learn"       # allowlist HTML crawl
+      - "https://cohere.com/blog"             # allowlist HTML crawl
+
+  - name: "MCP"
+    description: "Model Context Protocol"
+    keywords: ["model context protocol", "MCP", "model serving", "model deployment"]
+    seed_urls:
+      - "https://mlops.community/feed/"
+      - "https://huyenchip.com/feed.xml"
+      - "https://medium.com/feed/tag/mlops"
+
+  - name: "Quantum Computing"
+    keywords: ["quantum computing", "qubit", "quantum algorithm", "quantum supremacy", "quantum hardware"]
+    seed_urls:
+      - "https://arxiv.org/rss/quant-ph"
+      - "https://quantumcomputingreport.com/feed/"
+      - "https://www.quantamagazine.org/physics/quantum-computing/"  # allowlist HTML crawl
+      - "https://quantumai.google/blog/"                              # allowlist HTML crawl
+      - "https://cloudblogs.microsoft.com/quantum/"                   # allowlist HTML crawl
+      - "https://xanadu.ai/blog"                                      # allowlist HTML crawl
+      - "https://research.ibm.com/blog/category/quantum"              # allowlist HTML crawl
+      - "https://ionq.com/newsroom"                                   # allowlist HTML crawl
+      - "https://www.rigetti.com/news"                                # allowlist HTML crawl
+
+# Reddit settings (optional)
+reddit:
+  days_back: 3
+  subreddits_per_topic:
+    LLMs: ["MachineLearning", "LocalLLaMA", "LanguageTechnology"]
+    RAG: ["MachineLearning", "LanguageTechnology", "DataEngineering"]
+    MCP: ["MLOps", "datascience"]
+    Quantum Computing: ["QuantumComputing", "Physics", "MachineLearning"]
+
+# Crawler settings
+crawler:
+  user_agent: "Mozilla/5.0 (compatible; DigestAgent/1.0; +https://github.com/yourusername/digest-agent)"
+  request_timeout: 10  # seconds
+  max_retries: 3
+  rate_limit_delay: 1.0  # seconds between requests to the same domain
+  max_articles_per_topic: 100
+
+# Processing settings
+processing:
+  min_article_length: 500  # characters
+  max_article_length: 20000  # characters
+  summary_length: 5  # sentences
+  language: "en"
+  dedupe_threshold: 0.9  # Jaccard similarity threshold
+
+# Ranking weights
+ranking:
+  recency: 0.4
+  relevance: 0.3
+  authoritativeness: 0.2
+  engagement: 0.1
+
+# Output settings
+output:
+  digest_dir: "digests"
+  provenance_dir: "provenance"
+  date_format: "%Y-%m-%d"
+  max_articles_per_topic: 5
+
+# API Keys (to be set in environment variables)
+apis:
+  openai_api_key: ${OPENAI_API_KEY}  # For summarization if needed
+  google_search_api_key: ${GOOGLE_SEARCH_API_KEY}
+  google_search_engine_id: ${GOOGLE_SEARCH_ENGINE_ID}
+  reddit_client_id: ${REDDIT_CLIENT_ID}        # optional, for Reddit
+  reddit_client_secret: ${REDDIT_CLIENT_SECRET} # optional
+  reddit_user_agent: ${REDDIT_USER_AGENT}       # optional

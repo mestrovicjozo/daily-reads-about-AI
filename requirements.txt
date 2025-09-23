@@ -1,0 +1,41 @@
+# Core dependencies
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+feedparser>=6.0.10
+python-dateutil>=2.8.2
+PyYAML>=6.0.1
+loguru>=0.7.0
+
+# HTML parsing dependencies required by newspaper3k
+lxml[html_clean]>=5.2.2
+cssselect>=1.2.0
+
+# Text processing
+newspaper3k>=0.2.8
+nltk>=3.8.1
+langdetect>=1.0.9
+sentence-transformers>=2.2.2
+
+# Data processing
+pandas>=2.0.3
+numpy>=1.24.3
+scikit-learn>=1.3.0
+
+# CLI
+click>=8.1.3
+rich>=13.4.2
+
+# Reddit & dotenv
+praw>=7.7.1
+python-dotenv>=1.0.1
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+responses>=0.23.3
+
+# Development
+black>=23.7.0
+isort>=5.12.0
+flake8>=6.1.0
+mypy>=1.5.1
