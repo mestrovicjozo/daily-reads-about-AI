@@ -6,7 +6,7 @@ from __future__ import annotations
 import re
 from collections import defaultdict
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
@@ -44,6 +44,7 @@ class ContentProcessor:
         self.target_lang = config["processing"]["language"]
         self.summary_sentences = 5  # enforce exactly 5 as per hard requirement
         self.max_final = config["output"]["max_articles_per_topic"]
+        self.max_age_hours = int(config["processing"].get("max_age_hours", 24))
 
     def process(self, articles: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
         """Fetch content, filter to English, dedupe, and summarize per topic.
@@ -52,6 +53,7 @@ class ContentProcessor:
         provenance_records: List[Dict[str, Any]] = []
 
         seen_hashes_per_topic: Dict[str, set] = defaultdict(set)
+        now = datetime.utcnow()
 
         for a in articles:
             url = a["url"]
@@ -59,6 +61,17 @@ class ContentProcessor:
             try:
                 parsed = self._fetch_article(url)
                 if not parsed:
+                    continue
+
+                # Determine published time (prefer article parser, fallback to feed/crawl fetch_time)
+                published = parsed.get("publish_date") or a.get("published") or a.get("fetch_time") or now
+                # Normalize tz info
+                if getattr(published, "tzinfo", None) is not None:
+                    published = published.astimezone(timezone.utc).replace(tzinfo=None)
+                # Enforce freshness window
+                age_hours = (now - published).total_seconds() / 3600.0
+                if age_hours > self.max_age_hours:
+                    logger.debug(f"Older than {self.max_age_hours}h ({age_hours:.1f}h), skipping: {url}")
                     continue
 
                 text = parsed.get("text", "").strip()
@@ -85,7 +98,6 @@ class ContentProcessor:
 
                 title = (parsed.get("title") or a.get("title") or "Untitled").strip()
                 authors = parsed.get("authors") or a.get("authors") or []
-                published = parsed.get("publish_date") or a.get("published") or datetime.utcnow()
                 source = a.get("source")
                 reading_time = estimate_reading_time(text)
 
@@ -103,17 +115,9 @@ class ContentProcessor:
                     "why_selected": why_selected,
                     "topic": topic,
                     "content_hash": content_hash,
-                    "fetch_time": a.get("fetch_time", datetime.utcnow()),
+                    "fetch_time": a.get("fetch_time", now),
                     "raw_text": text,
                     "topic_keywords": a.get("topic_keywords", []),
-                })
-
-                # Minimal provenance
-                provenance_records.append({
-                    "url": url,
-                    "fetch_timestamp": a.get("fetch_time", datetime.utcnow()).isoformat(),
-                    "http_status": parsed.get("http_status", 200),
-                    "content_hash": content_hash,
                 })
 
             except Exception as e:

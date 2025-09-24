@@ -75,6 +75,7 @@ processing:
   summary_length: 5  # sentences
   language: "en"
   dedupe_threshold: 0.9  # Jaccard similarity threshold
+  max_age_hours: 24  # enforce freshness window; articles older than this are skipped
 
 # Ranking weights
 ranking:
