@@ -4,7 +4,7 @@ This repository hosts an AI agent that runs daily and collects the most interest
 
 - LLMs (Large Language Models)  
 - RAG (Retrieval-Augmented Generation)  
-- MCP (Model-Centric Practices)  
+- MCP (Model Context Protocol)  
 - Quantum Computing  
 
 The agent fetches fresh content from research hubs, technical blogs, and industry news sites. It then ranks, deduplicates, and summarizes the top 5 articles for each topic.
