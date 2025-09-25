@@ -45,55 +45,49 @@ class ContentProcessor:
         self.summary_sentences = 5  # enforce exactly 5 as per hard requirement
         self.max_final = config["output"]["max_articles_per_topic"]
         self.max_age_hours = int(config["processing"].get("max_age_hours", 24))
+        self.fallback_max_age_hours = 168  # 7 days
 
     def process(self, articles: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
         """Fetch content, filter to English, dedupe, and summarize per topic.
         Returns a dict: {topic_name: [article_dict, ...]}"""
         grouped: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
-        provenance_records: List[Dict[str, Any]] = []
-
         seen_hashes_per_topic: Dict[str, set] = defaultdict(set)
         now = datetime.utcnow()
 
-        for a in articles:
+        def try_add(a: Dict[str, Any], allowed_age_hours: int) -> bool:
+            """Process a single article and add it if it passes filters.
+            Returns True if added, False otherwise.
+            """
             url = a["url"]
             topic = a["topic"]
             try:
                 parsed = self._fetch_article(url)
                 if not parsed:
-                    continue
+                    return False
 
-                # Determine published time (prefer article parser, fallback to feed/crawl fetch_time)
                 published = parsed.get("publish_date") or a.get("published") or a.get("fetch_time") or now
-                # Normalize tz info
                 if getattr(published, "tzinfo", None) is not None:
                     published = published.astimezone(timezone.utc).replace(tzinfo=None)
-                # Enforce freshness window
                 age_hours = (now - published).total_seconds() / 3600.0
-                if age_hours > self.max_age_hours:
-                    logger.debug(f"Older than {self.max_age_hours}h ({age_hours:.1f}h), skipping: {url}")
-                    continue
+                if age_hours > allowed_age_hours:
+                    return False
 
-                text = parsed.get("text", "").strip()
+                text = (parsed.get("text") or "").strip()
                 if len(text) < self.min_len:
-                    logger.debug(f"Too short, skipping: {url}")
-                    continue
+                    return False
                 if len(text) > self.max_len:
                     text = text[: self.max_len]
 
-                # Language detection (English only)
                 try:
                     lang = detect(text)
                 except LangDetectException:
                     lang = "unknown"
                 if lang != self.target_lang:
-                    logger.debug(f"Non-English ({lang}), skipping: {url}")
-                    continue
+                    return False
 
                 content_hash = get_content_hash(self._normalize_text(text))
                 if content_hash in seen_hashes_per_topic[topic]:
-                    logger.debug(f"Duplicate content in topic {topic}, skipping: {url}")
-                    continue
+                    return False
                 seen_hashes_per_topic[topic].add(content_hash)
 
                 title = (parsed.get("title") or a.get("title") or "Untitled").strip()
@@ -119,10 +113,31 @@ class ContentProcessor:
                     "raw_text": text,
                     "topic_keywords": a.get("topic_keywords", []),
                 })
-
+                return True
             except Exception as e:
                 logger.warning(f"Failed processing article {url}: {e}")
+                return False
+
+        # First pass: strict freshness window (e.g., 24h)
+        for a in articles:
+            try_add(a, self.max_age_hours)
+
+        # Fallback pass: for topics with < max_final items, allow up to 7 days
+        topics_cfg = [t.get("name") for t in self.config.get("topics", [])]
+        for tname in topics_cfg:
+            have = len(grouped.get(tname, []))
+            if have >= self.max_final:
                 continue
+            need = self.max_final - have
+            logger.info(f"Topic {tname} low coverage ({have}/{self.max_final}). Falling back up to 7 days to fill {need}.")
+            for a in (x for x in articles if x.get("topic") == tname):
+                if len(grouped.get(tname, [])) >= self.max_final:
+                    break
+                # Skip if already added by first pass (by URL)
+                existing_urls = {i["url"] for i in grouped.get(tname, [])}
+                if a.get("url") in existing_urls:
+                    continue
+                try_add(a, self.fallback_max_age_hours)
 
         return grouped
 

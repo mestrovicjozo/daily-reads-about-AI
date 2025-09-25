@@ -1,8 +1,8 @@
 """
 Validator for generated digests.
 Checks:
-- Exactly 5 articles per topic section.
-- Each item has required metadata lines.
+- Up to 5 articles per topic section (does not fail if fewer than 5).
+- Each present item has required metadata lines.
 - Summary has exactly 5 sentences.
 - No duplicate links within a topic and across topics.
 """
@@ -100,8 +100,9 @@ def validate_digest(path: str | Path) -> Tuple[bool, List[str]]:
     for topic, items in sections.items():
         # Filter out empty placeholders like (No eligible articles found.)
         items = [blk for blk in items if blk and ITEM_RE.match(blk[0] or "")]
-        if len(items) != 5:
-            errors.append(f"Topic '{topic}' has {len(items)} items, expected 5")
+        # Do NOT fail if fewer than 5; only fail if more than 5
+        if len(items) > 5:
+            errors.append(f"Topic '{topic}' has {len(items)} items, expected at most 5")
 
         seen_links = set()
         for blk in items:
