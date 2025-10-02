@@ -20,6 +20,8 @@ from utils import (
     get_content_hash,
 )
 
+import json
+
 
 @dataclass
 class ProcessedArticle:
@@ -46,6 +48,14 @@ class ContentProcessor:
         self.max_final = config["output"]["max_articles_per_topic"]
         self.max_age_hours = int(config["processing"].get("max_age_hours", 24))
         self.fallback_max_age_hours = 168  # 7 days
+        # Cross-day dedup horizon
+        self.history_days = int(config["processing"].get("history_days", 30))
+        self.fallback_window_days = int(config["processing"].get("fallback_window_days", 7))
+        self.provenance_dir = Path(config["output"].get("provenance_dir", "provenance"))
+        self.date_format = config["output"].get("date_format", "%Y-%m-%d")
+
+        # Preload recent provenance URLs and content hashes
+        self.recent_urls, self.recent_hashes = self._load_recent_history(self.history_days)
 
     def process(self, articles: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
         """Fetch content, filter to English, dedupe, and summarize per topic.
@@ -60,9 +70,17 @@ class ContentProcessor:
             """
             url = a["url"]
             topic = a["topic"]
+            # Early skip if URL seen in recent history
+            if url in self.recent_urls:
+                return False
             try:
                 parsed = self._fetch_article(url)
                 if not parsed:
+                    return False
+                text = (parsed.get("text") or "").strip()
+                normalized_hash = get_content_hash(self._normalize_text(text)) if text else ""
+                # Early skip if content hash seen recently
+                if normalized_hash and normalized_hash in self.recent_hashes:
                     return False
 
                 published = parsed.get("publish_date") or a.get("published") or a.get("fetch_time") or now
@@ -72,7 +90,6 @@ class ContentProcessor:
                 if age_hours > allowed_age_hours:
                     return False
 
-                text = (parsed.get("text") or "").strip()
                 if len(text) < self.min_len:
                     return False
                 if len(text) > self.max_len:
@@ -85,7 +102,7 @@ class ContentProcessor:
                 if lang != self.target_lang:
                     return False
 
-                content_hash = get_content_hash(self._normalize_text(text))
+                content_hash = normalized_hash or get_content_hash(self._normalize_text(text))
                 if content_hash in seen_hashes_per_topic[topic]:
                     return False
                 seen_hashes_per_topic[topic].add(content_hash)
@@ -295,3 +312,38 @@ class ContentProcessor:
         if any(k in low for k in ["release", "announce", "launch", "roadmap"]):
             return "Timely announcement with practical implications."
         return "Clear insights and practical relevance to the topic."
+
+    def _load_recent_history(self, days: int) -> Tuple[set, set]:
+        """Load URLs and content hashes from provenance files in the last N days."""
+        urls: set = set()
+        hashes: set = set()
+        if not self.provenance_dir.exists():
+            return urls, hashes
+        try:
+            # Collect files and sort descending by date inferred from filename
+            files = sorted(self.provenance_dir.glob("*.json"), reverse=True)
+            cutoff = datetime.utcnow() - timedelta(days=days)
+            for fp in files:
+                try:
+                    # Parse date from filename if possible
+                    stem = fp.stem  # YYYY-MM-DD
+                    dt = datetime.strptime(stem, self.date_format)
+                    if dt < cutoff:
+                        continue
+                except Exception:
+                    # If filename not parseable, include it anyway as recent
+                    pass
+                try:
+                    data = json.loads(fp.read_text(encoding="utf-8"))
+                    for item in data.get("items", []):
+                        u = item.get("url")
+                        h = item.get("content_hash")
+                        if u:
+                            urls.add(u)
+                        if h:
+                            hashes.add(h)
+                except Exception as e:
+                    logger.debug(f"Skip malformed provenance {fp}: {e}")
+        except Exception as e:
+            logger.debug(f"Failed loading recent provenance: {e}")
+        return urls, hashes

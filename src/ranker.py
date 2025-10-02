@@ -1,11 +1,12 @@
 """
-Deterministic ranking of articles per topic with diversity and cross-topic deduplication.
+Article ranking: compute scores and select top-N per topic with diversity.
 """
 from __future__ import annotations
 
-from collections import defaultdict
-from datetime import datetime, timedelta, timezone
+import math
+from datetime import datetime, timezone
 from typing import Any, Dict, List, Tuple
+from urllib.parse import urlparse
 
 from loguru import logger
 
@@ -13,138 +14,135 @@ from loguru import logger
 class ArticleRanker:
     def __init__(self, config: Dict[str, Any]):
         self.config = config
-        self.weights = config.get("ranking", {})
-        self.max_per_topic = config["output"]["max_articles_per_topic"]
-        # Simple static domain reputation map; can be expanded or learned.
-        self.domain_reputation = {
-            "arxiv.org": 0.95,
-            "openai.com": 0.9,
-            "ai.googleblog.com": 0.9,
-            "meta.com": 0.85,
-            "deepmind.google": 0.9,
-            "huggingface.co": 0.85,
-            "microsoft.com": 0.85,
-            "anthropic.com": 0.85,
-            # RAG/vector DB ecosystem
-            "weaviate.io": 0.85,
-            "milvus.io": 0.8,
-            "pinecone.io": 0.85,
-            "langchain.dev": 0.85,
-            "cohere.com": 0.85,
-            # Quantum
-            "quantumcomputingreport.com": 0.85,
-            "quantumai.google": 0.9,
-            "quantamagazine.org": 0.9,
-            "cloudblogs.microsoft.com": 0.85,
-            "xanadu.ai": 0.8,
-            "research.ibm.com": 0.85,
-            "ionq.com": 0.8,
-            "rigetti.com": 0.8,
-            "nature.com": 0.95,
-        }
+        rk = config.get("ranking", {})
+        self.w_recency = float(rk.get("recency", 0.4))
+        self.w_relevance = float(rk.get("relevance", 0.3))
+        self.w_author = float(rk.get("authoritativeness", 0.2))
+        self.w_engage = float(rk.get("engagement", 0.1))
+        self.max_per_topic = int(config.get("output", {}).get("max_articles_per_topic", 5))
 
-    def rank(self, grouped: Dict[str, List[Dict[str, Any]]]) -> Dict[str, List[Dict[str, Any]]]:
-        # Score within each topic
-        scored_per_topic: Dict[str, List[Tuple[float, Dict[str, Any]]]] = {}
+        # Known authoritative domains (simple heuristic)
+        self.authoritative_domains = set([
+            "arxiv.org", "openai.com", "ai.googleblog.com", "huggingface.co",
+            "weaviate.io", "milvus.io", "blog.langchain.dev", "cohere.com",
+            "research.google", "quantumai.google", "developers.googleblog.com",
+        ])
+
+    def rank(self, processed_by_topic: Dict[str, List[Dict[str, Any]]]) -> Dict[str, List[Dict[str, Any]]]:
         now = datetime.utcnow()
+        ranked: Dict[str, List[Dict[str, Any]]] = {}
 
-        for topic, items in grouped.items():
+        for topic, items in processed_by_topic.items():
+            if not items:
+                ranked[topic] = []
+                continue
+
             scored: List[Tuple[float, Dict[str, Any]]] = []
+            topic_keywords = set()
+            # Aggregate keywords we saw during processing for this topic
             for it in items:
-                score = self._score(it, now, topic)
-                scored.append((score, it))
-            # Deterministic ordering: score desc, published desc, url asc
-            scored.sort(key=lambda x: (-x[0], -(x[1]["published"].timestamp() if it.get("published") else 0), x[1]["url"]))
-            # Diversity: penalize repeated domains when selecting top N
-            selected: List[Tuple[float, Dict[str, Any]]] = []
-            seen_domains = defaultdict(int)
-            for s, it in scored:
-                dom = it.get("source", "")
-                penalty = 0.0 if seen_domains[dom] == 0 else 0.1 * seen_domains[dom]
-                effective = s - penalty
-                selected.append((effective, it))
-                seen_domains[dom] += 1
-            selected.sort(key=lambda x: -x[0])
-            scored_per_topic[topic] = selected
+                for kw in it.get("topic_keywords", []) or []:
+                    if isinstance(kw, str):
+                        topic_keywords.add(kw.lower())
 
-        # Cross-topic deduplication by content_hash
-        chosen_hash_to_topic: Dict[str, str] = {}
-        final: Dict[str, List[Dict[str, Any]]] = {t: [] for t in grouped.keys()}
+            for it in items:
+                s_recency = self._score_recency(it.get("published"), now)
+                s_relevance = self._score_relevance(it.get("title"), it.get("raw_text"), topic_keywords)
+                s_author = self._score_authoritativeness(it.get("source"), it.get("authors"))
+                s_engage = self._score_engagement(it)
+                total = (
+                    self.w_recency * s_recency
+                    + self.w_relevance * s_relevance
+                    + self.w_author * s_author
+                    + self.w_engage * s_engage
+                )
+                scored.append((total, it))
 
-        # Select in round-robin per topic to improve balance
-        topics = list(scored_per_topic.keys())
-        pointer = {t: 0 for t in topics}
-        remaining = True
-        while remaining:
-            remaining = False
-            for t in topics:
-                lst = scored_per_topic[t]
-                while pointer[t] < len(lst) and len(final[t]) < self.max_per_topic:
-                    remaining = True
-                    _, cand = lst[pointer[t]]
-                    pointer[t] += 1
-                    h = cand.get("content_hash")
-                    if not h:
-                        final[t].append(cand)
-                        break
-                    if h in chosen_hash_to_topic:
-                        # keep the one with higher topic relevance; here proxied by keyword match count vs target topic
-                        prev_topic = chosen_hash_to_topic[h]
-                        # Prefer to keep in the topic where it first appeared (determinism) – or compute relevance per topic if available
-                        continue
-                    chosen_hash_to_topic[h] = t
-                    final[t].append(cand)
+            # Deterministic base ordering: score desc, published desc, url asc
+            scored.sort(key=lambda x: (
+                -x[0],
+                -self._published_ts_safe(x[1].get("published")),
+                str(x[1].get("url", ""))
+            ))
+
+            # Diversity selection: penalize repeated domains when picking top N
+            selection: List[Dict[str, Any]] = []
+            domain_counts: Dict[str, int] = {}
+            for score, it in scored:
+                if len(selection) >= self.max_per_topic:
                     break
+                dom = self._domain_of(it.get("url", ""))
+                penalty = 0.0
+                if dom:
+                    count = domain_counts.get(dom, 0)
+                    if count > 0:
+                        # each repeat penalizes by 10% per prior appearance
+                        penalty = min(0.5, 0.1 * count)
+                adj_score = score * (1.0 - penalty)
+                # Threshold: avoid adding items with near-zero adjusted scores
+                if adj_score <= 0.0 and len(selection) > 0:
+                    continue
+                selection.append(it)
+                if dom:
+                    domain_counts[dom] = domain_counts.get(dom, 0) + 1
 
-        # Truncate to max per topic
-        for t in final:
-            final[t] = final[t][: self.max_per_topic]
-        return final
+            ranked[topic] = selection
 
-    def _score(self, it: Dict[str, Any], now: datetime, topic: str) -> float:
-        w_recency = float(self.weights.get("recency", 0.4))
-        w_relevance = float(self.weights.get("relevance", 0.3))
-        w_auth = float(self.weights.get("authoritativeness", 0.2))
-        w_eng = float(self.weights.get("engagement", 0.1))
+        return ranked
 
-        recency = self._recency_score(it.get("published"), now)
-        relevance = self._relevance_score(it.get("raw_text", ""), it.get("title", ""), it.get("topic_keywords", []))
-        auth = self._authority_score(it.get("source", ""))
-        engagement = 0.0  # placeholder
+    # --- Scoring helpers ---
 
-        score = w_recency * recency + w_relevance * relevance + w_auth * auth + w_eng * engagement
-        return round(score, 6)
-
-    def _recency_score(self, published: datetime, now: datetime) -> float:
+    def _score_recency(self, published: Any, now: datetime) -> float:
         if not published:
-            return 0.3
-        # Normalize timezone awareness to avoid TypeError on subtraction
-        if getattr(published, "tzinfo", None) is not None:
-            published = published.astimezone(timezone.utc).replace(tzinfo=None)
-        if getattr(now, "tzinfo", None) is not None:
-            now = now.astimezone(timezone.utc).replace(tzinfo=None)
-        delta = now - published
-        # Full score within 72h, then exponential decay
-        hours = max(0.0, delta.total_seconds() / 3600.0)
-        if hours <= 72:
-            return 1.0 - (hours / 72.0) * 0.2  # slight decay within window
-        # decay after 72h
-        import math
-        return max(0.1, math.exp(-(hours - 72) / 168))  # week-scale decay
+            return 0.2
+        p = published
+        if hasattr(p, "tzinfo") and p.tzinfo is not None:
+            p = p.astimezone(timezone.utc).replace(tzinfo=None)
+        age_hours = max(0.0, (now - p).total_seconds() / 3600.0)
+        # Exponential decay with 24h half-life
+        half_life = 24.0
+        return max(0.0, min(1.0, 0.5 ** (age_hours / half_life)))
 
-    def _relevance_score(self, text: str, title: str, keywords: List[str]) -> float:
-        # Simple keyword coverage measure; can be replaced by embeddings
-        all_text = f"{title} {text}".lower()
-        hits = 0
-        for kw in keywords:
-            if kw.lower() in all_text:
-                hits += 1
-        if not keywords:
-            return 0.3
-        cov = hits / len(keywords)
-        # Boost if keywords appear in title
-        title_hits = sum(1 for kw in keywords if kw.lower() in title.lower())
-        return min(1.0, cov + 0.1 * title_hits)
+    def _score_relevance(self, title: Any, text: Any, topic_keywords: set) -> float:
+        if not topic_keywords:
+            return 0.5
+        hay = ((title or "") + "\n" + (text or "")).lower()
+        if not hay:
+            return 0.0
+        hits = sum(1 for kw in topic_keywords if kw in hay)
+        # saturating function
+        return max(0.0, min(1.0, hits / (len(topic_keywords) or 1)))
 
-    def _authority_score(self, domain: str) -> float:
-        return float(self.domain_reputation.get(domain, 0.5))
+    def _score_authoritativeness(self, source: Any, authors: Any) -> float:
+        dom = str(source or "").lower()
+        score = 0.3
+        if dom in self.authoritative_domains:
+            score += 0.5
+        # Bonus for named authors
+        if isinstance(authors, list) and any(a and len(str(a)) > 0 for a in authors):
+            score += 0.2
+        return max(0.0, min(1.0, score))
+
+    def _score_engagement(self, item: Dict[str, Any]) -> float:
+        md = item.get("metadata") or {}
+        # Reddit score if present
+        score = md.get("score")
+        if isinstance(score, (int, float)):
+            # log-like scaling
+            return max(0.0, min(1.0, math.log1p(max(0.0, float(score))) / 10.0))
+        return 0.0
+
+    def _published_ts_safe(self, published: Any) -> float:
+        try:
+            p = published
+            if hasattr(p, "tzinfo") and p.tzinfo is not None:
+                p = p.astimezone(timezone.utc).replace(tzinfo=None)
+            return p.timestamp()
+        except Exception:
+            return 0.0
+
+    def _domain_of(self, url: str) -> str:
+        try:
+            return urlparse(url).netloc.lower()
+        except Exception:
+            return ""

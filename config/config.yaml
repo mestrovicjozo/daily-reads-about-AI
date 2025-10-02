@@ -56,9 +56,9 @@ reddit:
   days_back: 3
   subreddits_per_topic:
     LLMs: ["MachineLearning", "LocalLLaMA", "LanguageTechnology"]
-    RAG: ["MachineLearning", "LanguageTechnology", "DataEngineering"]
-    MCP: ["MLOps", "datascience"]
-    Quantum Computing: ["QuantumComputing", "Physics", "MachineLearning"]
+    RAG: ["Rag"]
+    MCP: ["mcp"]
+    Quantum Computing: ["QuantumComputing"]
 
 # Crawler settings
 crawler:

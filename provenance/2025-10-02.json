@@ -1,94 +1,175 @@
 {
   "items": [
     {
-      "url": "https://milvus.io/blog/langchain-vs-langgraph.md",
-      "fetch_timestamp": "2025-10-02T06:31:36.363866",
+      "url": "https://milvus.io/blog/why-im-against-claude-codes-grep-only-retrieval-it-just-burns-too-many-tokens.md",
+      "fetch_timestamp": "2025-10-02T10:25:56.663671",
       "http_status": 200,
-      "content_hash": "dee563f3827915defb644292bd4a690cd51aec9774407600db19997cdc98fc6b",
+      "content_hash": "3cd6b61df81b6711b1cff60f722b3366f40862d5bd1e02e0ef2befac06a33dea",
       "topic": "LLMs",
       "source": "milvus.io",
-      "title": "LangChain vs LangGraph: A Developer's Guide to Choosing Your AI Frameworks"
+      "title": "Why I\u2019m Against Claude Code\u2019s Grep-Only Retrieval? It Just Burns Too Many Tokens"
     },
     {
-      "url": "https://milvus.io/blog/choosing-the-right-vector-database-for-your-ai-apps.md",
-      "fetch_timestamp": "2025-10-02T06:31:36.363991",
+      "url": "https://milvus.io/blog/langextract-milvus-a-practical-guide-to-building-a-hybrid-document-processing-and-search-system.md",
+      "fetch_timestamp": "2025-10-02T10:25:56.663650",
       "http_status": 200,
-      "content_hash": "d01d2b30829e54a9ae24acb792f5002a9d0e367ed872e81cb0328694b5c86559",
+      "content_hash": "1537a1e6c4b584802e5b61f5c038011208d7e920a245a5dad75593644ef49760",
       "topic": "LLMs",
       "source": "milvus.io",
-      "title": "How to Choose the Right VectorDB for Your AI Apps - Milvus Blog"
+      "title": "Hybrid Document Retrieval System with LangExtract + Milvus"
     },
     {
-      "url": "https://milvus.io/blog/get-started-with-langgraph-up-react-a-practical-langgraph-template.md",
-      "fetch_timestamp": "2025-10-02T06:31:36.363844",
+      "url": "https://milvus.io/blog/stop-your-ai-assistant-from-writing-outdated-code-with-milvus-sdk-code-helper.md",
+      "fetch_timestamp": "2025-10-02T10:25:56.663711",
       "http_status": 200,
-      "content_hash": "2911c71ff5fa84fa39b68a7bf448b4584b3d92b9537c2352b3dc545f308ea568",
+      "content_hash": "8dc3fcc564eaed91f16c1383ea0eb9a5dde9fcb7e650af165f14e76f4897d12e",
       "topic": "LLMs",
       "source": "milvus.io",
-      "title": "Getting Started with langgraph-up-react: A LangGraph Template"
+      "title": "Milvus SDK Code Helper Tutorial: Fix AI Outdated Code"
     },
     {
-      "url": "https://milvus.io/blog/when-context-engineering-is-done-right-hallucinations-can-spark-ai-creativity.md",
-      "fetch_timestamp": "2025-10-02T06:31:36.363821",
+      "url": "https://milvus.io/blog/nano-banana-milvus-turning-hype-into-enterprise-ready-multimodal-rag.md",
+      "fetch_timestamp": "2025-10-02T10:25:56.663629",
       "http_status": 200,
-      "content_hash": "168d9251789347c0098482162897f84929293c91a11c7126686d4a0e9b009106",
+      "content_hash": "b6af8aeb707b7081b1b45d6bf8a8d4482543b08afd94fd30198197f54334f48f",
       "topic": "LLMs",
       "source": "milvus.io",
-      "title": "If Context Engineering Done Right, Hallucinations Can Spark AI Creativity"
+      "title": "Nano Banana + Milvus: Turning Hype into Enterprise-Ready Multimodal RAG"
     },
     {
-      "url": "https://milvus.io/blog/hands-on-with-vdbbench-benchmarking-vector-databases-for-pocs-that-match-production.md",
-      "fetch_timestamp": "2025-10-02T06:31:36.364041",
+      "url": "https://milvus.io/blog/journey-to-35k-github-stars-story-of-building-milvus-from-scratch.md",
+      "fetch_timestamp": "2025-10-02T10:25:56.663510",
       "http_status": 200,
-      "content_hash": "03f7f24507de7d7f3d025a8f5d5b2962661febd4368da00533caca513ec92171",
+      "content_hash": "e5d009fe32ff2ebb52aac6a058d2bdc9db478fd0f91959d37e59b54737765187",
       "topic": "LLMs",
       "source": "milvus.io",
-      "title": "How to Evaluate VectorDBs that Match Production via VDBBench - Milvus Blog"
+      "title": "Our Journey to 35K+ GitHub Stars: Building Milvus from Scratch"
     },
     {
-      "url": "https://developers.googleblog.com/unlocking-the-potential-of-quantum-computing-a-developers-guide-to-error-correction/",
-      "fetch_timestamp": "2025-10-02T06:32:03.611559",
+      "url": "https://www.reddit.com/r/Rag/comments/1nvzl1b/why_chunking_strategy_decides_more_than_your/",
+      "fetch_timestamp": "2025-10-02T10:25:33.499563",
       "http_status": 200,
-      "content_hash": "679f0a3219f110ecd935bb9635b97a938bf1075506d9f934f06af34eb6a3875c",
-      "topic": "Quantum Computing",
-      "source": "quantumai.google",
-      "title": "Unlocking the Potential of Quantum Computing"
+      "content_hash": "2d744325e5eb3563d4f58883f080449ce91920d43061d5ffe3c56845436b1c1f",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "The heart of the internet"
     },
     {
-      "url": "https://quantumai.google/quantumcomputer",
-      "fetch_timestamp": "2025-10-02T06:32:03.611107",
+      "url": "https://www.reddit.com/r/Rag/comments/1nvcrj4/vector_database_buzzwords_decoded_what_actually/",
+      "fetch_timestamp": "2025-10-02T10:25:33.499704",
       "http_status": 200,
-      "content_hash": "8b6d9cc4145568357368c5a012e781937b2c014c08f182d377a9c4f6e63cbc38",
-      "topic": "Quantum Computing",
-      "source": "quantumai.google",
-      "title": "Google Quantum AI"
+      "content_hash": "f00886d7738b30a3d8f527a5021415e9997d2ea0eec4fc15bb9abbb81d38cf26",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "The heart of the internet"
     },
     {
-      "url": "https://research.google/blog/making-quantum-error-correction-work/",
-      "fetch_timestamp": "2025-10-02T06:32:03.611611",
+      "url": "https://www.reddit.com/r/Rag/comments/1nvjy8q/productizing_memory_for_rag_has_anyone_else_gone/",
+      "fetch_timestamp": "2025-10-02T10:25:33.499680",
       "http_status": 200,
-      "content_hash": "beddb4dbe9b1af55c0ee890121c0fd8f463de570d5fa05b28487cd1cddb4010a",
-      "topic": "Quantum Computing",
-      "source": "quantumai.google",
-      "title": "Making quantum error correction work"
+      "content_hash": "c8d07847def075049d083aefbdfcf813a0b0f889774a0767a4b973ad173356f0",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "The heart of the internet"
     },
     {
-      "url": "https://quantumai.google/discover/whatisqc",
-      "fetch_timestamp": "2025-10-02T06:32:03.611052",
+      "url": "https://www.reddit.com/r/Rag/comments/1nvpu7h/rrag_meetup_102_900_pt_utc_7/",
+      "fetch_timestamp": "2025-10-02T10:25:33.499597",
       "http_status": 200,
-      "content_hash": "839b56ae1dc7adf935f9c2963ba23d588a5e5ffee985518b4dd9c6ec4e2f0153",
-      "topic": "Quantum Computing",
-      "source": "quantumai.google",
-      "title": "What is quantum computing?"
+      "content_hash": "6e5a9b6ab5c3058cb32ccfa39b7dc8bbbac5b49590679abf057359cdbe1e119a",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "The heart of the internet"
     },
     {
-      "url": "https://policies.google.com/terms",
-      "fetch_timestamp": "2025-10-02T06:32:03.611857",
+      "url": "https://www.reddit.com/r/Rag/comments/1nvoxsm/is_vector_search_is_less_accurate_that_agentic/",
+      "fetch_timestamp": "2025-10-02T10:25:33.499658",
       "http_status": 200,
-      "content_hash": "ac5a0b31f53f18b0da104afb7bf871075bf12ddfa4252907bc6f79c64187799f",
+      "content_hash": "ab40d5d58f8145c0f9984ad2b957a4f16935501c86c6917dffe7f0cf0e50cf67",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://www.reddit.com/r/mcp/comments/1nvtv29/how_to_build_a_shared_mcp_memory_service_for_ai/",
+      "fetch_timestamp": "2025-10-02T10:25:36.782760",
+      "http_status": 200,
+      "content_hash": "60dc5aa8bfae0a69cc38c457f9443fe7627877ba93313f743130d7993b10f6d2",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://glama.ai/mcp/servers/@mongodb-js/mongodb-mcp-server",
+      "fetch_timestamp": "2025-10-02T10:25:36.782768",
+      "http_status": 200,
+      "content_hash": "cf2f15e138947df565a5ebfd97e7f5765266308eeeccd5c944d93cc76683c1b2",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "MongoDB MCP Server"
+    },
+    {
+      "url": "https://glama.ai/mcp/servers/@vectara/vectara-mcp",
+      "fetch_timestamp": "2025-10-02T10:25:36.782778",
+      "http_status": 200,
+      "content_hash": "b05dc024945ffa41d0171731b5f91971db7bf329e49c42ce5b5df57af15e043e",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "Vectara MCP server"
+    },
+    {
+      "url": "https://glama.ai/mcp/servers/@WeatherXM/weatherxm-pro-mcp",
+      "fetch_timestamp": "2025-10-02T10:25:36.782789",
+      "http_status": 200,
+      "content_hash": "fb95c6dd4272fd9fd0afd1e61c50ed881ec5bcd173ad9e055500e7a97452593e",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "WeatherXM Pro MCP Server"
+    },
+    {
+      "url": "https://glama.ai/mcp/servers/@yuhuacheng/tidal-mcp",
+      "fetch_timestamp": "2025-10-02T10:25:36.782727",
+      "http_status": 200,
+      "content_hash": "bc0c5eb095b6c9c79f683995414865901a20683429cb6ce920a922918f089237",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "TIDAL MCP: My Custom Picks \ud83c\udf1f\ud83c\udfa7"
+    },
+    {
+      "url": "https://policies.google.com/privacy",
+      "fetch_timestamp": "2025-10-02T10:26:25.182126",
+      "http_status": 200,
+      "content_hash": "4735527569e765fbd376159b9ed7ef8f5126d9b8e1474815c97ed535919bc6c4",
       "topic": "Quantum Computing",
       "source": "quantumai.google",
-      "title": "Google Terms of Service \u2013 Privacy & Terms \u2013 Google"
+      "title": "Privacy Policy \u2013 Privacy & Terms \u2013 Google"
+    },
+    {
+      "url": "https://www.google.com/about/careers/applications/jobs/results/?company=Google&employment_type=FULL_TIME&employment_type=PART_TIME&location=California,%20USA&location=Munich,%20Germany&location=Seattle,%20WA,%20USA&location=Zurich,%20Switzerland&q=quantum&sort_by=relevance&src=Online%2FGoogle%20Website%2FQuantum_AI&utm_campaign=Quantum_AI&utm_medium=Google%20Website&utm_source=online",
+      "fetch_timestamp": "2025-10-02T10:26:25.181671",
+      "http_status": 200,
+      "content_hash": "e9417cb187e612da6782b946332d88d05fdc4bb670c97149340044ce99695bc9",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Search Jobs \u2014 Google Careers"
+    },
+    {
+      "url": "https://www.reddit.com/r/QuantumComputing/comments/1nvepjv/do_i_need_to_create_ibm_cloud_just_to_use_the/",
+      "fetch_timestamp": "2025-10-02T10:25:39.705584",
+      "http_status": 200,
+      "content_hash": "0469157e6f7806791d8b65044ba3639c945be4ff41a57262a22c744a814c774c",
+      "topic": "Quantum Computing",
+      "source": "reddit.com/r/QuantumComputing",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://www.reddit.com/r/QuantumComputing/comments/1nu5zt1/i_shared_an_early_demo_here_based_on_your/",
+      "fetch_timestamp": "2025-10-02T10:25:39.705603",
+      "http_status": 200,
+      "content_hash": "ec76d2e978ecc04a57823b35685af071f15624e9f823a530d2ba837b0b4175cc",
+      "topic": "Quantum Computing",
+      "source": "reddit.com/r/QuantumComputing",
+      "title": "The heart of the internet"
     }
   ]
 }
