@@ -1,0 +1,31 @@
+{
+  "items": [
+    {
+      "url": "https://huggingface.co/blog/rteb",
+      "fetch_timestamp": "2025-10-04T06:29:01.199037",
+      "http_status": 200,
+      "content_hash": "9a7ad87ee30c5f2e56e95c400f658834d0c9fadc99daaa2c113175579a7f4a87",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "Introducing RTEB: A New Standard for Retrieval Evaluation"
+    },
+    {
+      "url": "https://huggingface.co/blog/intel-qwen3-agent",
+      "fetch_timestamp": "2025-10-04T06:29:01.199167",
+      "http_status": 200,
+      "content_hash": "3bac0e231ffad81ce1cb4034759af7d26e7d518a608c42b46a901bca1e5c9b02",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "Accelerating Qwen3-8B Agent on Intel\u00ae Core\u2122 Ultra with Depth-Pruned Draft Models"
+    },
+    {
+      "url": "https://huggingface.co/blog/vibegame",
+      "fetch_timestamp": "2025-10-04T06:29:01.199289",
+      "http_status": 200,
+      "content_hash": "08a964f6f7e98d66ce77d733397686b409f8fcd5975b4074c2a51028d1630841",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "VibeGame: Exploring Vibe Coding Games"
+    }
+  ]
+}
