@@ -1,3 +1,148 @@
 {
-  "items": []
+  "items": [
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1nydeoc/so_um_sorry_in_advance_if_this_is_not_the_place/",
+      "fetch_timestamp": "2025-10-05T09:30:50.717584",
+      "http_status": 200,
+      "content_hash": "dd5fd09b629708fa87dfdb755d60c41eb91fa3f5dd6f49b1c89b84175180c4b3",
+      "topic": "LLMs",
+      "source": "reddit.com/r/LocalLLaMA",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ny4zi9/replacing_my_need_for_anthropic_and_openai_with/",
+      "fetch_timestamp": "2025-10-05T09:30:50.719019",
+      "http_status": 200,
+      "content_hash": "4115cd1d6d2b49d729bf6b344e48831bcdc79154d17083d53b5fd809d0b70bb4",
+      "topic": "LLMs",
+      "source": "reddit.com/r/LocalLLaMA",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1nxztlx/gptoss_120b_is_running_at_20ts_with_500_amd_m780/",
+      "fetch_timestamp": "2025-10-05T09:30:50.719259",
+      "http_status": 200,
+      "content_hash": "7d660f009b495d3ca5a9371732245d2b7c7cd8f2a2b4679500816f25c26e4fd1",
+      "topic": "LLMs",
+      "source": "reddit.com/r/LocalLLaMA",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ny9f8u/first_character_card/",
+      "fetch_timestamp": "2025-10-05T09:30:50.718926",
+      "http_status": 200,
+      "content_hash": "2325f2d5bad454dc48a327615a5c13075fabaa47a8c1062d8b9ba5eec7e21733",
+      "topic": "LLMs",
+      "source": "reddit.com/r/LocalLLaMA",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ny9ds3/decent_local_models_that_run_with_32_gb_vram_5090/",
+      "fetch_timestamp": "2025-10-05T09:30:50.718935",
+      "http_status": 200,
+      "content_hash": "80097f123b072907982c941958baac805e15576787fe3d243662f033135793ab",
+      "topic": "LLMs",
+      "source": "reddit.com/r/LocalLLaMA",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://www.reddit.com/r/Rag/comments/1nyj3z4/looking_for_a_guide_and_courses_to_learn_rag/",
+      "fetch_timestamp": "2025-10-05T09:30:58.431990",
+      "http_status": 200,
+      "content_hash": "2ec09b18594b68bfb5be75106cd337f8dc8cabba7c66b348f06bd24d4864d1c1",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://www.reddit.com/r/Rag/comments/1nxrpa2/how_to_properly_evaluate_embedding_models_for_rag/",
+      "fetch_timestamp": "2025-10-05T09:30:58.432110",
+      "http_status": 200,
+      "content_hash": "0eb1204daaeb8f361e25eff53dcf937b14217d6aab79c50024738f97045ca6c3",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://www.reddit.com/r/Rag/comments/1ny4a3e/soss_personalized_18_creator_catalog_onlyfans/",
+      "fetch_timestamp": "2025-10-05T09:30:58.432056",
+      "http_status": 200,
+      "content_hash": "d7556f297414e4566a3521e15bb71f5276a2753d545eafc199e416d84adec982",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://www.reddit.com/r/Rag/comments/1nxsti8/need_help_making_my_retrieval_system_autofetch/",
+      "fetch_timestamp": "2025-10-05T09:30:58.432099",
+      "http_status": 200,
+      "content_hash": "f3943fd6f662d4abe5b08fcc52f027630d3c352b1a0f1c8063cfac5975b5faa9",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://luma.com/rehr5jl2",
+      "fetch_timestamp": "2025-10-05T09:30:58.432005",
+      "http_status": 200,
+      "content_hash": "faa5f8c7a5d54fb135bb88d0681804455c3640d7c9757179f53b195e8fc17078",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "Context Engineering: How to Build Valuable AI Products \u00b7 Zoom \u00b7 Luma"
+    },
+    {
+      "url": "https://glama.ai/mcp/servers/@MaxwellCalkin/N2YO-MCP",
+      "fetch_timestamp": "2025-10-05T09:31:02.137020",
+      "http_status": 200,
+      "content_hash": "77b87b34fa9653a5d0526dc140a3a625eb00e508e9a5991b7d1d07f178cd1939",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "N2YO Satellite Tracker MCP Server"
+    },
+    {
+      "url": "https://glama.ai/mcp/servers/@Augmented-Nature/AlphaFold-MCP-Server",
+      "fetch_timestamp": "2025-10-05T09:31:02.137046",
+      "http_status": 200,
+      "content_hash": "d5d044400d5a421f4035e14b13f12be81518f563b948acd94cfb21df5d14cd84",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "AlphaFold MCP Server"
+    },
+    {
+      "url": "https://glama.ai/mcp/servers/@Augmented-Nature/PDB-MCP-Server",
+      "fetch_timestamp": "2025-10-05T09:31:02.137057",
+      "http_status": 200,
+      "content_hash": "e19e73aa4c7f713ccd1eadce0d357dc209565bcddaf9221587f075c6effa373d",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "PDB MCP Server"
+    },
+    {
+      "url": "https://glama.ai/mcp/servers/@jackedelic/tavily-mcp",
+      "fetch_timestamp": "2025-10-05T09:31:02.137068",
+      "http_status": 200,
+      "content_hash": "a53571e7de8e9e403c37c3999e9bf94b6a3a80d694fe9136a06fd031e8c6e96f",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "tavily-mcp"
+    },
+    {
+      "url": "https://glama.ai/mcp/servers/@Hint-Services/obsidian-github-mcp",
+      "fetch_timestamp": "2025-10-05T09:31:02.137087",
+      "http_status": 200,
+      "content_hash": "97aa3d02b2a26f86175b0a005da674db5d67e05113b47bc1b456cb6591203af4",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "Obsidian GitHub MCP"
+    },
+    {
+      "url": "https://www.reddit.com/r/QuantumComputing/comments/1nx8235/are_businesses_actually_preparing_for_quantumera/",
+      "fetch_timestamp": "2025-10-05T09:31:05.901392",
+      "http_status": 200,
+      "content_hash": "18b6c5ee94b7617ddf30d17f0ea07ede30a6b8510137663e3c4969c9a962cba6",
+      "topic": "Quantum Computing",
+      "source": "reddit.com/r/QuantumComputing",
+      "title": "The heart of the internet"
+    }
+  ]
 }

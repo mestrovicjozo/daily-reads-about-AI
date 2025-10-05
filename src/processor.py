@@ -139,6 +139,23 @@ class ContentProcessor:
         for a in articles:
             try_add(a, self.max_age_hours)
 
+        # If nothing found in the strict 24h window, perform a one-time 30-day global fallback
+        total_after_24h = sum(len(v) for v in grouped.values())
+        if total_after_24h == 0:
+            logger.warning("No items found in 24h window. Falling back to 30 days to populate digest.")
+            month_hours = 24 * 30
+            # Iterate per topic, add up to max_final per topic
+            for tname in [t.get("name") for t in self.config.get("topics", [])]:
+                for a in (x for x in articles if x.get("topic") == tname):
+                    if len(grouped.get(tname, [])) >= self.max_final:
+                        break
+                    # avoid duplicates by URL within topic
+                    existing_urls = {i["url"] for i in grouped.get(tname, [])}
+                    if a.get("url") in existing_urls:
+                        continue
+                    try_add(a, month_hours)
+            return grouped
+
         # Fallback pass: for topics with < max_final items, allow up to 7 days
         topics_cfg = [t.get("name") for t in self.config.get("topics", [])]
         for tname in topics_cfg:
