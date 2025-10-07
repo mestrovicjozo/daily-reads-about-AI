@@ -233,8 +233,8 @@ class ContentProcessor:
         return " ".join(final)
 
     def _split_sentences(self, text: str) -> List[str]:
-        # Lightweight sentence splitter without external downloads
-        parts = re.split(r"(?<=[.!?])\s+(?=[A-Z0-9])", text.strip())
+        # Lightweight sentence splitter aligned with validator's counting
+        parts = re.split(r"(?<=[.!?])\s+", text.strip())
         return [p.strip() for p in parts if p.strip()]
 
     def _split_into_sentences(self, text: str) -> List[str]:
@@ -310,10 +310,18 @@ class ContentProcessor:
             while len(s) < 5:
                 s.append("Additional context is limited by the available details.")
             return s
-        # merge extras into the earlier slots to remain at 5
+        # merge extras into the earlier slots to remain at 5 without creating extra sentence boundaries
         merged = s[:5]
         for extra in s[5:]:
-            merged[-2] = (merged[-2].rstrip(".")) + "; " + extra
+            base = merged[-2].rstrip()
+            # remove terminal punctuation from base
+            if base and base[-1] in ".!?":
+                base = base[:-1]
+            extra_clean = extra.strip()
+            # remove terminal punctuation from the extra to avoid adding a new sentence boundary
+            if extra_clean and extra_clean[-1] in ".!?":
+                extra_clean = extra_clean[:-1]
+            merged[-2] = f"{base}; {extra_clean}."
         return merged[:5]
 
     def _infer_why_selected(self, text: str, title: str, source: str | None) -> str:

@@ -1,0 +1,139 @@
+{
+  "items": [
+    {
+      "url": "https://milvus.io/blog/how-to-choose-the-right-embedding-model-for-rag.md",
+      "fetch_timestamp": "2025-10-07T15:41:26.423214",
+      "http_status": 200,
+      "content_hash": "0c21b1391f007bbd469d998b6b929b3253eebd871824859a33c535eccbeb19d9",
+      "topic": "LLMs",
+      "source": "milvus.io",
+      "title": "How to Choose the Right Embedding Model for RAG"
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1o0h37j/which_is_the_best_ai_api_for_coding_and_which_is/",
+      "fetch_timestamp": "2025-10-07T15:40:53.334466",
+      "http_status": 200,
+      "content_hash": "5d9bb6472e63b0dd2f8c221dd2850471c9eb1de81db4165a5ad011b773efbfa5",
+      "topic": "LLMs",
+      "source": "reddit.com/r/LocalLLaMA",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1o0ensk/llmregistry_track_model_capabilities_costs_and/",
+      "fetch_timestamp": "2025-10-07T15:40:53.334523",
+      "http_status": 200,
+      "content_hash": "c1afbfed22a99445fe3a6cc54491f095dbed305cdb23326ff38b4ea5d60f92a6",
+      "topic": "LLMs",
+      "source": "reddit.com/r/LocalLLaMA",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1o0i3bm/building_auditable_ai_systems_for_healthcare/",
+      "fetch_timestamp": "2025-10-07T15:40:53.334425",
+      "http_status": 200,
+      "content_hash": "a89f599dbd5897be5d443481f8b8a95c5c822470a2ab2b985c1bbe6ed13241f8",
+      "topic": "LLMs",
+      "source": "reddit.com/r/LocalLLaMA",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1o0dy0y/more_love_for_glm46_evaluation_vs_claude_45_for/",
+      "fetch_timestamp": "2025-10-07T15:40:53.334533",
+      "http_status": 200,
+      "content_hash": "35c86147d30334857b6107c0e4b635f547b4ff347fe3b049fcc4e33c588c5efd",
+      "topic": "LLMs",
+      "source": "reddit.com/r/LocalLLaMA",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://www.reddit.com/r/Rag/comments/1o0cclj/redorb_fully_managed_rag_pipeline_built_for_ai/",
+      "fetch_timestamp": "2025-10-07T15:41:01.373949",
+      "http_status": 200,
+      "content_hash": "bde9cfed649e1b44f50cd330a27348c6e895b760dfd28cf7b32ca5cd8f01e85c",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://www.reddit.com/r/Rag/comments/1o0i9d0/weekly_rrag_meetup_thursday_october_9th/",
+      "fetch_timestamp": "2025-10-07T15:41:01.373873",
+      "http_status": 200,
+      "content_hash": "0153f6d4a0505828317d450bdb50129fd7a1dcaf8daa699e4251b3ef73004574",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://www.reddit.com/r/Rag/comments/1o0hu7o/pipeshub_explainable_ai_now_supports_image/",
+      "fetch_timestamp": "2025-10-07T15:41:01.373897",
+      "http_status": 200,
+      "content_hash": "f4456be7a6a534803fcc1d6244c41c102d02c2cf112c08ea4bb57799e43af9bc",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://www.reddit.com/r/Rag/comments/1o08j5e/finally_launching_hierarchy_chunker_for_rag_no/",
+      "fetch_timestamp": "2025-10-07T15:41:01.373978",
+      "http_status": 200,
+      "content_hash": "6bfad72423585e1c888381ffabab9ae4076b3b824ef8d331bc4014b8bb7cae1e",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://www.reddit.com/r/Rag/comments/1nzoyq3/do_i_need_to_recreate_my_vector_db_embeddings/",
+      "fetch_timestamp": "2025-10-07T15:41:01.374066",
+      "http_status": 200,
+      "content_hash": "0a59d4132a3a37a359854f49e7351b6a54b526eac80eb33b88e9ea374f43c123",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://glama.ai/mcp/servers/@RicardoCenci/wikijs-mcp",
+      "fetch_timestamp": "2025-10-07T15:41:05.753921",
+      "http_status": 200,
+      "content_hash": "d38a4e5770e3a6b831d730041e1b6ca4ff917816e13aec733c3a0191c468fbf9",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "WikiJS MCP Server"
+    },
+    {
+      "url": "https://glama.ai/mcp/servers/@taylorwilsdon/quantconnect-mcp",
+      "fetch_timestamp": "2025-10-07T15:41:05.754061",
+      "http_status": 200,
+      "content_hash": "696b1e1f2d96dd1644883f682e4127e1c43ab47d90ab8c695c4aff775992a0da",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "QuantConnect MCP Server"
+    },
+    {
+      "url": "https://www.reddit.com/r/mcp/comments/1o0h5hz/how_to_run_stdio_mcps_on_remote_servers_guide/",
+      "fetch_timestamp": "2025-10-07T15:41:05.753932",
+      "http_status": 200,
+      "content_hash": "6bbb7423e6548f8a8bbd8dc751955bbae36e2b077a9b22b85fd6bcaa6bb7159a",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://www.reddit.com/r/mcp/comments/1o0h2vp/i_speedran_mcp_gateway_setup_in_30_seconds_and/",
+      "fetch_timestamp": "2025-10-07T15:41:05.753963",
+      "http_status": 200,
+      "content_hash": "fd2feb6792cf228c89d738dc7b3c64a65fee2bb5e6bdd5d2101bc3c32478ff49",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://www.reddit.com/r/mcp/comments/1o0gr3c/mcp_servers_have_some_issues_so_i_built_lootbox/",
+      "fetch_timestamp": "2025-10-07T15:41:05.753987",
+      "http_status": 200,
+      "content_hash": "4673637eb93848b7fb53d8e9423d7dc949f8ee4679d2beb77213b3b7d412f8f4",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "The heart of the internet"
+    }
+  ]
+}
