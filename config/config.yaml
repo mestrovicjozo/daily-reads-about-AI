@@ -79,10 +79,10 @@ topics:
 reddit:
   days_back: 3
   subreddits_per_topic:
-    LLMs: ["MachineLearning", "LocalLLaMA", "LanguageTechnology"]
-    RAG: ["Rag"]
-    MCP: ["mcp"]
-    Quantum Computing: ["QuantumComputing"]
+    LLMs: ["MachineLearning", "LocalLLaMA", "LanguageTechnology", "OpenAI", "ChatGPT", "ArtificialInteligence", "deeplearning"]
+    RAG: ["Rag", "LanguageTechnology", "langchain", "weaviate", "milvus", "pineconeio", "vectorsearch"]
+    MCP: ["mcp", "MLOps", "devops", "kubernetes", "docker"]
+    Quantum Computing: ["QuantumComputing", "Quantum", "Qiskit", "IBMQuantum"]
 
 # Crawler settings
 crawler:

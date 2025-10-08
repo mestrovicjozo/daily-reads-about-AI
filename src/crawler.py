@@ -137,6 +137,33 @@ class WebCrawler:
                 topic_articles.extend(reddit_by_topic[topic['name']])
                 logger.info(f"Added {len(reddit_by_topic[topic['name']])} Reddit items to topic {topic['name']}")
             
+            # If low coverage, attempt a Reddit fallback with extended lookback
+            if len(topic_articles) < self.max_articles_per_topic:
+                try:
+                    temp_config = dict(self.config)
+                    temp_reddit_cfg = dict(self.config.get('reddit', {}))
+                    temp_reddit_cfg['days_back'] = max(7, int(temp_reddit_cfg.get('days_back', 3)))
+                    temp_config['reddit'] = temp_reddit_cfg
+                    fallback_reddit = RedditSource(temp_config)
+                    more_items = fallback_reddit.fetch()
+                    # Filter for this topic and add unique URLs only
+                    existing_urls = {a.get('url') for a in topic_articles}
+                    added = 0
+                    for r in more_items:
+                        if r.get('topic') != topic['name']:
+                            continue
+                        if r.get('url') in existing_urls:
+                            continue
+                        topic_articles.append(r)
+                        existing_urls.add(r.get('url'))
+                        added += 1
+                        if len(topic_articles) >= self.max_articles_per_topic:
+                            break
+                    if added:
+                        logger.info(f"Reddit fallback added {added} items to topic {topic['name']}")
+                except Exception as e:
+                    logger.warning(f"Reddit fallback failed for topic {topic['name']}: {e}")
+
             # Deduplicate and limit articles per topic
             unique_articles = self._deduplicate_articles(topic_articles)
             topic_articles = sorted(
