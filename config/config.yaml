@@ -102,6 +102,8 @@ processing:
   max_age_hours: 24      # primary freshness window
   history_days: 30       # cross-day dedupe horizon; skip items seen in last N days
   fallback_window_days: 7  # secondary freshness window; skip items seen in last N days if history_days is exceeded
+  per_topic_month_fallback: true   # if a topic is underfilled after 7 days, extend to N days (below)
+  per_topic_month_fallback_days: 30
 
 # Ranking weights
 ranking:

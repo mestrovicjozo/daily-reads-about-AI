@@ -1,49 +1,121 @@
 {
   "items": [
     {
-      "url": "https://weaviate.io/blog/weaviate-multi-tenancy-architecture-explained",
-      "fetch_timestamp": "2025-10-09T06:32:58.608456",
+      "url": "https://weaviate.io/blog/When Good Models Go Bad",
+      "fetch_timestamp": "2025-10-09T16:20:29.275588",
       "http_status": 200,
-      "content_hash": "b5d166ae727e9cddc815bad5902adacb79f7edbc8304e375383b21dcc5641beb",
+      "content_hash": "86ec40082c96b17056645205660face8056cd9829f4bfe33f750f3551b74c24f",
       "topic": "LLMs",
       "source": "weaviate.io",
-      "title": "Rethinking Vector Search at Scale: Weaviate's Native, Efficient and Optimized Multi-Tenancy"
+      "title": "When Good Models Go Bad"
     },
     {
-      "url": "https://huggingface.co/blog/inference-providers-publicai",
-      "fetch_timestamp": "2025-10-09T06:32:52.705641",
+      "url": "https://huggingface.co/blog/faster-transformers",
+      "fetch_timestamp": "2025-10-09T16:20:22.116691",
       "http_status": 200,
-      "content_hash": "1283ef14ebb3a50edeaaa03284c9b626adef0a028ef1303aa94f528a4200569d",
+      "content_hash": "872d4f4cb8ccabf57bccf0874df7678471330b71d203063ec7d0556c6ae524b4",
       "topic": "LLMs",
       "source": "huggingface.co",
-      "title": "Public AI on Hugging Face Inference Providers \ud83d\udd25"
+      "title": "Tricks from OpenAI gpt-oss YOU \ud83e\udef5 can use with transformers"
     },
     {
-      "url": "https://huggingface.co/blog/riskrubric",
-      "fetch_timestamp": "2025-10-09T06:32:52.705536",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1o1qm4w/d_what_current_raw_materials_like_data_will_fuel/",
+      "fetch_timestamp": "2025-10-09T16:20:09.368910",
       "http_status": 200,
-      "content_hash": "4bebd583992b0c82a7b1527ecb87b6d83dc4a45eb0f01bfe502a598f0dcb3c53",
+      "content_hash": "e8649c51ed49ca24df3e50cc8bf4e5ef2d9d9ed6f983b55b041268c39a733e87",
       "topic": "LLMs",
-      "source": "huggingface.co",
-      "title": "Democratizing AI Safety with RiskRubric.ai"
+      "source": "reddit.com/r/MachineLearning",
+      "title": "The heart of the internet"
     },
     {
-      "url": "https://huggingface.co/blog/lerobot-datasets-v3",
-      "fetch_timestamp": "2025-10-09T06:32:52.705741",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1o1jdd7/d_bad_industry_research_gets_cited_and_published/",
+      "fetch_timestamp": "2025-10-09T16:20:09.368920",
       "http_status": 200,
-      "content_hash": "8740ff169ee9d5c8ef9ab59ca073a4cc46ab7c83698bce72effc6408be540847",
+      "content_hash": "c535f30ee32bd21d907ca5bf1ae22a0aab37f8c7f258a8f2aacbb5add3403522",
       "topic": "LLMs",
-      "source": "huggingface.co",
-      "title": "LeRobotDataset:v3.0: Bringing large-scale datasets to lerobot"
+      "source": "reddit.com/r/MachineLearning",
+      "title": "The heart of the internet"
     },
     {
-      "url": "https://huggingface.co/blog/watermarking-with-gradio",
-      "fetch_timestamp": "2025-10-09T06:32:52.705848",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1o15tog/d_how_to_develop_with_llms_without_blowing_up_the/",
+      "fetch_timestamp": "2025-10-09T16:20:09.368943",
       "http_status": 200,
-      "content_hash": "91423c6a9dd2ddbd56e709687b0d44597b282ed0c1536fca87fbf936fd63f2b1",
+      "content_hash": "8fee5a6ef70bb9add15e9162173fdc5edd2e9e9a67777a6b852408b2c57fa094",
       "topic": "LLMs",
-      "source": "huggingface.co",
-      "title": "Visible Watermarking with Gradio"
+      "source": "reddit.com/r/MachineLearning",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://www.reddit.com/r/Rag/comments/1o295ig/rag_is_dead_heres_what_actually_works_in_real/",
+      "fetch_timestamp": "2025-10-09T16:20:11.502779",
+      "http_status": 200,
+      "content_hash": "76a7331d4beb4f4c54bbebf70189f3979d2b97b9c45f1d3392f37b413426a6e8",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://www.reddit.com/r/Rag/comments/1o261nz/stop_converting_full_documents_to_markdown/",
+      "fetch_timestamp": "2025-10-09T16:20:11.502840",
+      "http_status": 200,
+      "content_hash": "5ff76712cc292cacacde877be32bf62dd5ddeab1822afcb759125a546edf2b9b",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://www.reddit.com/r/Rag/comments/1o21pxg/optimize_an_image_for_a_chatbot/",
+      "fetch_timestamp": "2025-10-09T16:20:11.502866",
+      "http_status": 200,
+      "content_hash": "4e35a857271df4a0b88516de6030e0a5fd32d91b2c2266c5f957ed23f0440283",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://www.reddit.com/r/Rag/comments/1o1xvad/some_insights_from_our_weekly_prompt_engineering/",
+      "fetch_timestamp": "2025-10-09T16:20:11.502882",
+      "http_status": 200,
+      "content_hash": "1dc1d27dc5f3e9866ee5cd77692a3189ad564a8d4c606e0095ba2a6671fddefe",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://glama.ai/mcp/servers/@amrsa1/swagger-mcp",
+      "fetch_timestamp": "2025-10-09T16:20:13.043343",
+      "http_status": 200,
+      "content_hash": "e2e1b315ab14d4d219fbd9f36a1bc9ca6459bc80838afc97edd4d14019ceb264",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "Swagger MCP Server"
+    },
+    {
+      "url": "https://www.reddit.com/r/mcp/comments/1o28qyq/feedback_on_streaming_live_meeting_transcripts/",
+      "fetch_timestamp": "2025-10-09T16:20:13.043370",
+      "http_status": 200,
+      "content_hash": "54d821cd9cf83233367275cb0678a30fede9bda51088df495d1ec49426b58c9f",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "The heart of the internet"
+    },
+    {
+      "url": "https://glama.ai/mcp/servers/@baidu-xiling/mcp",
+      "fetch_timestamp": "2025-10-09T16:20:13.043399",
+      "http_status": 200,
+      "content_hash": "d7ee49b55a7e45cdb042b3c9c8e3d92a0b177454a78bb30001fc2d030e2874db",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "Baidu Digital Human MCP Server"
+    },
+    {
+      "url": "https://www.reddit.com/r/QuantumComputing/comments/1o22bxz/optimal_blind_quantum_computing/",
+      "fetch_timestamp": "2025-10-09T16:20:14.710919",
+      "http_status": 200,
+      "content_hash": "78fe630576b73cae1a3b17d845747e50feb7956eb132a1d5897fa5b20f209c17",
+      "topic": "Quantum Computing",
+      "source": "reddit.com/r/QuantumComputing",
+      "title": "The heart of the internet"
     }
   ]
 }

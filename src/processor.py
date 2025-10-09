@@ -48,6 +48,13 @@ class ContentProcessor:
         self.max_final = config["output"]["max_articles_per_topic"]
         self.max_age_hours = int(config["processing"].get("max_age_hours", 24))
         self.fallback_max_age_hours = 168  # 7 days
+        # Optional per-topic extended fallback up to N days (default 30)
+        self.enable_per_topic_month_fallback = bool(
+            config.get("processing", {}).get("per_topic_month_fallback", True)
+        )
+        self.per_topic_month_fallback_days = int(
+            config.get("processing", {}).get("per_topic_month_fallback_days", 30)
+        )
         # Cross-day dedup horizon
         self.history_days = int(config["processing"].get("history_days", 30))
         self.fallback_window_days = int(config["processing"].get("fallback_window_days", 7))
@@ -172,6 +179,26 @@ class ContentProcessor:
                 if a.get("url") in existing_urls:
                     continue
                 try_add(a, self.fallback_max_age_hours)
+
+        # Second fallback: per-topic month-long window if still underfilled
+        if self.enable_per_topic_month_fallback:
+            month_hours = 24 * max(1, self.per_topic_month_fallback_days)
+            for tname in topics_cfg:
+                have = len(grouped.get(tname, []))
+                if have >= self.max_final:
+                    continue
+                need = self.max_final - have
+                logger.info(
+                    f"Topic {tname} still low after 7-day fallback ({have}/{self.max_final}). "
+                    f"Extending to {self.per_topic_month_fallback_days} days to fill {need}."
+                )
+                for a in (x for x in articles if x.get("topic") == tname):
+                    if len(grouped.get(tname, [])) >= self.max_final:
+                        break
+                    existing_urls = {i["url"] for i in grouped.get(tname, [])}
+                    if a.get("url") in existing_urls:
+                        continue
+                    try_add(a, month_hours)
 
         return grouped
 
