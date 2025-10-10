@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "url": "https://weaviate.io/blog/weaviate-multi-tenancy-architecture-explained",
+      "fetch_timestamp": "2025-10-10T06:32:33.252290",
+      "http_status": 200,
+      "content_hash": "b5d166ae727e9cddc815bad5902adacb79f7edbc8304e375383b21dcc5641beb",
+      "topic": "LLMs",
+      "source": "weaviate.io",
+      "title": "Rethinking Vector Search at Scale: Weaviate's Native, Efficient and Optimized Multi-Tenancy"
+    },
+    {
+      "url": "https://huggingface.co/blog/inference-providers-publicai",
+      "fetch_timestamp": "2025-10-10T06:32:27.223558",
+      "http_status": 200,
+      "content_hash": "1283ef14ebb3a50edeaaa03284c9b626adef0a028ef1303aa94f528a4200569d",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "Public AI on Hugging Face Inference Providers \ud83d\udd25"
+    },
+    {
+      "url": "https://huggingface.co/blog/riskrubric",
+      "fetch_timestamp": "2025-10-10T06:32:27.223457",
+      "http_status": 200,
+      "content_hash": "4bebd583992b0c82a7b1527ecb87b6d83dc4a45eb0f01bfe502a598f0dcb3c53",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "Democratizing AI Safety with RiskRubric.ai"
+    },
+    {
+      "url": "https://huggingface.co/blog/lerobot-datasets-v3",
+      "fetch_timestamp": "2025-10-10T06:32:27.223658",
+      "http_status": 200,
+      "content_hash": "8740ff169ee9d5c8ef9ab59ca073a4cc46ab7c83698bce72effc6408be540847",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "LeRobotDataset:v3.0: Bringing large-scale datasets to lerobot"
+    },
+    {
+      "url": "https://huggingface.co/blog/watermarking-with-gradio",
+      "fetch_timestamp": "2025-10-10T06:32:27.223765",
+      "http_status": 200,
+      "content_hash": "91423c6a9dd2ddbd56e709687b0d44597b282ed0c1536fca87fbf936fd63f2b1",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "Visible Watermarking with Gradio"
+    }
+  ]
+}
