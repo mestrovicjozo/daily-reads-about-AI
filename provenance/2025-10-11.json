@@ -1,3 +1,157 @@
 {
-  "items": []
+  "items": [
+    {
+      "url": "https://milvus.io/blog/langchain-vs-langgraph.md",
+      "fetch_timestamp": "2025-10-12T09:21:40.617492",
+      "http_status": 200,
+      "content_hash": "dee563f3827915defb644292bd4a690cd51aec9774407600db19997cdc98fc6b",
+      "topic": "LLMs",
+      "source": "milvus.io",
+      "title": "LangChain vs LangGraph: A Developer's Guide to Choosing Your AI Frameworks"
+    },
+    {
+      "url": "https://milvus.io/blog/choosing-the-right-vector-database-for-your-ai-apps.md",
+      "fetch_timestamp": "2025-10-12T09:21:40.617579",
+      "http_status": 200,
+      "content_hash": "d01d2b30829e54a9ae24acb792f5002a9d0e367ed872e81cb0328694b5c86559",
+      "topic": "LLMs",
+      "source": "milvus.io",
+      "title": "A Practical Guide for Choosing the Right Vector Database for Your AI Applications"
+    },
+    {
+      "url": "https://milvus.io/blog/langextract-milvus-a-practical-guide-to-building-a-hybrid-document-processing-and-search-system.md",
+      "fetch_timestamp": "2025-10-12T09:21:40.617535",
+      "http_status": 200,
+      "content_hash": "1537a1e6c4b584802e5b61f5c038011208d7e920a245a5dad75593644ef49760",
+      "topic": "LLMs",
+      "source": "milvus.io",
+      "title": "LangExtract + Milvus: A Practical Guide to Building a Hybrid Document Processing and Search System"
+    },
+    {
+      "url": "https://milvus.io/blog/get-started-with-langgraph-up-react-a-practical-langgraph-template.md",
+      "fetch_timestamp": "2025-10-12T09:21:40.617470",
+      "http_status": 200,
+      "content_hash": "2911c71ff5fa84fa39b68a7bf448b4584b3d92b9537c2352b3dc545f308ea568",
+      "topic": "LLMs",
+      "source": "milvus.io",
+      "title": "Getting Started with langgraph-up-react: A Practical LangGraph Template"
+    },
+    {
+      "url": "https://milvus.io/blog/when-context-engineering-is-done-right-hallucinations-can-spark-ai-creativity.md",
+      "fetch_timestamp": "2025-10-12T09:21:40.617421",
+      "http_status": 200,
+      "content_hash": "168d9251789347c0098482162897f84929293c91a11c7126686d4a0e9b009106",
+      "topic": "LLMs",
+      "source": "milvus.io",
+      "title": "When Context Engineering Is Done Right, Hallucinations Can Be the Spark of AI Creativity"
+    },
+    {
+      "url": "https://www.reddit.com/r/Rag/comments/1o4fxez/project_of_mine_that_might_be_useful_to_you_guys/",
+      "fetch_timestamp": "2025-10-12T09:21:19.054575",
+      "http_status": 200,
+      "content_hash": "3a140db5556ed2b333dc8c640f4c1000d1432dcd175d644d44c6f6ae7a4f30ab",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "Project of mine that might be useful to you guys."
+    },
+    {
+      "url": "https://www.reddit.com/r/Rag/comments/1o40vf7/rag_on_a_lot_of_big_documents/",
+      "fetch_timestamp": "2025-10-12T09:21:19.054591",
+      "http_status": 200,
+      "content_hash": "3b691fd96dbbcd4111e1aa112f6c90e6429a5828296f1a54b0122515f1da2192",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "RAG on a lot of big documents"
+    },
+    {
+      "url": "https://www.reddit.com/r/Rag/comments/1o3njjv/building_a_smarter_chat_history_manager_for_ai/",
+      "fetch_timestamp": "2025-10-12T09:21:19.054679",
+      "http_status": 200,
+      "content_hash": "a404cd43499bd5e8f02e79c88a9d112e14f88e5ffc1e092d893038a70f055836",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "Building a Smarter Chat History Manager for AI Chatbots (Session-Level Memory & Context Retrieval)"
+    },
+    {
+      "url": "https://glama.ai/mcp/servers/@trainual/tiptap-collaboration-mcp",
+      "fetch_timestamp": "2025-10-12T09:21:20.925476",
+      "http_status": 200,
+      "content_hash": "7e997b1e1efdf4048fc3b23cb4de747e542377e6ada690420fbbbaa3c46fadaa",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "Tiptap Collaboration MCP Server \u2013 Enables interaction with Tiptap collaborative document services through comprehensive document management, real-time statistics, markdown conversion, and batch operations. Supports creating, updating, searching, and managing collaborative documents with health monit"
+    },
+    {
+      "url": "https://glama.ai/mcp/servers/@an1lam/fatebook-mcp",
+      "fetch_timestamp": "2025-10-12T09:21:20.925502",
+      "http_status": 200,
+      "content_hash": "e2a43f2859077358737b53e87a7a9cecb591bcf7f5216f05bd0d7e13d77b84cf",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "Fatebook MCP Server \u2013 Enables AI assistants to create, manage, and track predictions on Fatebook, a prediction tracking platform. Supports making forecasts, updating probabilities, resolving questions, and managing prediction history through natural language."
+    },
+    {
+      "url": "https://glama.ai/mcp/servers/@kongyo2/Glama-MCP-Server-Search",
+      "fetch_timestamp": "2025-10-12T09:21:20.925495",
+      "http_status": 200,
+      "content_hash": "5128dd5eb6b5e54a4ee9841fd0cb2fb2cdd66c8f4bc539f3534a2602e5b6a18a",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "Glama MCP Server Search \u2013 An MCP server for searching and exploring MCP servers from the Glama MCP directory. This server provides tools to search for MCP servers, get detailed information about specific servers, and explore available server attributes using the Glama MCP API."
+    },
+    {
+      "url": "https://glama.ai/mcp/servers/@yeison-liscano/http_mcp",
+      "fetch_timestamp": "2025-10-12T09:21:20.925509",
+      "http_status": 200,
+      "content_hash": "6312c304e0b306269fce71e881fe6bc937eb11e5a1facfe9e37d4828fe4e02ee",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "Simple HTTP MCP Server \u2013 A lightweight server implementation that exposes Python functions as discoverable tools via HTTP using the Machine-to-Machine Communication Protocol (MCP). Enables remote execution of Python functions through a JSON-RPC interface with async support and type safety."
+    },
+    {
+      "url": "https://developers.googleblog.com/unlocking-the-potential-of-quantum-computing-a-developers-guide-to-error-correction/",
+      "fetch_timestamp": "2025-10-12T09:22:44.092640",
+      "http_status": 200,
+      "content_hash": "679f0a3219f110ecd935bb9635b97a938bf1075506d9f934f06af34eb6a3875c",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "open_in_newBlog post"
+    },
+    {
+      "url": "https://research.google/blog/making-quantum-error-correction-work/",
+      "fetch_timestamp": "2025-10-12T09:22:44.092683",
+      "http_status": 200,
+      "content_hash": "beddb4dbe9b1af55c0ee890121c0fd8f463de570d5fa05b28487cd1cddb4010a",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "arrow_forward"
+    },
+    {
+      "url": "https://quantumai.google/quantumcomputer",
+      "fetch_timestamp": "2025-10-12T09:22:44.092256",
+      "http_status": 200,
+      "content_hash": "8b6d9cc4145568357368c5a012e781937b2c014c08f182d377a9c4f6e63cbc38",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Our Work"
+    },
+    {
+      "url": "https://research.google/blog/validating-random-circuit-sampling-as-a-benchmark-for-measuring-quantum-progress/",
+      "fetch_timestamp": "2025-10-12T09:22:44.092709",
+      "http_status": 200,
+      "content_hash": "cd53966dd2f6dcfef60d883a5dc56a43141e4c5f8fb20d74f3026c31341ea5c7",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "arrow_forward"
+    },
+    {
+      "url": "https://quantumai.google/resources",
+      "fetch_timestamp": "2025-10-12T09:22:44.092238",
+      "http_status": 200,
+      "content_hash": "be9a7761cbe31b19b54e296d2825586e7ad53e612a4a9548fe36a6e50ab851d3",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Educational resources"
+    }
+  ]
 }

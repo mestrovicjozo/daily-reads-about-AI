@@ -67,9 +67,23 @@ class ContentProcessor:
     def process(self, articles: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
         """Fetch content, filter to English, dedupe, and summarize per topic.
         Returns a dict: {topic_name: [article_dict, ...]}"""
+        logger.info(f"Processing {len(articles)} articles")
         grouped: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
         seen_hashes_per_topic: Dict[str, set] = defaultdict(set)
         now = datetime.utcnow()
+        
+        # Track processing stats
+        stats = {
+            'total_input': len(articles),
+            'url_skipped_recent': 0,
+            'content_hash_skipped_recent': 0,
+            'fetch_failed': 0,
+            'too_old': 0,
+            'too_short': 0,
+            'wrong_language': 0,
+            'duplicate_content': 0,
+            'successfully_processed': 0
+        }
 
         def try_add(a: Dict[str, Any], allowed_age_hours: int) -> bool:
             """Process a single article and add it if it passes filters.
@@ -77,27 +91,46 @@ class ContentProcessor:
             """
             url = a["url"]
             topic = a["topic"]
+            logger.debug(f"Processing article: {url} for topic {topic}")
+            
             # Early skip if URL seen in recent history
             if url in self.recent_urls:
+                logger.debug(f"Skipping {url}: URL seen in recent history")
+                stats['url_skipped_recent'] += 1
                 return False
             try:
                 parsed = self._fetch_article(url)
                 if not parsed:
+                    logger.debug(f"Skipping {url}: Failed to fetch article content")
+                    stats['fetch_failed'] += 1
                     return False
                 text = (parsed.get("text") or "").strip()
                 normalized_hash = get_content_hash(self._normalize_text(text)) if text else ""
                 # Early skip if content hash seen recently
                 if normalized_hash and normalized_hash in self.recent_hashes:
+                    logger.debug(f"Skipping {url}: Content hash seen in recent history")
+                    stats['content_hash_skipped_recent'] += 1
                     return False
 
                 published = parsed.get("publish_date") or a.get("published") or a.get("fetch_time") or now
                 if getattr(published, "tzinfo", None) is not None:
                     published = published.astimezone(timezone.utc).replace(tzinfo=None)
+                
+                # Handle date parsing issues more gracefully
+                if not published or published == now:
+                    # If no publish date, assume it's recent (within last 24h)
+                    published = now - timedelta(hours=12)
+                    logger.debug(f"No publish date for {url}, assuming recent")
+                
                 age_hours = (now - published).total_seconds() / 3600.0
                 if age_hours > allowed_age_hours:
+                    logger.debug(f"Skipping {url}: Too old ({age_hours:.1f}h > {allowed_age_hours}h)")
+                    stats['too_old'] += 1
                     return False
 
                 if len(text) < self.min_len:
+                    logger.debug(f"Skipping {url}: Too short ({len(text)} < {self.min_len})")
+                    stats['too_short'] += 1
                     return False
                 if len(text) > self.max_len:
                     text = text[: self.max_len]
@@ -107,14 +140,36 @@ class ContentProcessor:
                 except LangDetectException:
                     lang = "unknown"
                 if lang != self.target_lang:
+                    logger.debug(f"Skipping {url}: Wrong language ({lang} != {self.target_lang})")
+                    stats['wrong_language'] += 1
                     return False
 
                 content_hash = normalized_hash or get_content_hash(self._normalize_text(text))
                 if content_hash in seen_hashes_per_topic[topic]:
+                    logger.debug(f"Skipping {url}: Duplicate content in topic")
+                    stats['duplicate_content'] += 1
                     return False
                 seen_hashes_per_topic[topic].add(content_hash)
 
-                title = (parsed.get("title") or a.get("title") or "Untitled").strip()
+                # Use original title from crawler if available, otherwise try parsed title
+                title = (a.get("title") or parsed.get("title") or "Untitled").strip()
+                
+                # Clean up title by removing common metadata patterns
+                if title and title != "Untitled":
+                    # Remove common metadata patterns that get included in titles
+                    title = re.sub(r'^(Tutorials|Engineering|News|Blog|Article|Post)\s*', '', title, flags=re.IGNORECASE)
+                    title = re.sub(r'\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2},\s*\d{4}\b', '', title)
+                    title = re.sub(r'\b\d{4}-\d{2}-\d{2}\b', '', title)
+                    # Remove date patterns like "Aug 25, 2025" at the beginning
+                    title = re.sub(r'^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2},\s*\d{4}\s*', '', title, flags=re.IGNORECASE)
+                    # Remove any remaining date patterns
+                    title = re.sub(r'\b\d{1,2}\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{4}\b', '', title, flags=re.IGNORECASE)
+                    title = re.sub(r'\s+', ' ', title).strip()
+                
+                # Fallback to URL-based title if still empty
+                if not title or title == "Untitled":
+                    url_parts = url.split("/")[-1].replace("-", " ").replace("_", " ")
+                    title = url_parts.title() if url_parts else "Untitled"
                 authors = parsed.get("authors") or a.get("authors") or []
                 source = a.get("source")
                 reading_time = estimate_reading_time(text)
@@ -137,9 +192,12 @@ class ContentProcessor:
                     "raw_text": text,
                     "topic_keywords": a.get("topic_keywords", []),
                 })
+                stats['successfully_processed'] += 1
+                logger.debug(f"Successfully processed {url}: {title[:50]}...")
                 return True
             except Exception as e:
                 logger.warning(f"Failed processing article {url}: {e}")
+                stats['fetch_failed'] += 1
                 return False
 
         # First pass: strict freshness window (e.g., 24h)
@@ -200,19 +258,42 @@ class ContentProcessor:
                         continue
                     try_add(a, month_hours)
 
+        # Log processing statistics
+        logger.info(f"Processing complete. Stats: {stats}")
+        total_output = sum(len(v) for v in grouped.values())
+        logger.info(f"Final output: {total_output} articles across {len(grouped)} topics")
+        for topic, articles in grouped.items():
+            logger.info(f"Topic {topic}: {len(articles)} articles")
+        
         return grouped
 
     def _fetch_article(self, url: str) -> Dict[str, Any] | None:
-        art = Article(url, fetch_images=False)
-        art.download()
-        art.parse()
-        return {
-            "title": art.title,
-            "text": art.text,
-            "authors": art.authors,
-            "publish_date": art.publish_date,
-            "http_status": 200,
-        }
+        """Fetch and parse article content with improved error handling."""
+        try:
+            logger.debug(f"Fetching article content from: {url}")
+            art = Article(url, fetch_images=False)
+            art.download()
+            art.parse()
+            
+            # Validate that we got meaningful content
+            if not art.text or len(art.text.strip()) < 50:
+                logger.debug(f"Insufficient content from {url}: {len(art.text or '')} chars")
+                return None
+            
+            result = {
+                "title": art.title,
+                "text": art.text,
+                "authors": art.authors,
+                "publish_date": art.publish_date,
+                "http_status": 200,
+            }
+            
+            logger.debug(f"Successfully fetched {url}: {len(art.text)} chars, title: {art.title[:50] if art.title else 'None'}...")
+            return result
+            
+        except Exception as e:
+            logger.debug(f"Failed to fetch article {url}: {e}")
+            return None
 
     def _normalize_text(self, text: str) -> str:
         text = text.lower()

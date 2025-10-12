@@ -88,11 +88,29 @@ class WebCrawler:
                 'index_paths': ['/blog'],
                 'link_contains': ['/blog/'],
             },
+            # Additional HTML-only sources
+            'eleuther.ai': {
+                'index_paths': ['/blog'],
+                'link_contains': ['/blog/'],
+            },
+            'stability.ai': {
+                'index_paths': ['/blog'],
+                'link_contains': ['/blog/'],
+            },
+            'vald.vdaas.org': {
+                'index_paths': ['/blog'],
+                'link_contains': ['/blog/'],
+            },
+            'seldon.io': {
+                'index_paths': ['/blog'],
+                'link_contains': ['/blog/'],
+            },
         }
     
     def crawl(self) -> List[Dict[str, Any]]:
         """Crawl all configured sources and return articles."""
         articles = []
+        logger.info(f"Starting crawl for {len(self.config['topics'])} topics")
 
         # Fetch Reddit once per run, then distribute to topics
         reddit_by_topic: Dict[str, List[Dict[str, Any]]] = {}
@@ -180,11 +198,13 @@ class WebCrawler:
     def _parse_feed(self, feed_url: str, topic: Dict[str, Any]) -> List[Dict[str, Any]]:
         """Parse an RSS/Atom feed and return articles."""
         try:
+            logger.info(f"Parsing feed: {feed_url}")
             feed = feedparser.parse(feed_url)
             if feed.bozo:
                 logger.warning(f"Feed parsing error for {feed_url}: {feed.bozo_exception}")
                 return []
             
+            logger.info(f"Feed {feed_url}: {len(feed.entries)} entries found")
             articles = []
             for entry in feed.entries:
                 try:
