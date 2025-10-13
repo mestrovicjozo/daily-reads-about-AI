@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "url": "https://milvus.io/blog/how-to-choose-the-right-embedding-model-for-rag.md",
+      "fetch_timestamp": "2025-10-13T06:34:48.444496",
+      "http_status": 200,
+      "content_hash": "0c21b1391f007bbd469d998b6b929b3253eebd871824859a33c535eccbeb19d9",
+      "topic": "LLMs",
+      "source": "milvus.io",
+      "title": "From Word2Vec to LLM2Vec: How to Choose the Right Embedding Model for RAG"
+    },
+    {
+      "url": "https://weaviate.io/blog/building-multi-agent-systems",
+      "fetch_timestamp": "2025-10-13T06:34:46.097875",
+      "http_status": 200,
+      "content_hash": "0e7d76f2f1058c9d4f6a008918e5ee13c4970129071262848ae5d48b8b39a0b1",
+      "topic": "LLMs",
+      "source": "weaviate.io",
+      "title": "Building Multi-Agent Systems with Crew AI and Weaviate"
+    },
+    {
+      "url": "https://weaviate.io/blog/search-mode-benchmarking",
+      "fetch_timestamp": "2025-10-13T06:34:46.098220",
+      "http_status": 200,
+      "content_hash": "79cb6749be892ed0e7fe83336ea45be97e091722f7f193d2bda3f84ff6c4dcd5",
+      "topic": "LLMs",
+      "source": "weaviate.io",
+      "title": "Search Mode Benchmarking"
+    },
+    {
+      "url": "https://deepmind.google/discover/blog/introducing-codemender-an-ai-agent-for-code-security/",
+      "fetch_timestamp": "2025-10-13T06:34:57.176350",
+      "http_status": 200,
+      "content_hash": "f620f4c6680f7bc38efca66a7fbc5e3688e5f5e3c191f3c4d3294dd0d67a7f0d",
+      "topic": "LLMs",
+      "source": "deepmind.google",
+      "title": "Introducing CodeMender: an AI agent for code security"
+    },
+    {
+      "url": "https://deepmind.google/discover/blog/introducing-the-gemini-2-5-computer-use-model/",
+      "fetch_timestamp": "2025-10-13T06:34:57.176229",
+      "http_status": 200,
+      "content_hash": "ada3dedc534543ce1389b393149c689f46677b48bc42ea68dcc8dc4c4043841c",
+      "topic": "LLMs",
+      "source": "deepmind.google",
+      "title": "Introducing the Gemini 2.5 Computer Use model"
+    },
+    {
+      "url": "https://policies.google.com/privacy",
+      "fetch_timestamp": "2025-10-13T06:35:39.695857",
+      "http_status": 200,
+      "content_hash": "c02c2c8d655cbe6b22cf56b6343ce68b2a8f92262f5e321480111ed9a5b3a7d3",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Privacy"
+    },
+    {
+      "url": "https://www.google.com/about/careers/applications/jobs/results/?company=Google&employment_type=FULL_TIME&employment_type=PART_TIME&location=California,%20USA&location=Munich,%20Germany&location=Seattle,%20WA,%20USA&location=Zurich,%20Switzerland&q=quantum&sort_by=relevance&src=Online%2FGoogle%20Website%2FQuantum_AI&utm_campaign=Quantum_AI&utm_medium=Google%20Website&utm_source=online",
+      "fetch_timestamp": "2025-10-13T06:35:39.695286",
+      "http_status": 200,
+      "content_hash": "e9417cb187e612da6782b946332d88d05fdc4bb670c97149340044ce99695bc9",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Careers"
+    },
+    {
+      "url": "https://quantumai.google/roadmap",
+      "fetch_timestamp": "2025-10-13T06:35:39.695118",
+      "http_status": 200,
+      "content_hash": "54c7da81cc4db766d7d06b7eb9f2e21e50216272907f0581727f335d6832ef71",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Roadmap"
+    }
+  ]
+}
