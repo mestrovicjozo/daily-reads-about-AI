@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "url": "https://huggingface.co/blog/rteb",
+      "fetch_timestamp": "2025-10-14T06:32:21.983688",
+      "http_status": 200,
+      "content_hash": "9a7ad87ee30c5f2e56e95c400f658834d0c9fadc99daaa2c113175579a7f4a87",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "Introducing RTEB: A New Standard for Retrieval Evaluation"
+    },
+    {
+      "url": "https://weaviate.io/blog/query-agent-generally-available",
+      "fetch_timestamp": "2025-10-14T06:32:28.303549",
+      "http_status": 200,
+      "content_hash": "0de967375f78fdd9ad835cd4561aca32badba99844345f55d53de2c00dfc1c0e",
+      "topic": "LLMs",
+      "source": "weaviate.io",
+      "title": "Weaviate's Query Agent is Generally Available \u2013 Read the Announcement (Sep 17)"
+    },
+    {
+      "url": "https://huggingface.co/blog/dots-ocr-ne",
+      "fetch_timestamp": "2025-10-14T06:32:21.983542",
+      "http_status": 200,
+      "content_hash": "711eedad7354aad0e8da9f2e534de9c2c4abdc839f23252a97ded938cfe3826f",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "SOTA OCR on-device with Core ML and dots.ocr"
+    },
+    {
+      "url": "https://weaviate.io/blog/weaviate-1-33-release",
+      "fetch_timestamp": "2025-10-14T06:32:28.304005",
+      "http_status": 200,
+      "content_hash": "57b82394c83868f43478cdcf16495fac7937329d8fffbc152e4423c3de7dbb1e",
+      "topic": "LLMs",
+      "source": "weaviate.io",
+      "title": "Weaviate 1.33 Release"
+    },
+    {
+      "url": "https://weaviate.io/blog/tags/agents",
+      "fetch_timestamp": "2025-10-14T06:32:28.303633",
+      "http_status": 200,
+      "content_hash": "ec08fced8e1bb463e9b8edfe7ff0132ffa5bf120fc18b0327e9ce05785331522",
+      "topic": "LLMs",
+      "source": "weaviate.io",
+      "title": "agents"
+    }
+  ]
+}
