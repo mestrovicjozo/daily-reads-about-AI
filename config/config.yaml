@@ -110,6 +110,11 @@ processing:
   fallback_window_days: 7  # secondary freshness window; skip items seen in last N days if history_days is exceeded
   per_topic_month_fallback: true   # if a topic is underfilled after 7 days, extend to N days (below)
   per_topic_month_fallback_days: 30
+  routing:
+    enabled: true
+    model_name: "sentence-transformers/all-MiniLM-L6-v2"
+    confidence_margin: 0.08
+    force_override_if_best_differs: true
 
 # Ranking weights
 ranking:

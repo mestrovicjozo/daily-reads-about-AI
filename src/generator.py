@@ -91,6 +91,8 @@ class DigestGenerator:
                     "topic": a.get("topic"),
                     "source": source,
                     "title": title,
+                    # routing metadata if available
+                    "routing": a.get("routing", {}),
                 })
 
             sections.extend(lines)

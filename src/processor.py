@@ -19,6 +19,7 @@ from utils import (
     estimate_reading_time,
     get_content_hash,
 )
+from router import TopicRouter
 
 import json
 
@@ -64,6 +65,9 @@ class ContentProcessor:
         # Preload recent provenance URLs and content hashes
         self.recent_urls, self.recent_hashes = self._load_recent_history(self.history_days)
 
+        # Initialize topic router (optional, controlled by config)
+        self.router = TopicRouter(config)
+
     def process(self, articles: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
         """Fetch content, filter to English, dedupe, and summarize per topic.
         Returns a dict: {topic_name: [article_dict, ...]}"""
@@ -90,7 +94,7 @@ class ContentProcessor:
             Returns True if added, False otherwise.
             """
             url = a["url"]
-            topic = a["topic"]
+            topic = a.get("topic")
             logger.debug(f"Processing article: {url} for topic {topic}")
             
             # Early skip if URL seen in recent history
@@ -145,11 +149,12 @@ class ContentProcessor:
                     return False
 
                 content_hash = normalized_hash or get_content_hash(self._normalize_text(text))
-                if content_hash in seen_hashes_per_topic[topic]:
+                if topic and content_hash in seen_hashes_per_topic[topic]:
                     logger.debug(f"Skipping {url}: Duplicate content in topic")
                     stats['duplicate_content'] += 1
                     return False
-                seen_hashes_per_topic[topic].add(content_hash)
+                if topic:
+                    seen_hashes_per_topic[topic].add(content_hash)
 
                 # Use original title from crawler if available, otherwise try parsed title
                 title = (a.get("title") or parsed.get("title") or "Untitled").strip()
@@ -177,7 +182,25 @@ class ContentProcessor:
                 summary = self._structured_summary(text, title)
                 why_selected = self._infer_why_selected(text, title, source)
 
-                grouped[topic].append({
+                # Topic routing (may override original topic)
+                routed_topic = topic
+                routing_meta: Dict[str, Any] = {}
+                if self.router and self.router.enabled:
+                    best_topic, scores, margin, should_override = self.router.route(title, text, topic)
+                    routing_meta = {
+                        "router_best_topic": best_topic,
+                        "router_margin": margin,
+                        "router_scores": scores,
+                        "router_overrode": False,
+                    }
+                    if best_topic and (topic is None or should_override):
+                        routed_topic = best_topic
+                        routing_meta["router_overrode"] = topic != best_topic
+
+                if not routed_topic:
+                    routed_topic = topic or "LLMs"  # default bucket if unknown
+
+                grouped[routed_topic].append({
                     "url": url,
                     "title": title,
                     "source": source,
@@ -186,11 +209,12 @@ class ContentProcessor:
                     "reading_time_min": reading_time,
                     "summary": summary,
                     "why_selected": why_selected,
-                    "topic": topic,
+                    "topic": routed_topic,
                     "content_hash": content_hash,
                     "fetch_time": a.get("fetch_time", now),
                     "raw_text": text,
                     "topic_keywords": a.get("topic_keywords", []),
+                    "routing": routing_meta,
                 })
                 stats['successfully_processed'] += 1
                 logger.debug(f"Successfully processed {url}: {title[:50]}...")

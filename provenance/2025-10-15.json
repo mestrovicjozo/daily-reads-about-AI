@@ -1,49 +1,364 @@
 {
   "items": [
     {
-      "url": "https://milvus.io/blog/smarter-retrieval-for-rag-late-chunking-with-jina-embeddings-v2-and-milvus.md",
-      "fetch_timestamp": "2025-10-15T06:32:53.860819",
+      "url": "https://huggingface.co/blog/openvino-vlm",
+      "fetch_timestamp": "2025-10-15T14:29:18.260872",
       "http_status": 200,
-      "content_hash": "cfc5ebd7cccbb21b5c643bcf804101c4b9b183db282a25c4f36bd6c630648b31",
-      "topic": "LLMs",
-      "source": "milvus.io",
-      "title": "Smarter Retrieval for RAG: Late Chunking with Jina Embeddings v2 and Milvus"
-    },
-    {
-      "url": "https://huggingface.co/blog/intel-qwen3-agent",
-      "fetch_timestamp": "2025-10-15T06:32:44.970077",
-      "http_status": 200,
-      "content_hash": "3e60ca0a7c9f594cb9fbb9385baf0ec0be144da1b2b9cde168759781a700a764",
+      "content_hash": "64c72f808ad46a2f20352ea21eb138570899ab38cce347b189558e518a5037d2",
       "topic": "LLMs",
       "source": "huggingface.co",
-      "title": "Accelerating Qwen3-8B Agent on Intel\u00ae Core\u2122 Ultra with Depth-Pruned Draft Models"
+      "title": "Get your VLM running in 3 simple steps on Intel CPUs",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.07013410329818726,
+        "router_scores": {
+          "LLMs": 0.34111976623535156,
+          "MCP": 0.2709856629371643,
+          "Quantum Computing": 0.10725077986717224,
+          "RAG": 0.08603641390800476
+        },
+        "router_overrode": false
+      }
     },
     {
-      "url": "https://huggingface.co/blog/vibegame",
-      "fetch_timestamp": "2025-10-15T06:32:44.970174",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1o7160j/p_nanonetsocr2_an_opensource_imagetomarkdown/",
+      "fetch_timestamp": "2025-10-15T14:29:08.774925",
       "http_status": 200,
-      "content_hash": "45659019d18be95b0e7f4c5d6d719e21c899e9893c96f25b6aeee703594f64ab",
+      "content_hash": "e2277b1d06a1f2cfb24c4a5d0c866c83f5c62cecc44323e83cb7fa0be5e67e11",
+      "topic": "LLMs",
+      "source": "reddit.com/r/MachineLearning",
+      "title": "[P] Nanonets-OCR2: An Open-Source Image-to-Markdown Model with LaTeX, Tables, flowcharts, handwritten docs, checkboxes & More",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.049484193325042725,
+        "router_scores": {
+          "LLMs": 0.3277629017829895,
+          "MCP": 0.2782787084579468,
+          "RAG": 0.25477364659309387,
+          "Quantum Computing": 0.10618356615304947
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1o6g9b7/d_should_i_attend_emnlp_2025_inperson/",
+      "fetch_timestamp": "2025-10-15T14:29:08.775139",
+      "http_status": 200,
+      "content_hash": "3d670ca6806f522899acad2aa7a59723d99e00e20414f788fc9fb859911c5b40",
+      "topic": "LLMs",
+      "source": "reddit.com/r/MachineLearning",
+      "title": "[D] Should I attend EMNLP 2025 in-person?",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.015229567885398865,
+        "router_scores": {
+          "MCP": 0.15826795995235443,
+          "LLMs": 0.14303839206695557,
+          "Quantum Computing": 0.0244029238820076,
+          "RAG": -0.014479083009064198
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1o6f798/d_aaai_not_able_to_post_ethics_chair_comment_on_a/",
+      "fetch_timestamp": "2025-10-15T14:29:08.775155",
+      "http_status": 200,
+      "content_hash": "afa6d30a9771cc20e9200f1bee33c3c7500420a00fef1be1cf46aadf0704b590",
+      "topic": "LLMs",
+      "source": "reddit.com/r/MachineLearning",
+      "title": "[D] AAAI: Not able to post \"Ethics Chair comment\" on a review",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.02893134020268917,
+        "router_scores": {
+          "RAG": 0.020635878667235374,
+          "LLMs": -0.008295461535453796,
+          "Quantum Computing": -0.03038984164595604,
+          "MCP": -0.09435199201107025
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://huggingface.co/blog/swift-transformers",
+      "fetch_timestamp": "2025-10-15T14:29:18.261723",
+      "http_status": 200,
+      "content_hash": "6d0d30692bba00b725c303f6bbcb91efb810cc09d71e2db5e16b7a82bd8ef0df",
       "topic": "LLMs",
       "source": "huggingface.co",
-      "title": "VibeGame: Exploring Vibe Coding Games"
+      "title": "Swift Transformers Reaches 1.0 \u2014 and Looks to the Future",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.13372322916984558,
+        "router_scores": {
+          "LLMs": 0.3686588406562805,
+          "MCP": 0.23493561148643494,
+          "RAG": 0.0881257951259613,
+          "Quantum Computing": 0.044430505484342575
+        },
+        "router_overrode": false
+      }
     },
     {
-      "url": "https://weaviate.io/blog/evals-guardrails-enterprise-workflows-2",
-      "fetch_timestamp": "2025-10-15T06:32:51.222541",
+      "url": "https://www.reddit.com/r/Rag/comments/1o7c44y/rag_retrieval_deep_dive_bm25_embeddings_and_the/",
+      "fetch_timestamp": "2025-10-15T14:29:10.880195",
       "http_status": 200,
-      "content_hash": "fbcf2d072f18c8cfa47d0254ba420665f5b84c46e0dc8ef111123560d2b68a51",
-      "topic": "LLMs",
-      "source": "weaviate.io",
-      "title": "Evals and Guardrails in Enterprise workflows (Part 2)"
+      "content_hash": "38a8e03dc4551a75df83008c076fafb225959664a8f3710b4b7dc29bfa2c7121",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "RAG Retrieval Deep Dive: BM25, Embeddings, and the Power of Agentic Search",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.34608209133148193,
+        "router_scores": {
+          "RAG": 0.6727007627487183,
+          "LLMs": 0.32661867141723633,
+          "MCP": 0.15171271562576294,
+          "Quantum Computing": 0.0768759697675705
+        },
+        "router_overrode": false
+      }
     },
     {
-      "url": "https://weaviate.io/blog/weaviate-iso-compliant",
-      "fetch_timestamp": "2025-10-15T06:32:51.222705",
+      "url": "https://www.reddit.com/r/Rag/comments/1o7b5st/open_source_we_built_a_productionready_genai/",
+      "fetch_timestamp": "2025-10-15T14:29:10.880251",
       "http_status": 200,
-      "content_hash": "4bbe108646ebe9c65f3a34dfae29027060c27ac9df73a6836c8ab300406d6193",
-      "topic": "LLMs",
-      "source": "weaviate.io",
-      "title": "Weaviate is now ISO 27001 compliant"
+      "content_hash": "1e7a65e36158f274b96294a7cab02f1563ae29b1a97c0cadb8b08bf5cdf2aff4",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "[Open Source] We built a production-ready GenAI framework after deploying 50+ GenAI project.",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.008833125233650208,
+        "router_scores": {
+          "LLMs": 0.25505343079566956,
+          "MCP": 0.24622030556201935,
+          "RAG": 0.09191124141216278,
+          "Quantum Computing": 0.007778681814670563
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/Rag/comments/1o77t70/has_anyone_figured_out_a_good_way_to_add_realtime/",
+      "fetch_timestamp": "2025-10-15T14:29:10.880260",
+      "http_status": 200,
+      "content_hash": "516b6745ffb39d25c0f8db4502a1c1e1a510604314f68b3a3eb03d1d82326222",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "Has anyone figured out a good way to add real-time web search to a RAG app?",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.2884981334209442,
+        "router_scores": {
+          "RAG": 0.5453916788101196,
+          "LLMs": 0.2568935453891754,
+          "MCP": 0.12674960494041443,
+          "Quantum Computing": 0.06682014465332031
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/Rag/comments/1o7c1e4/is_notebooklm_good_enough_for_collecting_sample/",
+      "fetch_timestamp": "2025-10-15T14:29:10.880211",
+      "http_status": 200,
+      "content_hash": "c7e17c44dbee42a137a875eb749b2ab20d62911231eda981566bd484ae0b91fe",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "Is NotebookLM good enough for collecting sample RAG benchmark responses? Has it ever failed you?",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.1177929937839508,
+        "router_scores": {
+          "RAG": 0.1935422122478485,
+          "LLMs": 0.0757492184638977,
+          "MCP": -0.0076338015496730804,
+          "Quantum Computing": -0.00870608165860176
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/Rag/comments/1o71j4v/oracle_is_building_an_ambulance/",
+      "fetch_timestamp": "2025-10-15T14:29:10.880282",
+      "http_status": 200,
+      "content_hash": "91f9c6bb06bd9572a6817e1a39f8e1a7f45cca226ff9d8ae7a7a7e9840e0cc67",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "Oracle is building an ambulance",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.42714260518550873,
+        "router_scores": {
+          "RAG": 0.6460722088813782,
+          "LLMs": 0.21892960369586945,
+          "MCP": 0.08838686347007751,
+          "Quantum Computing": 0.08367049694061279
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/mcp/comments/1o79ahy/mcps_get_better_observability_plus_ssoscim/",
+      "fetch_timestamp": "2025-10-15T14:29:12.686644",
+      "http_status": 200,
+      "content_hash": "819f7dcc238d26d2dc97968febf9216eec6ad524a00af05c10ecc92129c3fa50",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "MCPs get better observability, plus SSO+SCIM support with our latest features",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.33027881383895874,
+        "router_scores": {
+          "MCP": 0.47408419847488403,
+          "LLMs": 0.1438053846359253,
+          "RAG": 0.03061590902507305,
+          "Quantum Computing": 0.02194640412926674
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/mcp/comments/1o7c39t/i_tested_claude_code_with_plugins_and_it_is/",
+      "fetch_timestamp": "2025-10-15T14:29:12.686585",
+      "http_status": 200,
+      "content_hash": "b085a728a410e92ebf7045d1f32a9091d483c79655c03ca7319bc8a393c1072b",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "I tested Claude code with plugins and it is insanely good",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.12321148812770844,
+        "router_scores": {
+          "MCP": 0.31858065724372864,
+          "LLMs": 0.1953691691160202,
+          "RAG": 0.05870119482278824,
+          "Quantum Computing": 0.009785901755094528
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/mcp/comments/1o7a6wf/making_agentkits_agent_builder_work_with_100/",
+      "fetch_timestamp": "2025-10-15T14:29:12.686615",
+      "http_status": 200,
+      "content_hash": "a98ce5563af8c8c187b0635addf71e3207e630a66849cc3b1efc0128476c19dc",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "Making AgentKit's agent builder work with 100+ tools in one go!",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.1443675458431244,
+        "router_scores": {
+          "MCP": 0.3282632827758789,
+          "LLMs": 0.18389573693275452,
+          "RAG": 0.027971938252449036,
+          "Quantum Computing": -0.09825003147125244
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/mcp/comments/1o791of/goose_desktop_mcp_auth_did_they_go_too_far/",
+      "fetch_timestamp": "2025-10-15T14:29:12.686656",
+      "http_status": 200,
+      "content_hash": "585a15f69938c472ef23f35e8f3967acad74da4a44c4a0fc9ba431ad96d02b8c",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "Goose Desktop MCP Auth: did they go too far?",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.23934851959347725,
+        "router_scores": {
+          "MCP": 0.23295830190181732,
+          "LLMs": -0.006390217691659927,
+          "RAG": -0.037771981209516525,
+          "Quantum Computing": -0.054795749485492706
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://interestingengineering.com/military/china-quantum-radar-us-stealth-jet",
+      "fetch_timestamp": "2025-10-15T14:29:14.268830",
+      "http_status": 200,
+      "content_hash": "b876a8bd30227f61c093c5c8f558d2fbb82e8163a9e88f41224a7bec74823a4c",
+      "topic": "Quantum Computing",
+      "source": "reddit.com/r/QuantumComputing",
+      "title": "China mass producing quantum radars to track US stealth jets",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.2134554386138916,
+        "router_scores": {
+          "Quantum Computing": 0.29481077194213867,
+          "MCP": 0.08135533332824707,
+          "LLMs": 0.0401042103767395,
+          "RAG": -0.054383065551519394
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/QuantumComputing/comments/1o69tf7/can_someone_explain_the_differences_between_the/",
+      "fetch_timestamp": "2025-10-15T14:29:14.268848",
+      "http_status": 200,
+      "content_hash": "5e067ae92e20cfb10a929986ffbd1300c9646bc8ca98f35d835ac02f497be5ca",
+      "topic": "Quantum Computing",
+      "source": "reddit.com/r/QuantumComputing",
+      "title": "Can someone explain the differences between the SpinQ products: Gemini Lab, Triangulum II.",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.1113949790596962,
+        "router_scores": {
+          "Quantum Computing": 0.22714436054229736,
+          "RAG": 0.11574938148260117,
+          "LLMs": 0.06644958257675171,
+          "MCP": 0.03849943354725838
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://verity.news/story/2025/three-scientists-win-nobel-physics-prize-for-quantum-discovery?p=re4021",
+      "fetch_timestamp": "2025-10-15T14:29:14.268890",
+      "http_status": 200,
+      "content_hash": "caffdaefc262c78fa18df8cb795bb1febb2a997092769a1d73d8bb11acc6a07f",
+      "topic": "Quantum Computing",
+      "source": "reddit.com/r/QuantumComputing",
+      "title": "Three Scientists Win 2025 Nobel Prize for Quantum Discovery",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.4239845499396324,
+        "router_scores": {
+          "Quantum Computing": 0.5227223634719849,
+          "LLMs": 0.09873781353235245,
+          "RAG": 0.052920158952474594,
+          "MCP": -0.0342533178627491
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/QuantumComputing/comments/1o5w1rb/is_cryogenic_control_cryocmos_or_sfq_really_the/",
+      "fetch_timestamp": "2025-10-15T14:29:14.268880",
+      "http_status": 200,
+      "content_hash": "83c0bc859e010503c06fd62ad222fa974b9cc2ab0ad4717c7365559e2c108d67",
+      "topic": "Quantum Computing",
+      "source": "reddit.com/r/QuantumComputing",
+      "title": "Is cryogenic control (CryoCMOS or SFQ) really the main bottleneck for scaling superconducting qubits?",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.15257493779063225,
+        "router_scores": {
+          "Quantum Computing": 0.20709563791751862,
+          "MCP": 0.05452070012688637,
+          "LLMs": 0.015204615890979767,
+          "RAG": -0.1196889877319336
+        },
+        "router_overrode": false
+      }
     }
   ]
 }
