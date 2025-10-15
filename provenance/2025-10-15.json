@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "url": "https://milvus.io/blog/smarter-retrieval-for-rag-late-chunking-with-jina-embeddings-v2-and-milvus.md",
+      "fetch_timestamp": "2025-10-15T06:32:53.860819",
+      "http_status": 200,
+      "content_hash": "cfc5ebd7cccbb21b5c643bcf804101c4b9b183db282a25c4f36bd6c630648b31",
+      "topic": "LLMs",
+      "source": "milvus.io",
+      "title": "Smarter Retrieval for RAG: Late Chunking with Jina Embeddings v2 and Milvus"
+    },
+    {
+      "url": "https://huggingface.co/blog/intel-qwen3-agent",
+      "fetch_timestamp": "2025-10-15T06:32:44.970077",
+      "http_status": 200,
+      "content_hash": "3e60ca0a7c9f594cb9fbb9385baf0ec0be144da1b2b9cde168759781a700a764",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "Accelerating Qwen3-8B Agent on Intel\u00ae Core\u2122 Ultra with Depth-Pruned Draft Models"
+    },
+    {
+      "url": "https://huggingface.co/blog/vibegame",
+      "fetch_timestamp": "2025-10-15T06:32:44.970174",
+      "http_status": 200,
+      "content_hash": "45659019d18be95b0e7f4c5d6d719e21c899e9893c96f25b6aeee703594f64ab",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "VibeGame: Exploring Vibe Coding Games"
+    },
+    {
+      "url": "https://weaviate.io/blog/evals-guardrails-enterprise-workflows-2",
+      "fetch_timestamp": "2025-10-15T06:32:51.222541",
+      "http_status": 200,
+      "content_hash": "fbcf2d072f18c8cfa47d0254ba420665f5b84c46e0dc8ef111123560d2b68a51",
+      "topic": "LLMs",
+      "source": "weaviate.io",
+      "title": "Evals and Guardrails in Enterprise workflows (Part 2)"
+    },
+    {
+      "url": "https://weaviate.io/blog/weaviate-iso-compliant",
+      "fetch_timestamp": "2025-10-15T06:32:51.222705",
+      "http_status": 200,
+      "content_hash": "4bbe108646ebe9c65f3a34dfae29027060c27ac9df73a6836c8ab300406d6193",
+      "topic": "LLMs",
+      "source": "weaviate.io",
+      "title": "Weaviate is now ISO 27001 compliant"
+    }
+  ]
+}
