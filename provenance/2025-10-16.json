@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "url": "https://deepmind.google/discover/blog/introducing-veo-3-1-and-advanced-creative-capabilities/",
+      "fetch_timestamp": "2025-10-16T06:33:03.682838",
+      "http_status": 200,
+      "content_hash": "032319ae4fdb74986d74dcf00bd0b2faa6b3364a5f85f54a8751d5267b354260",
+      "topic": "LLMs",
+      "source": "deepmind.google",
+      "title": "Introducing Veo 3.1 and advanced creative capabilities",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.17552632838487625,
+        "router_scores": {
+          "LLMs": 0.29007312655448914,
+          "MCP": 0.11454679816961288,
+          "RAG": 0.067926324903965,
+          "Quantum Computing": -0.012249629944562912
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://weaviate.io/blog/when-good-models-go-bad",
+      "fetch_timestamp": "2025-10-16T06:32:52.447573",
+      "http_status": 200,
+      "content_hash": "86ec40082c96b17056645205660face8056cd9829f4bfe33f750f3551b74c24f",
+      "topic": "LLMs",
+      "source": "weaviate.io",
+      "title": "When Good Models Go Bad",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.06353828310966492,
+        "router_scores": {
+          "RAG": 0.5031270980834961,
+          "LLMs": 0.4395888149738312,
+          "MCP": 0.16654345393180847,
+          "Quantum Computing": 0.06330440938472748
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://huggingface.co/blog/intel-qwen3-agent",
+      "fetch_timestamp": "2025-10-16T06:32:46.054494",
+      "http_status": 200,
+      "content_hash": "3e60ca0a7c9f594cb9fbb9385baf0ec0be144da1b2b9cde168759781a700a764",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "Accelerating Qwen3-8B Agent on Intel\u00ae Core\u2122 Ultra with Depth-Pruned Draft Models",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.029816925525665283,
+        "router_scores": {
+          "LLMs": 0.22830721735954285,
+          "MCP": 0.19849029183387756,
+          "Quantum Computing": 0.19048932194709778,
+          "RAG": 0.11202406883239746
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://weaviate.io/blog/evals-guardrails-enterprise-workflows-2",
+      "fetch_timestamp": "2025-10-16T06:32:52.447900",
+      "http_status": 200,
+      "content_hash": "fbcf2d072f18c8cfa47d0254ba420665f5b84c46e0dc8ef111123560d2b68a51",
+      "topic": "LLMs",
+      "source": "weaviate.io",
+      "title": "Evals and Guardrails in Enterprise workflows (Part 2)",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.009263277053833008,
+        "router_scores": {
+          "LLMs": 0.22109945118427277,
+          "MCP": 0.21183617413043976,
+          "RAG": 0.04467301815748215,
+          "Quantum Computing": 0.03515629842877388
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://weaviate.io/blog/weaviate-iso-compliant",
+      "fetch_timestamp": "2025-10-16T06:32:52.448116",
+      "http_status": 200,
+      "content_hash": "4bbe108646ebe9c65f3a34dfae29027060c27ac9df73a6836c8ab300406d6193",
+      "topic": "LLMs",
+      "source": "weaviate.io",
+      "title": "Weaviate is now ISO 27001 compliant",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.011332333087921143,
+        "router_scores": {
+          "MCP": 0.09392592310905457,
+          "LLMs": 0.08259359002113342,
+          "RAG": 0.06015898287296295,
+          "Quantum Computing": 0.009809471666812897
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://milvus.io/blog/smarter-retrieval-for-rag-late-chunking-with-jina-embeddings-v2-and-milvus.md",
+      "fetch_timestamp": "2025-10-16T06:32:55.006430",
+      "http_status": 200,
+      "content_hash": "cfc5ebd7cccbb21b5c643bcf804101c4b9b183db282a25c4f36bd6c630648b31",
+      "topic": "RAG",
+      "source": "milvus.io",
+      "title": "Smarter Retrieval for RAG: Late Chunking with Jina Embeddings v2 and Milvus",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.2834460139274597,
+        "router_scores": {
+          "RAG": 0.5378803610801697,
+          "LLMs": 0.25443434715270996,
+          "MCP": 0.06111347675323486,
+          "Quantum Computing": -0.007094131782650948
+        },
+        "router_overrode": true
+      }
+    }
+  ]
+}
