@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "url": "https://huggingface.co/blog/gpt-oss-on-intel-xeon",
+      "fetch_timestamp": "2025-10-17T06:31:54.346872",
+      "http_status": 200,
+      "content_hash": "fdf25b817a6ee254773ae2961592cb8a53c43d8a79ee6025f5a62671dd0d48ae",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "Google Cloud C4 Brings a 70% TCO improvement on GPT OSS with Intel and Hugging Face",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.09555548429489136,
+        "router_scores": {
+          "LLMs": 0.383991003036499,
+          "MCP": 0.28843551874160767,
+          "RAG": 0.19079938530921936,
+          "Quantum Computing": 0.10572591423988342
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://weaviate.io/blog/sagemaker-studio-rag",
+      "fetch_timestamp": "2025-10-17T06:32:00.665793",
+      "http_status": 200,
+      "content_hash": "c9e0341bd609207a56ce49c90860a940cc64552c7d89bb178ffe3a3d44ace023",
+      "topic": "LLMs",
+      "source": "weaviate.io",
+      "title": "Legacy data to RAG : Modernise Your Apps with Amazon Sagemaker Unified Studio",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.043866753578186035,
+        "router_scores": {
+          "RAG": 0.3734963834285736,
+          "LLMs": 0.3296296298503876,
+          "MCP": 0.18021011352539062,
+          "Quantum Computing": 0.08196467161178589
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://deepmind.google/discover/blog/bringing-ai-to-the-next-generation-of-fusion-energy/",
+      "fetch_timestamp": "2025-10-17T06:32:11.681720",
+      "http_status": 200,
+      "content_hash": "83f976cee81f6cff9f131179b01d7eeeef3ac80d7fc9585f6f61981d29154227",
+      "topic": "LLMs",
+      "source": "deepmind.google",
+      "title": "Bringing AI to the next generation of fusion energy",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.02423761785030365,
+        "router_scores": {
+          "LLMs": 0.2115810513496399,
+          "Quantum Computing": 0.18734343349933624,
+          "RAG": 0.12558093667030334,
+          "MCP": 0.10184377431869507
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://deepmind.google/discover/blog/how-a-gemma-model-helped-discover-a-new-potential-cancer-therapy-pathway/",
+      "fetch_timestamp": "2025-10-17T06:32:11.681899",
+      "http_status": 200,
+      "content_hash": "3f98965d62abe40fe187771633a5050721f568bf2c4fdf1eacb1078a3c1b253e",
+      "topic": "LLMs",
+      "source": "deepmind.google",
+      "title": "How a Gemma model helped discover a new potential cancer therapy pathway",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.0018896758556365967,
+        "router_scores": {
+          "LLMs": 0.15267711877822876,
+          "MCP": 0.15078744292259216,
+          "RAG": 0.05354725569486618,
+          "Quantum Computing": 0.005536064505577087
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://huggingface.co/blog/vibegame",
+      "fetch_timestamp": "2025-10-17T06:31:54.347523",
+      "http_status": 200,
+      "content_hash": "45659019d18be95b0e7f4c5d6d719e21c899e9893c96f25b6aeee703594f64ab",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "VibeGame: Exploring Vibe Coding Games",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.023472726345062256,
+        "router_scores": {
+          "LLMs": 0.2311977595090866,
+          "MCP": 0.20772503316402435,
+          "Quantum Computing": 0.20523440837860107,
+          "RAG": 0.1544666886329651
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://weaviate.io/blog/weaviate-multi-tenancy-architecture-explained",
+      "fetch_timestamp": "2025-10-17T06:32:00.666040",
+      "http_status": 200,
+      "content_hash": "b5d166ae727e9cddc815bad5902adacb79f7edbc8304e375383b21dcc5641beb",
+      "topic": "RAG",
+      "source": "weaviate.io",
+      "title": "Rethinking Vector Search at Scale: Weaviate's Native, Efficient and Optimized Multi-Tenancy",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.13659918308258057,
+        "router_scores": {
+          "RAG": 0.24247655272483826,
+          "LLMs": 0.10587736964225769,
+          "MCP": -0.017486684024333954,
+          "Quantum Computing": -0.01835281401872635
+        },
+        "router_overrode": true
+      }
+    }
+  ]
+}
