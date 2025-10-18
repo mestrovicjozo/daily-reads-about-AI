@@ -1,0 +1,244 @@
+{
+  "items": [
+    {
+      "url": "https://milvus.io/blog/langchain-vs-langgraph.md",
+      "fetch_timestamp": "2025-10-18T06:30:19.092110",
+      "http_status": 200,
+      "content_hash": "dee563f3827915defb644292bd4a690cd51aec9774407600db19997cdc98fc6b",
+      "topic": "LLMs",
+      "source": "milvus.io",
+      "title": "LangChain vs LangGraph: A Developer's Guide to Choosing Your AI Frameworks",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.08716908097267151,
+        "router_scores": {
+          "LLMs": 0.43267449736595154,
+          "RAG": 0.34550541639328003,
+          "MCP": 0.267160564661026,
+          "Quantum Computing": 0.015622317790985107
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://milvus.io/blog/get-started-with-langgraph-up-react-a-practical-langgraph-template.md",
+      "fetch_timestamp": "2025-10-18T06:30:19.092087",
+      "http_status": 200,
+      "content_hash": "2911c71ff5fa84fa39b68a7bf448b4584b3d92b9537c2352b3dc545f308ea568",
+      "topic": "LLMs",
+      "source": "milvus.io",
+      "title": "Getting Started with langgraph-up-react: A Practical LangGraph Template",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.14932817220687866,
+        "router_scores": {
+          "LLMs": 0.36142590641975403,
+          "RAG": 0.21209773421287537,
+          "MCP": 0.1532774269580841,
+          "Quantum Computing": 0.038637854158878326
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://milvus.io/blog/when-context-engineering-is-done-right-hallucinations-can-spark-ai-creativity.md",
+      "fetch_timestamp": "2025-10-18T06:30:19.092063",
+      "http_status": 200,
+      "content_hash": "168d9251789347c0098482162897f84929293c91a11c7126686d4a0e9b009106",
+      "topic": "LLMs",
+      "source": "milvus.io",
+      "title": "When Context Engineering Is Done Right, Hallucinations Can Be the Spark of AI Creativity",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.2043979912996292,
+        "router_scores": {
+          "LLMs": 0.4294784665107727,
+          "RAG": 0.2250804752111435,
+          "MCP": 0.1536836326122284,
+          "Quantum Computing": 0.06770601868629456
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://huggingface.co/blog/smol2operator",
+      "fetch_timestamp": "2025-10-18T06:30:10.226867",
+      "http_status": 200,
+      "content_hash": "5d90a8ffd7391afceda9c1cea3909c476267b03cccc34ac722e9f1a97dedc8a6",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "Smol2Operator: Post-Training GUI Agents for Computer Use",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.11349993944168091,
+        "router_scores": {
+          "LLMs": 0.3497408628463745,
+          "MCP": 0.2362409234046936,
+          "RAG": 0.10470889508724213,
+          "Quantum Computing": 0.05960855260491371
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://deepmind.google/discover/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/",
+      "fetch_timestamp": "2025-10-18T06:30:28.025104",
+      "http_status": 200,
+      "content_hash": "8c5713f5d03350d6a8efd1ff3589cdc457a789c4df6e08096b4dab4dd17c2b85",
+      "topic": "LLMs",
+      "source": "deepmind.google",
+      "title": "Gemini Robotics 1.5 brings AI agents into the physical world",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.196620911359787,
+        "router_scores": {
+          "LLMs": 0.3829456865787506,
+          "MCP": 0.18632477521896362,
+          "RAG": 0.15764504671096802,
+          "Quantum Computing": 0.12512889504432678
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://milvus.io/blog/tokenize-smarter-retrieve-better-a-deep-dive-into-milvus-analyzer-for-full-text-search.md",
+      "fetch_timestamp": "2025-10-18T06:30:19.091944",
+      "http_status": 200,
+      "content_hash": "679cf78a843e41e3313b3e4c70e4c718dcad8d8ae8c6630e98cea47b13e32aa8",
+      "topic": "RAG",
+      "source": "milvus.io",
+      "title": "Tokenize Smarter, Retrieve Better: A Deep Dive into Milvus Analyzer for Full-Text Search",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.13060778379440308,
+        "router_scores": {
+          "RAG": 0.501652717590332,
+          "LLMs": 0.37104493379592896,
+          "MCP": 0.1475115716457367,
+          "Quantum Computing": 0.05103931576013565
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://milvus.io/blog/how-opussearch-built-exact-matching-for-enterprise-rag-with-milvus-bm25.md",
+      "fetch_timestamp": "2025-10-18T06:30:19.091916",
+      "http_status": 200,
+      "content_hash": "5187fa27f73f815e9d6f9c206a843bd01ad50429cd1f4864c32ceee011ff623a",
+      "topic": "RAG",
+      "source": "milvus.io",
+      "title": "How OpusSearch Built Exact Matching for Enterprise RAG with Milvus BM25",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.23456764221191406,
+        "router_scores": {
+          "RAG": 0.5016084909439087,
+          "LLMs": 0.26704084873199463,
+          "MCP": 0.10629016906023026,
+          "Quantum Computing": 0.010998954996466637
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://developers.googleblog.com/unlocking-the-potential-of-quantum-computing-a-developers-guide-to-error-correction/",
+      "fetch_timestamp": "2025-10-18T06:31:11.890981",
+      "http_status": 200,
+      "content_hash": "679f0a3219f110ecd935bb9635b97a938bf1075506d9f934f06af34eb6a3875c",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "open_in_newBlog post",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.3903595805168152,
+        "router_scores": {
+          "Quantum Computing": 0.4199643135070801,
+          "LLMs": 0.029604732990264893,
+          "MCP": -0.007189675699919462,
+          "RAG": -0.026813263073563576
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://research.google/blog/making-quantum-error-correction-work/",
+      "fetch_timestamp": "2025-10-18T06:31:11.891034",
+      "http_status": 200,
+      "content_hash": "beddb4dbe9b1af55c0ee890121c0fd8f463de570d5fa05b28487cd1cddb4010a",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "arrow_forward",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.4376901239156723,
+        "router_scores": {
+          "Quantum Computing": 0.48441076278686523,
+          "LLMs": 0.04672063887119293,
+          "RAG": 0.026758039370179176,
+          "MCP": 0.00042277947068214417
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://quantumai.google/quantumcomputer",
+      "fetch_timestamp": "2025-10-18T06:31:11.890488",
+      "http_status": 200,
+      "content_hash": "8b6d9cc4145568357368c5a012e781937b2c014c08f182d377a9c4f6e63cbc38",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Our Work",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.4393310546875,
+        "router_scores": {
+          "Quantum Computing": 0.4741380214691162,
+          "MCP": 0.03480696678161621,
+          "LLMs": 0.018871910870075226,
+          "RAG": -0.03649521619081497
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://research.google/blog/validating-random-circuit-sampling-as-a-benchmark-for-measuring-quantum-progress/",
+      "fetch_timestamp": "2025-10-18T06:31:11.891063",
+      "http_status": 200,
+      "content_hash": "cd53966dd2f6dcfef60d883a5dc56a43141e4c5f8fb20d74f3026c31341ea5c7",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "arrow_forward",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.4184223860502243,
+        "router_scores": {
+          "Quantum Computing": 0.49995046854019165,
+          "LLMs": 0.08152808248996735,
+          "MCP": 0.06192070245742798,
+          "RAG": 0.03622272610664368
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://quantumai.google/resources",
+      "fetch_timestamp": "2025-10-18T06:31:11.890468",
+      "http_status": 200,
+      "content_hash": "be9a7761cbe31b19b54e296d2825586e7ad53e612a4a9548fe36a6e50ab851d3",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Educational resources",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.47477997839450836,
+        "router_scores": {
+          "Quantum Computing": 0.6281393766403198,
+          "LLMs": 0.15335939824581146,
+          "MCP": 0.12234340608119965,
+          "RAG": 0.12077254056930542
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
