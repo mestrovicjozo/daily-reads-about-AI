@@ -1,0 +1,204 @@
+{
+  "items": [
+    {
+      "url": "https://milvus.io/blog/nano-banana-milvus-turning-hype-into-enterprise-ready-multimodal-rag.md",
+      "fetch_timestamp": "2025-10-19T06:31:13.763397",
+      "http_status": 200,
+      "content_hash": "b6af8aeb707b7081b1b45d6bf8a8d4482543b08afd94fd30198197f54334f48f",
+      "topic": "LLMs",
+      "source": "milvus.io",
+      "title": "Nano Banana + Milvus: Turning Hype into Enterprise-Ready Multimodal RAG",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.02739950269460678,
+        "router_scores": {
+          "RAG": 0.10310729593038559,
+          "LLMs": 0.07570779323577881,
+          "MCP": 0.06738405674695969,
+          "Quantum Computing": -0.05261644721031189
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "http://www.techmeme.com/251019/p5",
+      "fetch_timestamp": "2025-10-19T06:31:27.119032",
+      "http_status": 200,
+      "content_hash": "a0a03bd9e1fd7c8612a149164f290e6d543769f0a251437cd6fee52e4a3f6918",
+      "topic": "LLMs",
+      "source": "www.techmeme.com",
+      "title": "A look at some US energy companies linked to AI infrastructure, such as Sam Altman-backed Oklo, whose stocks have soared despite having little to no revenue (Jinjoo Lee/Wall Street Journal)",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.11770491302013397,
+        "router_scores": {
+          "LLMs": 0.2802954614162445,
+          "MCP": 0.16259054839611053,
+          "RAG": 0.1285047084093094,
+          "Quantum Computing": 0.06069614365696907
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://huggingface.co/blog/gaia2",
+      "fetch_timestamp": "2025-10-19T06:31:04.689981",
+      "http_status": 200,
+      "content_hash": "f2725db7c5ae7f9a7ed4515ae6b06b7ae63143a4a074d63d128cc39da01059c2",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "Gaia2 and ARE: Empowering the community to study agents",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.0857897400856018,
+        "router_scores": {
+          "LLMs": 0.2590705156326294,
+          "MCP": 0.1732807755470276,
+          "RAG": 0.13932126760482788,
+          "Quantum Computing": 0.06676848977804184
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://deepmind.google/discover/blog/strengthening-our-frontier-safety-framework/",
+      "fetch_timestamp": "2025-10-19T06:31:22.495443",
+      "http_status": 200,
+      "content_hash": "0aa788d081bf0b893988a76b1b728e219f338309d8ef26fe6bca366a3d5231d1",
+      "topic": "LLMs",
+      "source": "deepmind.google",
+      "title": "Strengthening our Frontier Safety Framework",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.06350135803222656,
+        "router_scores": {
+          "LLMs": 0.22825217247009277,
+          "MCP": 0.1647508144378662,
+          "Quantum Computing": 0.14597848057746887,
+          "RAG": 0.045151807367801666
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://milvus.io/blog/how-to-debug-slow-requests-in-milvus.md",
+      "fetch_timestamp": "2025-10-19T06:31:13.763299",
+      "http_status": 200,
+      "content_hash": "520e31936ee4639734494246c6f37d3b1f7ca463f2611bb23d4611abaeecb9ea",
+      "topic": "RAG",
+      "source": "milvus.io",
+      "title": "How to Debug Slow Search Requests in Milvus",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.09511080384254456,
+        "router_scores": {
+          "RAG": 0.2033471167087555,
+          "MCP": 0.10823631286621094,
+          "LLMs": 0.07159204035997391,
+          "Quantum Computing": -0.008855604566633701
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://quantumai.google/discover/whatisqc",
+      "fetch_timestamp": "2025-10-19T06:32:05.205564",
+      "http_status": 200,
+      "content_hash": "839b56ae1dc7adf935f9c2963ba23d588a5e5ffee985518b4dd9c6ec4e2f0153",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Discover",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.4867682456970215,
+        "router_scores": {
+          "Quantum Computing": 0.5586705207824707,
+          "LLMs": 0.07190227508544922,
+          "MCP": 0.06716923415660858,
+          "RAG": -0.01163492538034916
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://quantumai.google/",
+      "fetch_timestamp": "2025-10-19T06:32:05.205529",
+      "http_status": 200,
+      "content_hash": "70d22ad2330ce601363200d8bdbc7bf1a3efa353fd323d67f5da49545a7b1ef1",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Google Quantum AI",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.24514710903167725,
+        "router_scores": {
+          "Quantum Computing": 0.5292457342147827,
+          "LLMs": 0.28409862518310547,
+          "RAG": 0.09193094074726105,
+          "MCP": 0.07363187521696091
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://quantumai.google/lab",
+      "fetch_timestamp": "2025-10-19T06:32:05.205764",
+      "http_status": 200,
+      "content_hash": "0036766961c25babb819e5fe931dc0cf0311401f2aae86a0c858ca386746f095",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Lab",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.3618673086166382,
+        "router_scores": {
+          "Quantum Computing": 0.4930805563926697,
+          "MCP": 0.1312132477760315,
+          "LLMs": 0.1207336038351059,
+          "RAG": -0.012704890221357346
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://quantumai.google/team",
+      "fetch_timestamp": "2025-10-19T06:32:05.205734",
+      "http_status": 200,
+      "content_hash": "f33d63f3b43eff63b9c7db51df9fcd6d466dc53453c99befc5bbcdee6130fc84",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "About",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.37698033452033997,
+        "router_scores": {
+          "Quantum Computing": 0.5248491168022156,
+          "MCP": 0.1478687822818756,
+          "LLMs": 0.12650257349014282,
+          "RAG": 0.029129337519407272
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://policies.google.com/terms",
+      "fetch_timestamp": "2025-10-19T06:32:05.206413",
+      "http_status": 200,
+      "content_hash": "ac5a0b31f53f18b0da104afb7bf871075bf12ddfa4252907bc6f79c64187799f",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Terms",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.008259713649749756,
+        "router_scores": {
+          "MCP": 0.32280677556991577,
+          "LLMs": 0.314547061920166,
+          "RAG": 0.2678673565387726,
+          "Quantum Computing": 0.1385316252708435
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
