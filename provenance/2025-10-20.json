@@ -1,0 +1,184 @@
+{
+  "items": [
+    {
+      "url": "https://milvus.io/blog/vllm-semantic-router-milvus-how-semantic-routing-and-caching-scale-ai-systems-the-smart-way.md",
+      "fetch_timestamp": "2025-10-20T06:34:35.900785",
+      "http_status": 200,
+      "content_hash": "f16bdde196d3ee576e4a9d200d126459a7e6743020a53df412314c928c792bc1",
+      "topic": "LLMs",
+      "source": "milvus.io",
+      "title": "vLLM Semantic Router + Milvus: How Semantic Routing and Caching Build Scalable AI Systems the Smart Way",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.11174751818180084,
+        "router_scores": {
+          "LLMs": 0.32842713594436646,
+          "MCP": 0.2166796177625656,
+          "RAG": 0.1542600691318512,
+          "Quantum Computing": 0.049558065831661224
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://weaviate.io/blog/building-multi-agent-systems",
+      "fetch_timestamp": "2025-10-20T06:34:33.646155",
+      "http_status": 200,
+      "content_hash": "0e7d76f2f1058c9d4f6a008918e5ee13c4970129071262848ae5d48b8b39a0b1",
+      "topic": "LLMs",
+      "source": "weaviate.io",
+      "title": "Building Multi-Agent Systems with Crew AI and Weaviate",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.13089212775230408,
+        "router_scores": {
+          "LLMs": 0.37137287855148315,
+          "MCP": 0.24048075079917908,
+          "RAG": 0.14403188228607178,
+          "Quantum Computing": 0.10738871991634369
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://deepmind.google/discover/blog/introducing-codemender-an-ai-agent-for-code-security/",
+      "fetch_timestamp": "2025-10-20T06:34:44.792435",
+      "http_status": 200,
+      "content_hash": "f620f4c6680f7bc38efca66a7fbc5e3688e5f5e3c191f3c4d3294dd0d67a7f0d",
+      "topic": "LLMs",
+      "source": "deepmind.google",
+      "title": "Introducing CodeMender: an AI agent for code security",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.10682153701782227,
+        "router_scores": {
+          "LLMs": 0.23883628845214844,
+          "RAG": 0.13201475143432617,
+          "Quantum Computing": 0.12074314057826996,
+          "MCP": 0.11755028367042542
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://deepmind.google/discover/blog/introducing-the-gemini-2-5-computer-use-model/",
+      "fetch_timestamp": "2025-10-20T06:34:44.792328",
+      "http_status": 200,
+      "content_hash": "ada3dedc534543ce1389b393149c689f46677b48bc42ea68dcc8dc4c4043841c",
+      "topic": "LLMs",
+      "source": "deepmind.google",
+      "title": "Introducing the Gemini 2.5 Computer Use model",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.0777842253446579,
+        "router_scores": {
+          "LLMs": 0.27361637353897095,
+          "MCP": 0.19583214819431305,
+          "RAG": 0.15575075149536133,
+          "Quantum Computing": 0.08897005021572113
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://milvus.io/blog/how-to-choose-the-right-embedding-model-for-rag.md",
+      "fetch_timestamp": "2025-10-20T06:34:35.900876",
+      "http_status": 200,
+      "content_hash": "0c21b1391f007bbd469d998b6b929b3253eebd871824859a33c535eccbeb19d9",
+      "topic": "RAG",
+      "source": "milvus.io",
+      "title": "From Word2Vec to LLM2Vec: How to Choose the Right Embedding Model for RAG",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.15373647212982178,
+        "router_scores": {
+          "RAG": 0.6033428907394409,
+          "LLMs": 0.44960641860961914,
+          "MCP": 0.12209980934858322,
+          "Quantum Computing": -0.010818851180374622
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://weaviate.io/blog/search-mode-benchmarking",
+      "fetch_timestamp": "2025-10-20T06:34:33.646498",
+      "http_status": 200,
+      "content_hash": "79cb6749be892ed0e7fe83336ea45be97e091722f7f193d2bda3f84ff6c4dcd5",
+      "topic": "RAG",
+      "source": "weaviate.io",
+      "title": "Search Mode Benchmarking",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.3060806393623352,
+        "router_scores": {
+          "RAG": 0.4857611358165741,
+          "LLMs": 0.1796804964542389,
+          "MCP": 0.09050644934177399,
+          "Quantum Computing": 0.06821544468402863
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://policies.google.com/privacy",
+      "fetch_timestamp": "2025-10-20T06:35:26.873314",
+      "http_status": 200,
+      "content_hash": "c02c2c8d655cbe6b22cf56b6343ce68b2a8f92262f5e321480111ed9a5b3a7d3",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Privacy",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.03958582878112793,
+        "router_scores": {
+          "RAG": 0.20544740557670593,
+          "MCP": 0.165861576795578,
+          "LLMs": 0.08445531874895096,
+          "Quantum Computing": 0.052718378603458405
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.google.com/about/careers/applications/jobs/results/?company=Google&employment_type=FULL_TIME&employment_type=PART_TIME&location=California,%20USA&location=Munich,%20Germany&location=Seattle,%20WA,%20USA&location=Zurich,%20Switzerland&q=quantum&sort_by=relevance&src=Online%2FGoogle%20Website%2FQuantum_AI&utm_campaign=Quantum_AI&utm_medium=Google%20Website&utm_source=online",
+      "fetch_timestamp": "2025-10-20T06:35:26.872715",
+      "http_status": 200,
+      "content_hash": "e9417cb187e612da6782b946332d88d05fdc4bb670c97149340044ce99695bc9",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Careers",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.029757238924503326,
+        "router_scores": {
+          "RAG": 0.15139110386371613,
+          "Quantum Computing": 0.1216338649392128,
+          "LLMs": 0.11904703080654144,
+          "MCP": 0.05521073564887047
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://quantumai.google/roadmap",
+      "fetch_timestamp": "2025-10-20T06:35:26.872549",
+      "http_status": 200,
+      "content_hash": "54c7da81cc4db766d7d06b7eb9f2e21e50216272907f0581727f335d6832ef71",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Roadmap",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.05008596181869507,
+        "router_scores": {
+          "RAG": 0.322642982006073,
+          "LLMs": 0.27255702018737793,
+          "MCP": 0.2266577184200287,
+          "Quantum Computing": 0.0938766747713089
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
