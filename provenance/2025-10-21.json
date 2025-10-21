@@ -1,0 +1,104 @@
+{
+  "items": [
+    {
+      "url": "http://www.techmeme.com/251021/p1",
+      "fetch_timestamp": "2025-10-21T06:33:38.728291",
+      "http_status": 200,
+      "content_hash": "d92700ae7eb23f8d4a245a9d79c8082fabb204e19684c7c79ad9842ab5c5a99a",
+      "topic": "LLMs",
+      "source": "www.techmeme.com",
+      "title": "Some Japanese stores are using robots from the startup Telexistence to restock shelves, piloted remotely by Filipino workers whose actions train AI models (Michael Beltran/Rest of World)",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.0801628977060318,
+        "router_scores": {
+          "LLMs": 0.2843362092971802,
+          "MCP": 0.20417331159114838,
+          "RAG": 0.19555646181106567,
+          "Quantum Computing": 0.007220293395221233
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://weaviate.io/blog/tags/how-to",
+      "fetch_timestamp": "2025-10-21T06:33:22.441029",
+      "http_status": 200,
+      "content_hash": "ec08fced8e1bb463e9b8edfe7ff0132ffa5bf120fc18b0327e9ce05785331522",
+      "topic": "LLMs",
+      "source": "weaviate.io",
+      "title": "how-to",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.005522280931472778,
+        "router_scores": {
+          "LLMs": 0.3789982497692108,
+          "RAG": 0.37347596883773804,
+          "MCP": 0.17923276126384735,
+          "Quantum Computing": 0.12745647132396698
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://huggingface.co/blog/dots-ocr-ne",
+      "fetch_timestamp": "2025-10-21T06:33:16.399925",
+      "http_status": 200,
+      "content_hash": "711eedad7354aad0e8da9f2e534de9c2c4abdc839f23252a97ded938cfe3826f",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "SOTA OCR on-device with Core ML and dots.ocr",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.09726767241954803,
+        "router_scores": {
+          "LLMs": 0.22747738659381866,
+          "RAG": 0.13020971417427063,
+          "MCP": 0.12363593280315399,
+          "Quantum Computing": 0.10025103390216827
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://weaviate.io/blog/weaviate-1-33-release",
+      "fetch_timestamp": "2025-10-21T06:33:22.441459",
+      "http_status": 200,
+      "content_hash": "57b82394c83868f43478cdcf16495fac7937329d8fffbc152e4423c3de7dbb1e",
+      "topic": "LLMs",
+      "source": "weaviate.io",
+      "title": "Weaviate 1.33 Release",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.024474292993545532,
+        "router_scores": {
+          "RAG": 0.12462122738361359,
+          "LLMs": 0.10014693439006805,
+          "MCP": 0.08441836386919022,
+          "Quantum Computing": -0.0466555655002594
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://huggingface.co/blog/rteb",
+      "fetch_timestamp": "2025-10-21T06:33:16.400043",
+      "http_status": 200,
+      "content_hash": "9a7ad87ee30c5f2e56e95c400f658834d0c9fadc99daaa2c113175579a7f4a87",
+      "topic": "RAG",
+      "source": "huggingface.co",
+      "title": "Introducing RTEB: A New Standard for Retrieval Evaluation",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.17809224128723145,
+        "router_scores": {
+          "RAG": 0.4282969832420349,
+          "LLMs": 0.25020474195480347,
+          "MCP": 0.13992571830749512,
+          "Quantum Computing": 0.0286516472697258
+        },
+        "router_overrode": true
+      }
+    }
+  ]
+}
