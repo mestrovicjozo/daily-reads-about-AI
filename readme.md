@@ -30,3 +30,4 @@ The agent fetches fresh content from research hubs, technical blogs, and industr
 The consolidated digest provides a convenient overview of all content without duplicates, while the archive preserves the original daily digests for historical reference.
 
 ---
+
