@@ -34,6 +34,7 @@ topics:
       - "https://ai.meta.com/blog/rss/"
       - "https://medium.com/feed/tag/rag"
       - "https://medium.com/feed/tag/retrieval-augmented-generation"
+      - "https://medium.com/feed/tag/vector-database"
       - "https://huggingface.co/blog/feed.xml"
       - "https://weaviate.io/blog/rss.xml"
       - "https://blog.langchain.dev/rss/"
@@ -45,6 +46,10 @@ topics:
       - "https://redis.io/blog/"
       - "https://blog.vespa.ai/"
       - "https://zilliz.com/blog"
+      - "https://www.llamaindex.ai/blog"
+      - "https://blog.chromadb.com/rss.xml"
+      - "https://www.elastic.co/blog/category/elasticsearch"
+      - "https://opensearch.org/blog/"
 
   - name: "MCP"
     description: "Model Context Protocol"
@@ -53,14 +58,21 @@ topics:
       - "https://mlops.community/feed/"
       - "https://huyenchip.com/feed.xml"
       - "https://medium.com/feed/tag/mlops"
+      - "https://medium.com/feed/tag/model-deployment"
+      - "https://modelcontextprotocol.io/blog"
       # extra sources
       - "https://www.bentoml.com/blog"
       - "https://modal.com/blog"
       - "https://fly.io/blog/"
       - "https://www.ray.io/blog"
+      - "https://www.kubeflow.org/blog/"
+      - "https://neptune.ai/blog"
+      - "https://www.mlflow.org/blog"
       # additional sources
       - "https://www.seldon.io/blog/"           # allowlist HTML crawl
       - "https://www.wandb.com/articles.rss"
+      - "https://blog.tensorflow.org/feeds/posts/default"
+      - "https://pytorch.org/blog/"
 
   - name: "Quantum Computing"
     keywords: ["quantum computing", "qubit", "quantum algorithm", "quantum supremacy", "quantum hardware", "quantum", "quantum mechanics", "quantum physics", "quantum information", "quantum simulation", "quantum advantage", "quantum error correction", "quantum annealing", "quantum machine learning"]
@@ -80,6 +92,10 @@ topics:
       - "https://www.qcware.com/blog"
       - "https://qutech.nl/updates/"
       - "https://oqc.tech/blog/"
+      - "https://www.honeywell.com/us/en/news"
+      - "https://pasqal.io/articles/"
+      - "https://www.photonic.com/blog"
+      - "https://atom-computing.com/blog/"
 
 # Reddit settings (optional)
 reddit:
@@ -105,11 +121,12 @@ processing:
   summary_length: 5  # sentences
   language: "en"
   dedupe_threshold: 0.9  # Jaccard similarity threshold
-  max_age_hours: 168      # primary freshness window (7 days for debugging)
-  history_days: 7       # cross-day dedupe horizon; skip items seen in last N days (reduced from 30)
+  max_age_hours: 72      # primary freshness window (3 days for more flexible coverage)
+  history_days: 30      # cross-day dedupe horizon; skip items seen in last N days
   fallback_window_days: 7  # secondary freshness window; skip items seen in last N days if history_days is exceeded
   per_topic_month_fallback: true   # if a topic is underfilled after 7 days, extend to N days (below)
   per_topic_month_fallback_days: 30
+  use_ai_validation: false  # Set to true to enable AI-powered article validation
   routing:
     enabled: true
     model_name: "sentence-transformers/all-MiniLM-L6-v2"
@@ -128,7 +145,7 @@ output:
   digest_dir: "digests"
   provenance_dir: "provenance"
   date_format: "%Y-%m-%d"
-  max_articles_per_topic: 5
+  max_articles_per_topic: 3
 
 # API Keys (to be set in environment variables)
 apis:

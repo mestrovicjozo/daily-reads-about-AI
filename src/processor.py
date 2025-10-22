@@ -20,6 +20,8 @@ from utils import (
     get_content_hash,
 )
 from router import TopicRouter
+from health_monitor import SourceHealthMonitor
+from ai_augment import AIAugmentor
 
 import json
 
@@ -47,7 +49,7 @@ class ContentProcessor:
         self.target_lang = config["processing"]["language"]
         self.summary_sentences = 5  # enforce exactly 5 as per hard requirement
         self.max_final = config["output"]["max_articles_per_topic"]
-        self.max_age_hours = int(config["processing"].get("max_age_hours", 24))
+        self.max_age_hours = int(config["processing"].get("max_age_hours", 72))  # Changed to 72h (3 days)
         self.fallback_max_age_hours = 168  # 7 days
         # Optional per-topic extended fallback up to N days (default 30)
         self.enable_per_topic_month_fallback = bool(
@@ -67,6 +69,11 @@ class ContentProcessor:
 
         # Initialize topic router (optional, controlled by config)
         self.router = TopicRouter(config)
+
+        # Initialize health monitor and AI augmentor
+        self.health_monitor = SourceHealthMonitor()
+        self.ai_augmentor = AIAugmentor()
+        self.use_ai_validation = config.get("processing", {}).get("use_ai_validation", False)
 
     def process(self, articles: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
         """Fetch content, filter to English, dedupe, and summarize per topic.
@@ -182,6 +189,15 @@ class ContentProcessor:
                 summary = self._structured_summary(text, title)
                 why_selected = self._infer_why_selected(text, title, source)
 
+                # Optional AI validation
+                if self.use_ai_validation and topic:
+                    if not self.ai_augmentor.validate_relevance(
+                        {"title": title, "text": text, "url": url}, topic
+                    ):
+                        logger.debug(f"AI rejected article as not relevant to {topic}: {title[:50]}")
+                        stats['fetch_failed'] += 1
+                        return False
+
                 # Topic routing (may override original topic)
                 routed_topic = topic
                 routing_meta: Dict[str, Any] = {}
@@ -196,6 +212,15 @@ class ContentProcessor:
                     if best_topic and (topic is None or should_override):
                         routed_topic = best_topic
                         routing_meta["router_overrode"] = topic != best_topic
+                elif self.ai_augmentor.enabled:
+                    # Use AI for topic classification if router not enabled
+                    topics_cfg = [t.get("name") for t in self.config.get("topics", [])]
+                    ai_topic = self.ai_augmentor.enhance_topic_classification(
+                        {"title": title, "text": text}, topics_cfg
+                    )
+                    if ai_topic:
+                        routed_topic = ai_topic
+                        routing_meta = {"ai_classified": True, "ai_topic": ai_topic}
 
                 if not routed_topic:
                     routed_topic = topic or "LLMs"  # default bucket if unknown
@@ -286,9 +311,20 @@ class ContentProcessor:
         logger.info(f"Processing complete. Stats: {stats}")
         total_output = sum(len(v) for v in grouped.values())
         logger.info(f"Final output: {total_output} articles across {len(grouped)} topics")
-        for topic, articles in grouped.items():
-            logger.info(f"Topic {topic}: {len(articles)} articles")
-        
+
+        # Record topic results in health monitor
+        for topic, topic_articles in grouped.items():
+            logger.info(f"Topic {topic}: {len(topic_articles)} articles")
+            self.health_monitor.record_topic_result(
+                topic,
+                len([a for a in articles if a.get("topic") == topic]),
+                len(topic_articles),
+                fallback_used=None  # Could be enhanced to track which fallback was used
+            )
+
+        # Finalize health monitoring
+        self.health_monitor.finalize()
+
         return grouped
 
     def _fetch_article(self, url: str) -> Dict[str, Any] | None:

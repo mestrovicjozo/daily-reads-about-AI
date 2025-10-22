@@ -15,21 +15,23 @@ from bs4 import BeautifulSoup
 
 from utils import get_content_hash, normalize_url, parse_date, get_clean_text
 from sources_reddit import RedditSource
+from health_monitor import SourceHealthMonitor
 
 
 class WebCrawler:
     """Crawler for fetching and processing articles from various sources."""
     
-    def __init__(self, config: Dict[str, Any]):
+    def __init__(self, config: Dict[str, Any], health_monitor: Optional[SourceHealthMonitor] = None):
         """Initialize the crawler with configuration."""
         self.config = config
         self.user_agent = config['crawler']['user_agent']
         self.request_timeout = config['crawler']['request_timeout']
-        self.max_retries = config['crawler']['max_retries']
+        self.max_retries = config['crawler'].get('max_retries', 3)
         self.rate_limit_delay = config['crawler']['rate_limit_delay']
         self.max_articles_per_topic = config['crawler']['max_articles_per_topic']
         self.seen_urls: Set[str] = set()
-        
+        self.health_monitor = health_monitor or SourceHealthMonitor()
+
         # Initialize session for connection pooling
         self.session = requests.Session()
         self.session.headers.update({
@@ -196,60 +198,85 @@ class WebCrawler:
         return articles
     
     def _parse_feed(self, feed_url: str, topic: Dict[str, Any]) -> List[Dict[str, Any]]:
-        """Parse an RSS/Atom feed and return articles."""
-        try:
-            logger.info(f"Parsing feed: {feed_url}")
-            feed = feedparser.parse(feed_url)
-            if feed.bozo:
-                logger.warning(f"Feed parsing error for {feed_url}: {feed.bozo_exception}")
-                return []
-            
-            logger.info(f"Feed {feed_url}: {len(feed.entries)} entries found")
-            articles = []
-            for entry in feed.entries:
-                try:
-                    # Skip if we've already seen this URL
-                    url = normalize_url(entry.get('link', ''))
-                    if not url or url in self.seen_urls:
-                        continue
-                    
-                    # Extract article metadata
-                    published = parse_date(entry.get('published') or entry.get('updated') or entry.get('dc:date'))
-                    if not published:
-                        published = datetime.utcnow()
-                    
-                    # Create article object
-                    article = {
-                        'url': url,
-                        'title': entry.get('title', '').strip(),
-                        'summary': entry.get('summary', '').strip(),
-                        'published': published,
-                        'authors': self._extract_authors(entry),
-                        'source': urlparse(url).netloc,
-                        'topic': topic['name'],
-                        'topic_keywords': topic['keywords'],
-                        'content': '',  # Will be fetched later if needed
-                        'content_hash': '',
-                        'fetch_time': datetime.utcnow(),
-                        'metadata': {
-                            'feed_url': feed_url,
-                            'feed_title': feed.feed.get('title', '')
+        """Parse an RSS/Atom feed and return articles with retry logic."""
+        last_error = None
+
+        for attempt in range(self.max_retries):
+            try:
+                logger.info(f"Parsing feed: {feed_url} (attempt {attempt + 1}/{self.max_retries})")
+                feed = feedparser.parse(feed_url)
+
+                if feed.bozo:
+                    error_msg = f"Feed parsing error: {feed.bozo_exception}"
+                    logger.warning(f"{error_msg} for {feed_url}")
+                    last_error = error_msg
+                    self.health_monitor.record_feed_result(
+                        feed_url, topic['name'], 0, error=error_msg
+                    )
+                    # Don't retry for parse errors, return immediately
+                    return []
+
+                logger.info(f"Feed {feed_url}: {len(feed.entries)} entries found")
+                self.health_monitor.record_feed_result(
+                    feed_url, topic['name'], len(feed.entries), error=None
+                )
+
+                articles = []
+                for entry in feed.entries:
+                    try:
+                        # Skip if we've already seen this URL
+                        url = normalize_url(entry.get('link', ''))
+                        if not url or url in self.seen_urls:
+                            continue
+
+                        # Extract article metadata
+                        published = parse_date(entry.get('published') or entry.get('updated') or entry.get('dc:date'))
+                        if not published:
+                            published = datetime.utcnow()
+
+                        # Create article object
+                        article = {
+                            'url': url,
+                            'title': entry.get('title', '').strip(),
+                            'summary': entry.get('summary', '').strip(),
+                            'published': published,
+                            'authors': self._extract_authors(entry),
+                            'source': urlparse(url).netloc,
+                            'topic': topic['name'],
+                            'topic_keywords': topic['keywords'],
+                            'content': '',  # Will be fetched later if needed
+                            'content_hash': '',
+                            'fetch_time': datetime.utcnow(),
+                            'metadata': {
+                                'feed_url': feed_url,
+                                'feed_title': feed.feed.get('title', '')
+                            }
                         }
-                    }
-                    
-                    # Mark URL as seen
-                    self.seen_urls.add(url)
-                    articles.append(article)
-                    
-                except Exception as e:
-                    logger.error(f"Error processing feed entry {entry.get('link')}: {e}")
-                    continue
-            
-            return articles
-            
-        except Exception as e:
-            logger.error(f"Error fetching feed {feed_url}: {e}")
-            return []
+
+                        # Mark URL as seen
+                        self.seen_urls.add(url)
+                        articles.append(article)
+
+                    except Exception as e:
+                        logger.error(f"Error processing feed entry {entry.get('link')}: {e}")
+                        continue
+
+                return articles
+
+            except Exception as e:
+                last_error = str(e)
+                logger.error(f"Error fetching feed {feed_url} (attempt {attempt + 1}/{self.max_retries}): {e}")
+                if attempt < self.max_retries - 1:
+                    # Exponential backoff
+                    sleep_time = (2 ** attempt) + random.uniform(0, 1)
+                    logger.info(f"Retrying in {sleep_time:.2f} seconds...")
+                    time.sleep(sleep_time)
+                else:
+                    self.health_monitor.record_feed_result(
+                        feed_url, topic['name'], 0, error=last_error
+                    )
+
+        return []
     
     def _crawl_webpage(self, url: str, topic: Dict[str, Any]) -> List[Dict[str, Any]]:
         """Crawl a webpage and extract articles.

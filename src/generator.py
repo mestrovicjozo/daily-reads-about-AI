@@ -20,10 +20,10 @@ class DigestGenerator:
         self.date_format = config["output"]["date_format"]
         # Fixed topic display names and order
         self.topic_order = [
-            ("LLMs", "LLMs — Top 5"),
-            ("RAG", "RAG — Top 5"),
-            ("MCP", "MCP (Model Context Protocol) — Top 5"),
-            ("Quantum Computing", "Quantum computing — Top 5"),
+            ("LLMs", "LLMs — Top 3"),
+            ("RAG", "RAG — Top 3"),
+            ("MCP", "MCP (Model Context Protocol) — Top 3"),
+            ("Quantum Computing", "Quantum computing — Top 3"),
         ]
 
     def generate(self, ranked: Dict[str, List[Dict[str, Any]]], target_date, output_dir: Path) -> Path:
@@ -60,7 +60,7 @@ class DigestGenerator:
                 sections.append("")
                 continue
 
-            # Enforce exactly 5 items per topic (should already be trimmed)
+            # Enforce exactly 3 items per topic (should already be trimmed)
             articles = articles[: self.config["output"]["max_articles_per_topic"]]
 
             lines: List[str] = []
