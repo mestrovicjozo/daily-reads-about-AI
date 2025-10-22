@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "url": "https://huggingface.co/blog/ocr-open-models",
+      "fetch_timestamp": "2025-10-22T06:34:04.582004",
+      "http_status": 200,
+      "content_hash": "0eac44cdb5a1ba1bf2980e7fe1c28d261a92808a183f13d2f4538ab0a0f1b82a",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "Supercharge your OCR Pipelines with Open Models",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.06792426109313965,
+        "router_scores": {
+          "LLMs": 0.31940048933029175,
+          "RAG": 0.2514762282371521,
+          "MCP": 0.13510961830615997,
+          "Quantum Computing": 0.06939476728439331
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://huggingface.co/blog/aisheets-unlock-images",
+      "fetch_timestamp": "2025-10-22T06:34:04.582232",
+      "http_status": 200,
+      "content_hash": "468c2d729aec8cf8df77de258ff7b1e345ed6f5295d8aca2bcde88ffced2f72d",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "Unlock the power of images with AI Sheets",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.024613767862319946,
+        "router_scores": {
+          "LLMs": 0.30056172609329224,
+          "RAG": 0.2759479582309723,
+          "MCP": 0.26106345653533936,
+          "Quantum Computing": 0.030032044276595116
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://huggingface.co/blog/openvino-vlm",
+      "fetch_timestamp": "2025-10-22T06:34:04.582497",
+      "http_status": 200,
+      "content_hash": "64c72f808ad46a2f20352ea21eb138570899ab38cce347b189558e518a5037d2",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "Get your VLM running in 3 simple steps on Intel CPUs",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.07013413310050964,
+        "router_scores": {
+          "LLMs": 0.34111979603767395,
+          "MCP": 0.2709856629371643,
+          "Quantum Computing": 0.10725077241659164,
+          "RAG": 0.08603641390800476
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://huggingface.co/blog/swift-transformers",
+      "fetch_timestamp": "2025-10-22T06:34:04.583083",
+      "http_status": 200,
+      "content_hash": "6d0d30692bba00b725c303f6bbcb91efb810cc09d71e2db5e16b7a82bd8ef0df",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "Swift Transformers Reaches 1.0 \u2014 and Looks to the Future",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.13372313976287842,
+        "router_scores": {
+          "LLMs": 0.36865875124931335,
+          "MCP": 0.23493561148643494,
+          "RAG": 0.0881258025765419,
+          "Quantum Computing": 0.04443050175905228
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
