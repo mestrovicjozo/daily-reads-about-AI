@@ -1,0 +1,28 @@
+[
+  {
+    "timestamp": "2025-10-23T14:51:09.681390",
+    "feeds": {},
+    "topics": {
+      "LLMs": {
+        "articles_found": 100,
+        "articles_filtered": 4,
+        "fallbacks_used": []
+      },
+      "RAG": {
+        "articles_found": 100,
+        "articles_filtered": 3,
+        "fallbacks_used": []
+      },
+      "MCP": {
+        "articles_found": 13,
+        "articles_filtered": 2,
+        "fallbacks_used": []
+      },
+      "Quantum Computing": {
+        "articles_found": 54,
+        "articles_filtered": 4,
+        "fallbacks_used": []
+      }
+    }
+  }
+]

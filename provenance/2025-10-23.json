@@ -1,0 +1,224 @@
+{
+  "items": [
+    {
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1odzd16/r_unlocc_universal_lossy_optical_context/",
+      "fetch_timestamp": "2025-10-23T12:51:11.534475",
+      "http_status": 200,
+      "content_hash": "310d6c1bd037fc3d7fb73b4403a147cd11abb8f182faaa0a66c409a9e27ef31a",
+      "topic": "LLMs",
+      "source": "reddit.com/r/MachineLearning",
+      "title": "[R] Un-LOCC (Universal Lossy Optical Context Compression), Achieve Up To 3\u00d7 context compression with 93.65% Accuracy.",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.07198017835617065,
+        "router_scores": {
+          "LLMs": 0.22553318738937378,
+          "RAG": 0.15355300903320312,
+          "MCP": 0.1294274926185608,
+          "Quantum Computing": 0.02512708306312561
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://huggingface.co/blog/sentence-transformers-joins-hf",
+      "fetch_timestamp": "2025-10-23T12:51:21.704469",
+      "http_status": 200,
+      "content_hash": "28685caecaba53b18c266e179ce533ff224cca246ddefbc8630bfb8ebb73b35a",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "Sentence Transformers is joining Hugging Face!",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.00921812653541565,
+        "router_scores": {
+          "RAG": 0.4010264277458191,
+          "LLMs": 0.39180830121040344,
+          "MCP": 0.15369674563407898,
+          "Quantum Computing": 0.027448276057839394
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1odhjxh/r_why_do_continuous_normalising_flows_produce/",
+      "fetch_timestamp": "2025-10-23T12:51:11.534498",
+      "http_status": 200,
+      "content_hash": "6984a8688defa9e4255579b79423b9071cc882c64ffde641edc1a852bf2aadbd",
+      "topic": "LLMs",
+      "source": "reddit.com/r/MachineLearning",
+      "title": "[R] Why do continuous normalising flows produce \"half dog-half cat\" samples when the data distribution is clearly topologically disconnected?",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.00013251043856143951,
+        "router_scores": {
+          "MCP": 0.022435041144490242,
+          "LLMs": 0.022302530705928802,
+          "RAG": -0.006010955199599266,
+          "Quantum Computing": -0.06938209384679794
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/Rag/comments/1odwody/hierarchical_agentic_rag_what_are_your_thoughts/",
+      "fetch_timestamp": "2025-10-23T12:51:13.263295",
+      "http_status": 200,
+      "content_hash": "a136448bbda9224c1b822a2e3cf1f71f10f770dfe76ab0494715ca22a1ea3b50",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "Hierarchical Agentic RAG: What are your thoughts?",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.21191784739494324,
+        "router_scores": {
+          "RAG": 0.4836924374103546,
+          "LLMs": 0.2717745900154114,
+          "MCP": 0.0895552858710289,
+          "Quantum Computing": 0.0034894123673439026
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/Rag/comments/1oe2f6l/chonky_a_neural_text_semantic_chunking_goes/",
+      "fetch_timestamp": "2025-10-23T12:51:13.263245",
+      "http_status": 200,
+      "content_hash": "a7e2fd13340b67c34c9f62ceae52e546ffbb9f5a5fd35fe7317596828efb7d5c",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "Chonky \u2013 a neural text semantic chunking goes multilingual",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.0019198358058929443,
+        "router_scores": {
+          "RAG": 0.29927006363868713,
+          "LLMs": 0.2973502278327942,
+          "MCP": 0.06055618077516556,
+          "Quantum Computing": -0.04198550432920456
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/Rag/comments/1odxdgo/choosing_the_size_of_proxy_documents_for/",
+      "fetch_timestamp": "2025-10-23T12:51:13.263282",
+      "http_status": 200,
+      "content_hash": "75ce4f0fc4d87c10aae208ce9cc663e955bbc611097041881990eb19bddf6aff",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "Choosing the size of proxy documents for embeddings",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.2411796748638153,
+        "router_scores": {
+          "RAG": 0.3492202162742615,
+          "LLMs": 0.10804054141044617,
+          "MCP": 0.06187343969941139,
+          "Quantum Computing": -0.001256292685866356
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/mcp/comments/1odwdws/multi_user_session_using_mcp/",
+      "fetch_timestamp": "2025-10-23T12:51:15.238798",
+      "http_status": 200,
+      "content_hash": "400411a10c0a044751332c4f6af3bb92e3828c48cf9e0dbedcf0fbd07cebdd92",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "multi user session using MCP",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.14253129065036774,
+        "router_scores": {
+          "MCP": 0.2850058674812317,
+          "LLMs": 0.14247457683086395,
+          "RAG": -0.02544577047228813,
+          "Quantum Computing": -0.05381826311349869
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://ai.plainenglish.io/how-i-keep-up-with-next-js-canary-releases-with-n8n-mcp-automation-56413cb74519",
+      "fetch_timestamp": "2025-10-23T12:51:15.238751",
+      "http_status": 200,
+      "content_hash": "a053a1e882a316613fe9826e10fa7f5ee054668c7422b8bb1510c4640c8c99de",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "How I keep up with Next.js Canary Releases With N8N + MCP Automation",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.036948204040527344,
+        "router_scores": {
+          "MCP": 0.2173992395401001,
+          "LLMs": 0.18045103549957275,
+          "RAG": 0.08867616951465607,
+          "Quantum Computing": -0.043473437428474426
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.nature.com/articles/s41586-025-09526-6",
+      "fetch_timestamp": "2025-10-23T12:52:41.308973",
+      "http_status": 200,
+      "content_hash": "3a27c7427b03ae70a197c0d8a9108d2329a9767fb498defe1dc04ef0d6840009",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "open_in_newPaper",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.24559662956744432,
+        "router_scores": {
+          "Quantum Computing": 0.25103121995925903,
+          "MCP": 0.005434590391814709,
+          "RAG": -0.029032476246356964,
+          "LLMs": -0.06184450909495354
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.nature.com/articles/d41586-025-03300-4",
+      "fetch_timestamp": "2025-10-23T12:51:18.356616",
+      "http_status": 200,
+      "content_hash": "1f7433cc463af1157a12f437ced7e3055f1f287ad3a1188c8c02dad6d5e40c7d",
+      "topic": "Quantum Computing",
+      "source": "reddit.com/r/QuantumComputing",
+      "title": "Google claims \u2018quantum advantage\u2019 again but researchers remain sceptical | Nature",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.3628174513578415,
+        "router_scores": {
+          "Quantum Computing": 0.5268310308456421,
+          "LLMs": 0.1640135794878006,
+          "RAG": 0.145233154296875,
+          "MCP": 0.06683499366044998
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/QuantumComputing/comments/1odz9up/communicationoptimal_blind_quantum_protocols_repo/",
+      "fetch_timestamp": "2025-10-23T12:51:18.356584",
+      "http_status": 200,
+      "content_hash": "f26eedbcc9ba2338ba8e7b60f113c9f8658277a362186082a2ee7ff1b3f2a36b",
+      "topic": "Quantum Computing",
+      "source": "reddit.com/r/QuantumComputing",
+      "title": "Communication-Optimal Blind Quantum Protocols - REPO",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.3300778567790985,
+        "router_scores": {
+          "Quantum Computing": 0.3230515718460083,
+          "LLMs": -0.00702628493309021,
+          "MCP": -0.0347084142267704,
+          "RAG": -0.04588492587208748
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
