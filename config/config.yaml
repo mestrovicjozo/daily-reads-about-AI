@@ -5,97 +5,241 @@ topics:
   - name: "LLMs"
     keywords: ["large language model", "LLM", "GPT", "transformer", "language model", "AI", "artificial intelligence", "machine learning", "neural network", "deep learning", "generative AI", "chatbot", "NLP", "natural language processing"]
     seed_urls:
+      # Academic & Research
       - "https://arxiv.org/rss/cs.CL"
+      - "https://arxiv.org/rss/cs.AI"
+      - "https://arxiv.org/rss/cs.LG"
+      # Major AI Labs
       - "https://openai.com/blog/rss/"
-      - "https://ai.googleblog.com/feeds/posts/default"
-      - "https://huggingface.co/blog/feed.xml"
-      - "https://medium.com/feed/tag/large-language-models"
-      - "https://medium.com/feed/tag/llm"
-      - "https://cohere.com/blog"             # allowlist HTML crawl
-      - "https://weaviate.io/blog"            # allowlist HTML crawl
-      - "https://milvus.io/blog"              # allowlist HTML crawl
-      - "https://blog.langchain.dev"          # allowlist HTML crawl
-      # extra sources
       - "https://www.anthropic.com/research"
-      - "https://ai.facebook.com/blog/"
+      - "https://ai.googleblog.com/feeds/posts/default"
+      - "https://deepmind.google/blog/rss.xml"
+      - "https://ai.meta.com/blog/rss/"
       - "https://www.microsoft.com/en-us/research/blog/topics/artificial-intelligence/"
-      - "https://developer.nvidia.com/blog/category/ai-data-science/generative-ai/"
+      - "https://research.ibm.com/blog/rss"
+      # AI Platforms & Tools
+      - "https://huggingface.co/blog/feed.xml"
+      - "https://blog.langchain.dev"
       - "https://www.databricks.com/blog/category/ai"
-      # additional sources
-      - "https://deepmind.com/blog/rss.xml"
-      - "https://www.mosaicml.com/blog/feed.xml"
+      - "https://cohere.com/blog"
+      - "https://www.anthropic.com/news"
+      - "https://stability.ai/blog"
+      # Cloud Providers
+      - "https://developer.nvidia.com/blog/category/ai-data-science/generative-ai/"
+      - "https://aws.amazon.com/blogs/machine-learning/feed/"
+      - "https://cloud.google.com/blog/products/ai-machine-learning/rss"
+      - "https://azure.microsoft.com/en-us/blog/category/ai-machine-learning/feed/"
+      # Tech Publications
       - "https://thegradient.pub/feed.xml"
       - "https://www.techmeme.com/feed.xml"
+      - "https://distill.pub/rss.xml"
+      - "https://ruder.io/rss/index.rss"
+      - "https://lilianweng.github.io/feed.xml"
+      # AI News & Communities
+      - "https://syntheticmind.io/feed"
+      - "https://hai.stanford.edu/feed"
+      - "https://blog.research.google/feeds/posts/default"
+      - "https://bair.berkeley.edu/blog/feed.xml"
+      - "https://ai.stanford.edu/blog/feed.xml"
+      # Medium Tags
+      - "https://medium.com/feed/tag/large-language-models"
+      - "https://medium.com/feed/tag/llm"
+      - "https://medium.com/feed/tag/gpt"
+      - "https://medium.com/feed/tag/transformers"
+      - "https://towardsdatascience.com/feed"
+      # Vector DBs (also relevant for LLMs)
+      - "https://weaviate.io/blog"
+      - "https://milvus.io/blog"
+      # Startups & Tools
+      - "https://www.mosaicml.com/blog/feed.xml"
+      - "https://www.together.ai/blog"
+      - "https://fireworks.ai/blog"
+      - "https://www.adept.ai/blog"
+      - "https://www.inflection.ai/blog"
+      - "https://replicate.com/blog/rss"
+      - "https://modal.com/blog"
+      - "https://cerebras.net/blog/"
+      - "https://www.sambanova.ai/blog"
+      # Community & Aggregators
+      - "https://jack-clark.net/feed/"
+      - "https://importai.substack.com/feed"
 
   - name: "RAG"
     keywords: ["retrieval-augmented generation", "RAG", "retrieval", "document retrieval", "vector database", "embedding", "semantic search", "vector search", "knowledge base", "information retrieval", "search", "indexing", "similarity", "neural search"]
     seed_urls:
+      # Academic & Research
       - "https://arxiv.org/rss/cs.IR"
+      - "https://arxiv.org/rss/cs.CL"
+      # Vector Database Platforms
+      - "https://www.pinecone.io/blog/"
+      - "https://www.pinecone.io/learn"
+      - "https://weaviate.io/blog/rss.xml"
+      - "https://qdrant.tech/articles/"
+      - "https://zilliz.com/blog"
+      - "https://milvus.io/blog"
+      - "https://blog.chromadb.com/rss.xml"
+      - "https://www.trychroma.com/blog"
+      - "https://turbopuffer.com/blog"
+      - "https://lantern.dev/blog"
+      # Search Platforms
+      - "https://www.elastic.co/blog/category/elasticsearch"
+      - "https://opensearch.org/blog/"
+      - "https://blog.vespa.ai/"
+      - "https://www.algolia.com/blog/rss.xml"
+      - "https://www.typesense.org/blog/"
+      - "https://www.meilisearch.com/blog"
+      # RAG Frameworks & Tools
+      - "https://blog.langchain.dev/rss/"
+      - "https://www.llamaindex.ai/blog"
+      - "https://docs.haystack.deepset.ai/blog"
+      - "https://unstructured.io/blog"
+      - "https://jina.ai/news/"
+      # AI Labs (RAG-focused)
+      - "https://huggingface.co/blog/feed.xml"
       - "https://ai.meta.com/blog/rss/"
+      - "https://cohere.com/blog"
+      - "https://www.anthropic.com/research"
+      - "https://openai.com/blog/rss/"
+      # Database Vendors
+      - "https://redis.io/blog/"
+      - "https://www.mongodb.com/blog/rss"
+      - "https://www.timescale.com/blog/rss.xml"
+      - "https://supabase.com/blog/rss.xml"
+      - "https://neon.tech/blog/rss.xml"
+      - "https://www.cockroachlabs.com/blog/feed/"
+      - "https://clickhouse.com/blog/rss.xml"
+      # Medium Tags
       - "https://medium.com/feed/tag/rag"
       - "https://medium.com/feed/tag/retrieval-augmented-generation"
       - "https://medium.com/feed/tag/vector-database"
-      - "https://huggingface.co/blog/feed.xml"
-      - "https://weaviate.io/blog/rss.xml"
-      - "https://blog.langchain.dev/rss/"
-      - "https://www.pinecone.io/learn"       # allowlist HTML crawl
-      - "https://cohere.com/blog"             # allowlist HTML crawl
-      # extra sources
-      - "https://qdrant.tech/articles/"
-      - "https://www.pinecone.io/blog/"
-      - "https://redis.io/blog/"
-      - "https://blog.vespa.ai/"
-      - "https://zilliz.com/blog"
-      - "https://www.llamaindex.ai/blog"
-      - "https://blog.chromadb.com/rss.xml"
-      - "https://www.elastic.co/blog/category/elasticsearch"
-      - "https://opensearch.org/blog/"
+      - "https://medium.com/feed/tag/embeddings"
+      - "https://medium.com/feed/tag/semantic-search"
+      - "https://towardsdatascience.com/feed"
+      # Cloud Providers
+      - "https://aws.amazon.com/blogs/database/feed/"
+      - "https://cloud.google.com/blog/products/databases/rss"
+      - "https://azure.microsoft.com/en-us/blog/category/databases/feed/"
 
   - name: "MCP"
     description: "Model Context Protocol"
     keywords: ["model context protocol", "MCP", "model serving", "model deployment", "MLOps", "machine learning operations", "model inference", "model hosting", "API", "serving", "deployment", "production", "infrastructure", "scaling", "monitoring"]
     seed_urls:
+      # Official MCP
+      - "https://modelcontextprotocol.io/blog"
+      - "https://www.anthropic.com/news"
+      # MLOps Communities & Thought Leaders
       - "https://mlops.community/feed/"
       - "https://huyenchip.com/feed.xml"
-      - "https://medium.com/feed/tag/mlops"
-      - "https://medium.com/feed/tag/model-deployment"
-      - "https://modelcontextprotocol.io/blog"
-      # extra sources
+      - "https://evjang.com/rss.xml"
+      - "https://eugeneyan.com/blog/index.xml"
+      - "https://vickiboykis.com/feed/"
+      # ML Platforms & Serving
       - "https://www.bentoml.com/blog"
       - "https://modal.com/blog"
+      - "https://www.baseten.co/blog"
+      - "https://www.banana.dev/blog"
+      - "https://www.replicate.com/blog/rss"
+      - "https://www.beam.cloud/blog"
       - "https://fly.io/blog/"
       - "https://www.ray.io/blog"
+      - "https://www.anyscale.com/blog"
+      - "https://fireworks.ai/blog"
+      - "https://www.together.ai/blog"
+      # ML Infrastructure
       - "https://www.kubeflow.org/blog/"
-      - "https://neptune.ai/blog"
       - "https://www.mlflow.org/blog"
-      # additional sources
-      - "https://www.seldon.io/blog/"           # allowlist HTML crawl
+      - "https://www.seldon.io/blog/"
+      - "https://www.cortex.dev/blog"
+      - "https://www.kserve.io/blog/"
+      - "https://www.triton-inference-server.io/"
+      # Monitoring & Observability
+      - "https://neptune.ai/blog"
       - "https://www.wandb.com/articles.rss"
+      - "https://www.arize.com/blog"
+      - "https://www.evidentlyai.com/blog"
+      - "https://whylabs.ai/blog"
+      - "https://gantry.io/blog"
+      - "https://www.fiddler.ai/blog"
+      # Feature Stores & Data
+      - "https://www.tecton.ai/blog/"
+      - "https://www.feast.dev/blog"
+      - "https://docs.hopsworks.ai/latest/blog/"
+      # ML Frameworks
       - "https://blog.tensorflow.org/feeds/posts/default"
       - "https://pytorch.org/blog/"
+      - "https://jax.readthedocs.io/en/latest/"
+      - "https://www.fast.ai/posts/index.xml"
+      # Cloud Providers
+      - "https://aws.amazon.com/blogs/machine-learning/feed/"
+      - "https://cloud.google.com/blog/products/ai-machine-learning/rss"
+      - "https://azure.microsoft.com/en-us/blog/category/ai-machine-learning/feed/"
+      - "https://developer.nvidia.com/blog/category/ai-data-science/"
+      # Medium Tags
+      - "https://medium.com/feed/tag/mlops"
+      - "https://medium.com/feed/tag/model-deployment"
+      - "https://medium.com/feed/tag/ml-infrastructure"
+      - "https://medium.com/feed/tag/model-serving"
+      # DevOps & Infrastructure (relevant for MCP)
+      - "https://kubernetes.io/blog/feed.xml"
+      - "https://www.docker.com/blog/feed/"
+      - "https://grafana.com/blog/rss.xml"
+      - "https://prometheus.io/blog/feed.xml"
 
   - name: "Quantum Computing"
     keywords: ["quantum computing", "qubit", "quantum algorithm", "quantum supremacy", "quantum hardware", "quantum", "quantum mechanics", "quantum physics", "quantum information", "quantum simulation", "quantum advantage", "quantum error correction", "quantum annealing", "quantum machine learning"]
     seed_urls:
+      # Academic & Research
       - "https://arxiv.org/rss/quant-ph"
+      - "https://arxiv.org/rss/cond-mat"
+      - "https://www.quantamagazine.org/physics/quantum-computing/"
+      - "https://physicsworld.com/c/quantum/feed/"
+      # News & Community
       - "https://quantumcomputingreport.com/feed/"
-      - "https://www.quantamagazine.org/physics/quantum-computing/"  # allowlist HTML crawl
-      - "https://quantumai.google/blog/"                              # allowlist HTML crawl
-      - "https://cloudblogs.microsoft.com/quantum/"                   # allowlist HTML crawl
-      - "https://xanadu.ai/blog"                                      # allowlist HTML crawl
-      - "https://research.ibm.com/blog/category/quantum"              # allowlist HTML crawl
-      - "https://ionq.com/newsroom"                                   # allowlist HTML crawl
-      - "https://www.rigetti.com/news"                                # allowlist HTML crawl
-      # extra sources
-      - "https://aws.amazon.com/blogs/quantum-computing/"
+      - "https://thequantuminsider.com/feed/"
+      - "https://quantumzeitgeist.com/feed/"
+      # Major Tech Companies
+      - "https://quantumai.google/blog/"
+      - "https://cloudblogs.microsoft.com/quantum/"
+      - "https://research.ibm.com/blog/category/quantum"
+      - "https://aws.amazon.com/blogs/quantum-computing/feed/"
+      - "https://www.intel.com/content/www/us/en/research/quantum-computing.html"
+      # Quantum Hardware Companies
+      - "https://ionq.com/newsroom"
+      - "https://www.rigetti.com/news"
       - "https://www.dwavesys.com/resources/blog/"
-      - "https://www.qcware.com/blog"
-      - "https://qutech.nl/updates/"
-      - "https://oqc.tech/blog/"
-      - "https://www.honeywell.com/us/en/news"
-      - "https://pasqal.io/articles/"
-      - "https://www.photonic.com/blog"
       - "https://atom-computing.com/blog/"
+      - "https://www.psiquantum.com/news"
+      - "https://www.quantinuum.com/news"
+      - "https://www.pasqal.com/articles/"
+      - "https://www.photonic.com/blog"
+      - "https://oqc.tech/blog/"
+      - "https://www.iqm.fi/blog"
+      - "https://aliceandbblog.com/"
+      # Quantum Software & Platforms
+      - "https://xanadu.ai/blog"
+      - "https://www.qcware.com/blog"
+      - "https://pennylane.ai/blog/"
+      - "https://qiskit.org/blog/"
+      - "https://www.cirq.dev/blog"
+      - "https://www.quera.com/blog"
+      - "https://www.zapata.ai/blog"
+      - "https://www.strangeworks.com/blog"
+      - "https://www.quantastica.com/blog"
+      # Research Institutions
+      - "https://qutech.nl/updates/"
+      - "https://jqi.umd.edu/news-and-events/news"
+      - "https://cqe.uchicago.edu/news/"
+      - "https://www.qc.mit.edu/news"
+      - "https://quantumfrontiers.com/feed/"
+      - "https://scottaaronson.blog/?feed=rss2"
+      # Medium & Publications
+      - "https://medium.com/feed/tag/quantum-computing"
+      - "https://medium.com/feed/tag/quantum-physics"
+      - "https://medium.com/feed/qiskit"
+      - "https://medium.com/feed/xanaduai"
+      # Standards & Organizations
+      - "https://quantumconsortium.org/news/"
+      - "https://www.quantum.gov/news/"
 
 # Reddit settings (optional)
 reddit:
