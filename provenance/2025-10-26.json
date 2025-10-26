@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "url": "https://huggingface.co/blog/openenv",
+      "fetch_timestamp": "2025-10-26T20:15:24.122790",
+      "http_status": 200,
+      "content_hash": "a68dcde4700dce991eb581f4bd7b3831364e9c2663e67f979afdd733845059f3",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "Building the Open Agent Ecosystem Together: Introducing OpenEnv",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.09382182359695435,
+        "router_scores": {
+          "LLMs": 0.3829718232154846,
+          "MCP": 0.2891499996185303,
+          "RAG": 0.125352680683136,
+          "Quantum Computing": 0.09245294332504272
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://huggingface.co/blog/virustotal",
+      "fetch_timestamp": "2025-10-26T20:15:24.122941",
+      "http_status": 200,
+      "content_hash": "fa5bb96ee8f7e3370051c2f5f2b37af531cd42d1035ae0db92ca132fcbecdcc0",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "Hugging Face and VirusTotal collaborate to strengthen AI security",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.033475518226623535,
+        "router_scores": {
+          "LLMs": 0.2578202486038208,
+          "MCP": 0.22434473037719727,
+          "RAG": 0.20317773520946503,
+          "Quantum Computing": 0.03949243947863579
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}

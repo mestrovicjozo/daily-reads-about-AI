@@ -1,7 +1,7 @@
 """
 Validator for generated digests.
 Checks:
-- Up to 5 articles per topic section (does not fail if fewer than 5).
+- Up to 3 articles per topic section (does not fail if fewer than 3).
 - Each present item has required metadata lines.
 - Summary has exactly 5 sentences.
 - No duplicate links within a topic and across topics.
@@ -13,10 +13,10 @@ from pathlib import Path
 from typing import Dict, List, Tuple
 
 TOPIC_HEADINGS = [
-    ("LLMs", "## LLMs — Top 5"),
-    ("RAG", "## RAG — Top 5"),
-    ("MCP", "## MCP (Model Context Protocol) — Top 5"),
-    ("Quantum Computing", "## Quantum computing — Top 5"),
+    ("LLMs", "## LLMs — Top 3"),
+    ("RAG", "## RAG — Top 3"),
+    ("MCP", "## MCP (Model Context Protocol) — Top 3"),
+    ("Quantum Computing", "## Quantum computing — Top 3"),
 ]
 
 ITEM_RE = re.compile(r"^\d+\. \*\*\[([^\]]+)\]\(([^\)]+)\)\*\*\s*$")
@@ -100,9 +100,9 @@ def validate_digest(path: str | Path) -> Tuple[bool, List[str]]:
     for topic, items in sections.items():
         # Filter out empty placeholders like (No eligible articles found.)
         items = [blk for blk in items if blk and ITEM_RE.match(blk[0] or "")]
-        # Do NOT fail if fewer than 5; only fail if more than 5
-        if len(items) > 5:
-            errors.append(f"Topic '{topic}' has {len(items)} items, expected at most 5")
+        # Do NOT fail if fewer than 3; only fail if more than 3
+        if len(items) > 3:
+            errors.append(f"Topic '{topic}' has {len(items)} items, expected at most 3")
 
         seen_links = set()
         for blk in items:

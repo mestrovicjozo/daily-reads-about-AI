@@ -24,5 +24,42 @@
         "fallbacks_used": []
       }
     }
+  },
+  {
+    "timestamp": "2025-10-26T20:56:35.176571",
+    "feeds": {},
+    "topics": {
+      "LLMs": {
+        "articles_found": 100,
+        "articles_filtered": 5,
+        "fallbacks_used": []
+      },
+      "RAG": {
+        "articles_found": 100,
+        "articles_filtered": 2,
+        "fallbacks_used": []
+      },
+      "MCP": {
+        "articles_found": 13,
+        "articles_filtered": 2,
+        "fallbacks_used": []
+      },
+      "Quantum Computing": {
+        "articles_found": 54,
+        "articles_filtered": 2,
+        "fallbacks_used": []
+      }
+    }
+  },
+  {
+    "timestamp": "2025-10-26T21:06:15.425315",
+    "feeds": {},
+    "topics": {
+      "LLMs": {
+        "articles_found": 100,
+        "articles_filtered": 3,
+        "fallbacks_used": []
+      }
+    }
   }
 ]

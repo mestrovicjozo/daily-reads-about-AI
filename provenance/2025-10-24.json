@@ -1,0 +1,184 @@
+{
+  "items": [
+    {
+      "url": "https://www.deepfabric.dev/blog/introduction_to_openenv",
+      "fetch_timestamp": "2025-10-26T19:56:37.431396",
+      "http_status": 200,
+      "content_hash": "5b43dd51959f989d812f6527661d85544d92ef3ea057a3b9c8041eebc2df070c",
+      "topic": "LLMs",
+      "source": "reddit.com/r/MachineLearning",
+      "title": "[N] OpenEnv: Agentic Execution Environments for RL post training in PyTorch",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.054923683404922485,
+        "router_scores": {
+          "LLMs": 0.3416749835014343,
+          "MCP": 0.28675130009651184,
+          "Quantum Computing": 0.16947399079799652,
+          "RAG": 0.10950639843940735
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/Rag/comments/1ogrjiy/embedder_and_llm_for_nordic_languages/",
+      "fetch_timestamp": "2025-10-26T19:56:39.412221",
+      "http_status": 200,
+      "content_hash": "3e5384a073b092da2cc4ae4a5536dc51f7ebf4f81264050ac2efc0e59220b13b",
+      "topic": "LLMs",
+      "source": "reddit.com/r/Rag",
+      "title": "Embedder and LLM for nordic languages",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.3289957791566849,
+        "router_scores": {
+          "LLMs": 0.5691359043121338,
+          "RAG": 0.2401401251554489,
+          "MCP": 0.15732987225055695,
+          "Quantum Computing": -0.052062030881643295
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ogrf13/p_built_a_gpu_timesharing_tool_for_research_labs/",
+      "fetch_timestamp": "2025-10-26T19:56:37.431435",
+      "http_status": 200,
+      "content_hash": "c92bcf05063c0d69bd9a93cb6b668c12cf28235c620703e70d5e9ae531d3b26b",
+      "topic": "LLMs",
+      "source": "reddit.com/r/MachineLearning",
+      "title": "[P] Built a GPU time-sharing tool for research labs (feedback welcome)",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.029489126056432724,
+        "router_scores": {
+          "Quantum Computing": 0.0684489756822586,
+          "LLMs": 0.03895984962582588,
+          "RAG": -0.004361666738986969,
+          "MCP": -0.016550540924072266
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/Rag/comments/1ogo31t/requirements_contradiction_detector/",
+      "fetch_timestamp": "2025-10-26T19:56:39.412260",
+      "http_status": 200,
+      "content_hash": "b4909434e3b2160d78e4fc51ac2af755cdbb0c0f6951eb3372c2041b43585291",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "Requirements contradiction detector",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.023042425513267517,
+        "router_scores": {
+          "MCP": 0.17107683420181274,
+          "RAG": 0.14803440868854523,
+          "LLMs": 0.13454623520374298,
+          "Quantum Computing": -0.021712319925427437
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/Rag/comments/1ogixe8/looking_for_providers_who_host_qwen_3_8b/",
+      "fetch_timestamp": "2025-10-26T19:56:39.412272",
+      "http_status": 200,
+      "content_hash": "b42ef7ce15465b0265183cb9089dd7f4ff7cfd76985cab1f7bf19f4fcc886698",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "Looking for providers who host Qwen 3 8b Embedding model with support for batch inference",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.06674391031265259,
+        "router_scores": {
+          "RAG": 0.3525993227958679,
+          "LLMs": 0.28585541248321533,
+          "MCP": 0.24745970964431763,
+          "Quantum Computing": 0.1119205504655838
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/mcp/comments/1ogp8fj/skill_seekers_v200_generate_ai_skills_from_github/",
+      "fetch_timestamp": "2025-10-26T19:56:41.405261",
+      "http_status": 200,
+      "content_hash": "b3e68d12f9206667d4b31be336060da34644a777d6143830cab6bb304d8371f5",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "Skill Seekers v2.0.0 - Generate AI Skills from GitHub Repos + Multi-Source Integration",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.027723848819732666,
+        "router_scores": {
+          "LLMs": 0.3167375326156616,
+          "RAG": 0.28901368379592896,
+          "MCP": 0.23543000221252441,
+          "Quantum Computing": 0.09108950197696686
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://v.redd.it/abbrt7hc8hxf1",
+      "fetch_timestamp": "2025-10-26T19:56:41.405273",
+      "http_status": 200,
+      "content_hash": "9f9b02313942e0beb20a3dcf1a2845cea19e919bf2d023691d9b766eff7db7e9",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "iOS MCP Client",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.08679208159446716,
+        "router_scores": {
+          "MCP": 0.25432005524635315,
+          "LLMs": 0.167527973651886,
+          "RAG": 0.14728443324565887,
+          "Quantum Computing": -0.002200337592512369
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/QuantumComputing/comments/1ofo11w/is_this_paper_claiming_to_improve_sat_solver_step/",
+      "fetch_timestamp": "2025-10-26T19:56:43.251875",
+      "http_status": 200,
+      "content_hash": "b8c0706486f46f1bdf8ccafd525cb2102991bc4820a0bd626ff563be5a1fb981",
+      "topic": "Quantum Computing",
+      "source": "reddit.com/r/QuantumComputing",
+      "title": "Is this paper claiming to improve SAT solver step iteration time from O(m) to O(1) legit at all? If not, where is the error?",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.34998053312301636,
+        "router_scores": {
+          "Quantum Computing": 0.4325104355812073,
+          "LLMs": 0.08252990245819092,
+          "RAG": 0.0800866186618805,
+          "MCP": 0.0014880755916237831
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://blog.google/technology/research/quantum-echoes-willow-verifiable-quantum-advantage/",
+      "fetch_timestamp": "2025-10-26T19:58:06.441049",
+      "http_status": 200,
+      "content_hash": "2ce3e6d5d35f9c4b1786c630662a17c80a8bdd0163cfadcd16b9781563c09cf3",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Learn more",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.3352009877562523,
+        "router_scores": {
+          "Quantum Computing": 0.4495095908641815,
+          "MCP": 0.11430860310792923,
+          "LLMs": 0.10350991785526276,
+          "RAG": 0.06413742154836655
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}

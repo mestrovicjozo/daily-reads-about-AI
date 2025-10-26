@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ogud3r/p_cutting_inference_costs_from_46k_to_75k_by/",
+      "fetch_timestamp": "2025-10-26T20:06:17.337806",
+      "http_status": 200,
+      "content_hash": "ee0e5233e6fc10434d1d8dc470f14bb3031095bc6f81e94e1e1c7c0c0372e684",
+      "topic": "LLMs",
+      "source": "reddit.com/r/MachineLearning",
+      "title": "[P] Cutting Inference Costs from $46K to $7.5K by Fine-Tuning Qwen-Image-Edit",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.001745954155921936,
+        "router_scores": {
+          "Quantum Computing": 0.1468254029750824,
+          "MCP": 0.14507944881916046,
+          "LLMs": 0.13680624961853027,
+          "RAG": 0.02618199959397316
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "http://www.techmeme.com/251026/p12",
+      "fetch_timestamp": "2025-10-26T20:06:51.406546",
+      "http_status": 200,
+      "content_hash": "cfaf7cba305289b577447568a2868bfb4c0d06b3f2c031520a1e341d59265cf1",
+      "topic": "LLMs",
+      "source": "www.techmeme.com",
+      "title": "Q&A with Zocdoc CEO Oliver Kharraz on the patient scheduling platform's telehealth expansion, its policy of not providing medical advice through AI, and more (Nilay Patel/The Verge)",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.06432771682739258,
+        "router_scores": {
+          "LLMs": 0.19976834952831268,
+          "MCP": 0.1354406327009201,
+          "RAG": 0.11735886335372925,
+          "Quantum Computing": 0.06719479709863663
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://huggingface.co/blog/lerobot-release-v040",
+      "fetch_timestamp": "2025-10-26T20:06:26.012045",
+      "http_status": 200,
+      "content_hash": "2ecbf15c052eba0e8e81d416d19ff336d5640205fb1407f50dee3a99b442c05e",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "LeRobot v0.4.0: Super Charging OSS Robotics Learning",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.18308024108409882,
+        "router_scores": {
+          "LLMs": 0.340884804725647,
+          "MCP": 0.15780456364154816,
+          "RAG": 0.13162629306316376,
+          "Quantum Computing": 0.11312782019376755
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
