@@ -1,0 +1,164 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/ai-agents-from-assistants-for-efficiency-to-leaders-of-tomorrow/",
+      "fetch_timestamp": "2025-10-27T06:38:04.654973",
+      "http_status": 200,
+      "content_hash": "2ee742f922fd405f076867731805ddaa39c21d88ed3d891d1ac786f7ae76bdd2",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "AI Agents: From Assistants for Efficiency to Leaders of Tomorrow?",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.1902638077735901,
+        "router_scores": {
+          "LLMs": 0.31699442863464355,
+          "Quantum Computing": 0.12673062086105347,
+          "MCP": 0.1133379191160202,
+          "RAG": 0.049622852355241776
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/choosing-the-best-model-size-and-dataset-size-under-a-fixed-budget-for-llms/",
+      "fetch_timestamp": "2025-10-27T06:38:04.655461",
+      "http_status": 200,
+      "content_hash": "7da8c0c919be0f7e66fabea8f38e18520ae5f7e6c10c3497b28613cf4e735967",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Choosing the Best Model Size and Dataset Size under a Fixed Budget for LLMs",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.11461851000785828,
+        "router_scores": {
+          "LLMs": 0.2936168313026428,
+          "MCP": 0.17899832129478455,
+          "RAG": 0.0317172110080719,
+          "Quantum Computing": 0.012082666158676147
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/agentic-ai-from-first-principles-reflection/",
+      "fetch_timestamp": "2025-10-27T06:38:04.655283",
+      "http_status": 200,
+      "content_hash": "3acfbd39623f8844673dc678d8753f93d8048c22b8d4530f26f54a36ba927b06",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Agentic AI from First Principles: Reflection",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.04973408579826355,
+        "router_scores": {
+          "LLMs": 0.33353081345558167,
+          "MCP": 0.2837967276573181,
+          "RAG": 0.21194911003112793,
+          "Quantum Computing": 0.1548483669757843
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/how-to-consistently-extract-metadata-from-complex-documents/",
+      "fetch_timestamp": "2025-10-27T06:38:04.655373",
+      "http_status": 200,
+      "content_hash": "20e81c8f46fb58e6f33bfb916de9c15d4bd4c9c7e283b1238df11d2770d9b799",
+      "topic": "RAG",
+      "source": "towardsdatascience.com",
+      "title": "How to Consistently Extract Metadata from Complex Documents",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.1743088662624359,
+        "router_scores": {
+          "RAG": 0.3813164234161377,
+          "LLMs": 0.20700755715370178,
+          "MCP": 0.12855949997901917,
+          "Quantum Computing": -0.06168454885482788
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://neon.com/blog/our-claude-code-cheatsheet",
+      "fetch_timestamp": "2025-10-27T06:39:07.211409",
+      "http_status": 200,
+      "content_hash": "80de564546af516d13c751af295da4c15464b132b249310ac1a1968d6be59e51",
+      "topic": "RAG",
+      "source": "neon.com",
+      "title": "Our Claude Code Cheatsheet",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.04320698231458664,
+        "router_scores": {
+          "RAG": 0.12557010352611542,
+          "LLMs": 0.08236312121152878,
+          "MCP": 0.08101382106542587,
+          "Quantum Computing": -0.02482791803777218
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://neon.com/blog/handling-time-variant-dags-with-constraints-in-postgres",
+      "fetch_timestamp": "2025-10-27T06:39:07.211306",
+      "http_status": 200,
+      "content_hash": "612c01b66fac11b7ffc916493f1150343c93dc01349e28947834dc2beb808424",
+      "topic": "RAG",
+      "source": "neon.com",
+      "title": "Handling Time-Variant DAGs with Constraints in Postgres",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.003060169517993927,
+        "router_scores": {
+          "RAG": 0.10607507079839706,
+          "MCP": 0.10301490128040314,
+          "LLMs": 0.04483245313167572,
+          "Quantum Computing": -0.04024036228656769
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/the-power-of-framework-dimensions-what-data-scientists-should-know/",
+      "fetch_timestamp": "2025-10-27T06:38:04.654791",
+      "http_status": 200,
+      "content_hash": "de831a856948fda12ffb78f2111c3271ac3529dba915064d4f349de3f89bbfec",
+      "topic": "MCP",
+      "source": "towardsdatascience.com",
+      "title": "The Power of Framework Dimensions: What Data Scientists Should Know",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.1311567723751068,
+        "router_scores": {
+          "MCP": 0.33367758989334106,
+          "LLMs": 0.20252081751823425,
+          "RAG": 0.20068535208702087,
+          "Quantum Computing": 0.06182771921157837
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://neon.com/blog/branching-as-the-environment-how-sharing-excess-ships-faster-on-neon",
+      "fetch_timestamp": "2025-10-27T06:39:07.211194",
+      "http_status": 200,
+      "content_hash": "42aaf4801b298202141b15cf765072987db3ed89a351edd6d12081b676604647",
+      "topic": "MCP",
+      "source": "neon.com",
+      "title": "Branching as the Environment: How Sharing Excess Ships Faster on Neon",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.11369425058364868,
+        "router_scores": {
+          "MCP": 0.20362049341201782,
+          "LLMs": 0.08992624282836914,
+          "RAG": 0.014619823545217514,
+          "Quantum Computing": -0.02526640146970749
+        },
+        "router_overrode": true
+      }
+    }
+  ]
+}
