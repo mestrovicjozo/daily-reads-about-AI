@@ -1,0 +1,164 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/the-machine-learning-lessons-ive-learned-this-month-2/",
+      "fetch_timestamp": "2025-10-28T06:35:57.632119",
+      "http_status": 200,
+      "content_hash": "cd0917ea2cdcd1379e2fd3eabbd26f437c6c68a4b94b53561847d8491d188b0c",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "The Machine Learning Lessons I\u2019ve Learned This Month",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.07005825638771057,
+        "router_scores": {
+          "LLMs": 0.2554141581058502,
+          "MCP": 0.18535590171813965,
+          "RAG": 0.1620347946882248,
+          "Quantum Computing": 0.03570234030485153
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/how-to-apply-powerful-ai-audio-models-to-real-world-applications/",
+      "fetch_timestamp": "2025-10-28T06:35:57.632007",
+      "http_status": 200,
+      "content_hash": "54a325fe93d80d36bff68b03d8dcc6a860c9a01018d32967a0dc28d317d188d5",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "How to Apply Powerful AI Audio Models to Real-World Applications",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.21729286015033722,
+        "router_scores": {
+          "LLMs": 0.44840601086616516,
+          "MCP": 0.23111315071582794,
+          "Quantum Computing": 0.1356428861618042,
+          "RAG": 0.1330043524503708
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/a-real-world-example-of-using-udf-in-dax/",
+      "fetch_timestamp": "2025-10-28T06:35:57.631860",
+      "http_status": 200,
+      "content_hash": "a383452f75b6e0c51252c4e1a3a6d2b61aa7d2046e679afde9da9e0d58e09e9c",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "A Real-World Example of Using UDF in DAX",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.024462848901748657,
+        "router_scores": {
+          "RAG": 0.05589009076356888,
+          "MCP": 0.03142724186182022,
+          "LLMs": 0.02981385961174965,
+          "Quantum Computing": -0.007382278796285391
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.mongodb.com/company/blog/innovation/cars24-improves-search-for-300-million-users-with-atlas",
+      "fetch_timestamp": "2025-10-28T06:36:54.618190",
+      "http_status": 200,
+      "content_hash": "5481d9daa804c7f53fcd981544e11e4e286639eb53cc136355e6fbfad52309c5",
+      "topic": "RAG",
+      "source": "www.mongodb.com",
+      "title": "Cars24 Improves Search For 300 Million Users With MongoDB Atlas",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.17806098610162735,
+        "router_scores": {
+          "RAG": 0.23482948541641235,
+          "LLMs": 0.056768499314785004,
+          "MCP": 0.054284751415252686,
+          "Quantum Computing": -0.02543032541871071
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://neon.com/blog/retool-becomes-the-platform-for-enterprise-appgen",
+      "fetch_timestamp": "2025-10-28T06:36:59.453349",
+      "http_status": 200,
+      "content_hash": "523e43619ade30125640043a96cc42536ab4caefd11d345defc73431e4c8b7f0",
+      "topic": "RAG",
+      "source": "neon.com",
+      "title": "Retool Becomes the Platform for Enterprise AppGen",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.046647459268569946,
+        "router_scores": {
+          "LLMs": 0.2951592206954956,
+          "MCP": 0.24851176142692566,
+          "RAG": 0.17038904130458832,
+          "Quantum Computing": -0.014467919245362282
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.mongodb.com/company/blog/technical/cost-of-not-knowing-mongodb-part-3-appv6r0-appv6r4",
+      "fetch_timestamp": "2025-10-28T06:36:54.618314",
+      "http_status": 200,
+      "content_hash": "932a81acc97096400f94ae7cd48355e44d75445280089b371a62989d5df2bda7",
+      "topic": "RAG",
+      "source": "www.mongodb.com",
+      "title": "The Cost of Not Knowing MongoDB, Part 3: appV6R0 to appV6R4",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.11355690658092499,
+        "router_scores": {
+          "RAG": 0.18452008068561554,
+          "MCP": 0.07096317410469055,
+          "LLMs": 0.016677528619766235,
+          "Quantum Computing": -0.034713707864284515
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/building-a-monitoring-system-that-actually-works/",
+      "fetch_timestamp": "2025-10-28T06:35:57.632214",
+      "http_status": 200,
+      "content_hash": "5744a07d5992ee6cae7e342b611388cb391829366d45b4ee40df2190d91a3e8d",
+      "topic": "MCP",
+      "source": "towardsdatascience.com",
+      "title": "Building a Monitoring System That Actually Works",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.14059940725564957,
+        "router_scores": {
+          "MCP": 0.18933650851249695,
+          "RAG": 0.04873710125684738,
+          "LLMs": 0.04014402627944946,
+          "Quantum Computing": 0.027930613607168198
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://neon.com/blog/deploy-agent-api-xpander",
+      "fetch_timestamp": "2025-10-28T06:36:59.452946",
+      "http_status": 200,
+      "content_hash": "1a10b4deb38e18dc30546e97867a9fe6022834fdd8f42884b1c67bf2ad070001",
+      "topic": "MCP",
+      "source": "neon.com",
+      "title": "Under the hood of a deploy-agent API that works across any runtime environment",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.17017465829849243,
+        "router_scores": {
+          "MCP": 0.2995107173919678,
+          "LLMs": 0.12933605909347534,
+          "Quantum Computing": 0.0364539735019207,
+          "RAG": -0.045824818313121796
+        },
+        "router_overrode": true
+      }
+    }
+  ]
+}
