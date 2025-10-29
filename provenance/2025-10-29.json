@@ -1,0 +1,144 @@
+{
+  "items": [
+    {
+      "url": "https://huggingface.co/blog/lerobotxnvidia-healthcare",
+      "fetch_timestamp": "2025-10-29T06:35:20.188417",
+      "http_status": 200,
+      "content_hash": "efa25d9d648388d84cfb11fdbf15cf12ea01f60e8ff8421acd199212e6cbfedd",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "Building a Healthcare Robot from Simulation to Deployment with NVIDIA Isaac",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.0379754900932312,
+        "router_scores": {
+          "LLMs": 0.28973495960235596,
+          "MCP": 0.25175946950912476,
+          "Quantum Computing": 0.12039773166179657,
+          "RAG": 0.05517028272151947
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/water-cooler-small-talk-ep-9-what-thinking-and-reasoning-really-mean-in-ai-and-llms/",
+      "fetch_timestamp": "2025-10-29T06:36:01.966627",
+      "http_status": 200,
+      "content_hash": "41a437af3235288e85bd670c0cd4c7b2d119fb34adb0c01518d4fd1362775ea7",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Water Cooler Small Talk, Ep. 9: What \u201cThinking\u201d and \u201cReasoning\u201d Really Mean in AI and LLMs",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.23712658882141113,
+        "router_scores": {
+          "LLMs": 0.37769782543182373,
+          "MCP": 0.1405712366104126,
+          "Quantum Computing": 0.1392281949520111,
+          "RAG": 0.07433225959539413
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/deep-reinforcement-learning-for-dummies/",
+      "fetch_timestamp": "2025-10-29T06:36:01.966429",
+      "http_status": 200,
+      "content_hash": "8a0e9765ed3c1874ac1d6540a7912d264ce13a17b935aed8880415abacfdb0a6",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Deep Reinforcement Learning: 0 to 100",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.06277108192443848,
+        "router_scores": {
+          "LLMs": 0.2266983538866043,
+          "MCP": 0.16392727196216583,
+          "Quantum Computing": 0.1571032553911209,
+          "RAG": 0.05636126548051834
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://neon.com/blog/neon-open-source-program",
+      "fetch_timestamp": "2025-10-29T06:37:02.603666",
+      "http_status": 200,
+      "content_hash": "2746f2d4157d1ed51182ba4ca8e761e0d6bb8c6e09ddeb593112989569e981c7",
+      "topic": "RAG",
+      "source": "neon.com",
+      "title": "Neon is Sponsoring Open Source Projects",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.010268837213516235,
+        "router_scores": {
+          "MCP": 0.08638365566730499,
+          "LLMs": 0.07611481845378876,
+          "RAG": 0.02928794175386429,
+          "Quantum Computing": -0.027059676125645638
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.mongodb.com/company/blog/innovation/innovating-customer-successes-october-2025",
+      "fetch_timestamp": "2025-10-29T06:36:58.049134",
+      "http_status": 200,
+      "content_hash": "4fb41c117b5ce69604713d8a221b3c5d5d91e568e00a00bb89e15f5fa4c59ab1",
+      "topic": "RAG",
+      "source": "www.mongodb.com",
+      "title": "Innovating with MongoDB | Customer Successes, October 2025",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.027449525892734528,
+        "router_scores": {
+          "RAG": 0.15118053555488586,
+          "MCP": 0.12373100966215134,
+          "LLMs": 0.05647426098585129,
+          "Quantum Computing": 0.039651017636060715
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://neon.com/blog/a-postgrest-compatible-data-api-now-on-neon",
+      "fetch_timestamp": "2025-10-29T06:37:02.604279",
+      "http_status": 200,
+      "content_hash": "8164b2f93e7f210cb63422e1bc579b0247fe8c95d564e2df36ae9040efe7457b",
+      "topic": "RAG",
+      "source": "neon.com",
+      "title": "A PostgREST-Compatible Data API, Now on Neon",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.020360827445983887,
+        "router_scores": {
+          "RAG": 0.13908042013645172,
+          "MCP": 0.11871959269046783,
+          "LLMs": 0.09350767731666565,
+          "Quantum Computing": 0.04528999701142311
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://weaviate.io/blog/weaviate-cloud-pricing-update",
+      "fetch_timestamp": "2025-10-29T06:36:03.139608",
+      "http_status": 200,
+      "content_hash": "18d2dd2a92cfaef62fdb358c7177fa3696b6ee222f8b0838a722ad007a64964b",
+      "topic": "MCP",
+      "source": "weaviate.io",
+      "title": "A Simpler, More Transparent Pricing Model for Weaviate Cloud",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.11612239480018616,
+        "router_scores": {
+          "MCP": 0.1940493881702423,
+          "LLMs": 0.07792699337005615,
+          "RAG": 0.06578230857849121,
+          "Quantum Computing": -0.003924783319234848
+        },
+        "router_overrode": true
+      }
+    }
+  ]
+}
