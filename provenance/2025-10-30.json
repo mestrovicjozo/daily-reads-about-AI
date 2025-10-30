@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/4-techniques-to-optimize-your-llm-prompts-for-cost-latency-and-performance/",
+      "fetch_timestamp": "2025-10-30T06:34:28.584362",
+      "http_status": 200,
+      "content_hash": "76434acce51eb1a092a834b0c70ced896590178211d426547d3068d7000bd3fe",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "4 Techniques to Optimize Your LLM Prompts for Cost, Latency and Performance",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.22366154193878174,
+        "router_scores": {
+          "LLMs": 0.4106808602809906,
+          "MCP": 0.18701931834220886,
+          "RAG": 0.1455305516719818,
+          "Quantum Computing": 0.0275441724807024
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://neon.com/blog/how-to-build-a-full-stack-ai-agent",
+      "fetch_timestamp": "2025-10-30T06:35:31.189966",
+      "http_status": 200,
+      "content_hash": "4f24435dbc10ee197f9173e39244c4395bc81ca3f23b695007e8a586c4d79e0a",
+      "topic": "LLMs",
+      "source": "neon.com",
+      "title": "How to Build a Full-Stack AI Agent",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.09037360548973083,
+        "router_scores": {
+          "LLMs": 0.3268885612487793,
+          "MCP": 0.23651495575904846,
+          "RAG": 0.12502287328243256,
+          "Quantum Computing": 0.06567753851413727
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://deepmind.google/discover/blog/accelerating-discovery-with-the-ai-for-math-initiative/",
+      "fetch_timestamp": "2025-10-30T06:33:36.673857",
+      "http_status": 200,
+      "content_hash": "7c22267243a8d2d8354f58dfaaea409e6991b09bda92855b36354d5d8b2a002f",
+      "topic": "LLMs",
+      "source": "deepmind.google",
+      "title": "Accelerating discovery with the AI for Math Initiative",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.02412700653076172,
+        "router_scores": {
+          "LLMs": 0.3492150902748108,
+          "Quantum Computing": 0.3250880837440491,
+          "RAG": 0.22943170368671417,
+          "MCP": 0.16925114393234253
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/bringing-vision-language-intelligence-to-rag-with-colpali/",
+      "fetch_timestamp": "2025-10-30T06:34:28.584473",
+      "http_status": 200,
+      "content_hash": "1da3c2677d1a9e7a943bc357024893b469c37f90a1eb32a05a380e4ca8a77b58",
+      "topic": "RAG",
+      "source": "towardsdatascience.com",
+      "title": "Bringing Vision-Language Intelligence to RAG with ColPali",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.16579186916351318,
+        "router_scores": {
+          "RAG": 0.5163430571556091,
+          "LLMs": 0.35055118799209595,
+          "MCP": 0.1845579296350479,
+          "Quantum Computing": -0.025130413472652435
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://www.mongodb.com/company/blog/innovation/smarter-ai-search-powered-by-atlas-pureinsights",
+      "fetch_timestamp": "2025-10-30T06:35:26.155664",
+      "http_status": 200,
+      "content_hash": "4c8e04c1c7c9acaeb4c99daa523dc93e13f4fe769b63c461bafb9edbb70873f2",
+      "topic": "RAG",
+      "source": "www.mongodb.com",
+      "title": "Smarter AI Search, Powered by MongoDB Atlas and Pureinsights",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.17291203141212463,
+        "router_scores": {
+          "RAG": 0.5544366836547852,
+          "LLMs": 0.3815246522426605,
+          "MCP": 0.1478283703327179,
+          "Quantum Computing": 0.06483570486307144
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.mongodb.com/company/blog/technical/10-skills-was-missing-as-mongodb-user",
+      "fetch_timestamp": "2025-10-30T06:35:26.155563",
+      "http_status": 200,
+      "content_hash": "cd368da2e2773802c660da9c6156ef8d8b3b97312ccf1e255e3a07e85cc9e049",
+      "topic": "RAG",
+      "source": "www.mongodb.com",
+      "title": "The 10 Skills I Was Missing as a MongoDB User",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.034703850746154785,
+        "router_scores": {
+          "RAG": 0.13808338344097137,
+          "MCP": 0.10337953269481659,
+          "LLMs": 0.06347722560167313,
+          "Quantum Computing": 0.044876597821712494
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
