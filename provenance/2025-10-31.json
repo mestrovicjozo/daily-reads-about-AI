@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/datapizza-the-ai-framework-made-in-italy/",
+      "fetch_timestamp": "2025-10-31T06:34:29.797691",
+      "http_status": 200,
+      "content_hash": "7e92c50f282b16204f496c480b428f5253749857e1f3b04252919418d3b5ee48",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Build LLM Agents Faster with Datapizza AI",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.33848726749420166,
+        "router_scores": {
+          "LLMs": 0.5668419599533081,
+          "MCP": 0.22835469245910645,
+          "RAG": 0.20745839178562164,
+          "Quantum Computing": 0.09850169718265533
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/systems-thinking-helps-me-put-the-big-picture-front-and-center/",
+      "fetch_timestamp": "2025-10-31T06:34:29.797803",
+      "http_status": 200,
+      "content_hash": "ab58a835234fc83c0ad6ee4d72cbe2f7d4770054542dddc30adc1b8d46a2df85",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "\u201cSystems thinking helps me put the big picture front and center\u201d",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.1710539609193802,
+        "router_scores": {
+          "LLMs": 0.4108859598636627,
+          "Quantum Computing": 0.23983199894428253,
+          "RAG": 0.22403861582279205,
+          "MCP": 0.17070139944553375
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://weaviate.io/blog/confluent-streaming-agents-and-weaviate",
+      "fetch_timestamp": "2025-10-31T06:34:31.013133",
+      "http_status": 200,
+      "content_hash": "0a43aadeeb4c3e22ba6bc65be70442b401dc79ad15ed88d5d4817160c8867344",
+      "topic": "LLMs",
+      "source": "weaviate.io",
+      "title": "Unleash Real-Time Agentic AI with Streaming Agents on Confluent Cloud and Weaviate",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.11904186010360718,
+        "router_scores": {
+          "LLMs": 0.36939191818237305,
+          "RAG": 0.25035005807876587,
+          "MCP": 0.22676624357700348,
+          "Quantum Computing": 0.055468834936618805
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://neon.com/blog/getting-started-with-claude-skills",
+      "fetch_timestamp": "2025-10-31T06:35:30.689086",
+      "http_status": 200,
+      "content_hash": "2cab41871c2e137ec484a11327c0441f87b6b57bc4ebc673f70141db3c8d04ff",
+      "topic": "RAG",
+      "source": "neon.com",
+      "title": "Getting Started with Claude Skills",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.015083134174346924,
+        "router_scores": {
+          "LLMs": 0.28366395831108093,
+          "MCP": 0.268580824136734,
+          "RAG": 0.21594710648059845,
+          "Quantum Computing": 0.056690942496061325
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
