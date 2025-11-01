@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/the-machine-learning-projects-employers-want-to-see/",
+      "fetch_timestamp": "2025-11-01T06:31:31.222963",
+      "http_status": 200,
+      "content_hash": "b59838989225adf869ca38730359078181e16f5d6c4b81a3159e953a913a5377",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "The Machine Learning Projects Employers Want to See",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.006850510835647583,
+        "router_scores": {
+          "LLMs": 0.2678265869617462,
+          "MCP": 0.26097607612609863,
+          "RAG": 0.19871002435684204,
+          "Quantum Computing": 0.18207693099975586
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/let-hypothesis-break-your-python-code-before-your-users-do/",
+      "fetch_timestamp": "2025-11-01T06:31:31.222856",
+      "http_status": 200,
+      "content_hash": "36281c15b4bc837befe89452dc15ef3b226ad75d45037e78031f8e05ce9d092e",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Let Hypothesis Break Your Python Code Before Your Users Do",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.012203700840473175,
+        "router_scores": {
+          "Quantum Computing": 0.12536993622779846,
+          "LLMs": 0.11316623538732529,
+          "RAG": 0.10216233879327774,
+          "MCP": 0.07883889973163605
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/rf-detr-under-the-hood-the-insights-of-a-real-time-transformer-detection/",
+      "fetch_timestamp": "2025-11-01T06:31:31.223055",
+      "http_status": 200,
+      "content_hash": "e2154c5099e39013fd20c4cf89ef2bcd80535da119c1aeb80783b7520868a74d",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "RF-DETR Under the Hood: The Insights of a Real-Time Transformer Detection",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.01611284166574478,
+        "router_scores": {
+          "RAG": 0.11887826770544052,
+          "LLMs": 0.10276542603969574,
+          "MCP": 0.04453413188457489,
+          "Quantum Computing": 0.0409596748650074
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://neon.com/blog/the-night-we-moved-our-ci",
+      "fetch_timestamp": "2025-11-01T06:32:32.494535",
+      "http_status": 200,
+      "content_hash": "06a54e050e99b97964554e35ef207dd04745e3b48495ff91fcba7cd1ee220fbc",
+      "topic": "RAG",
+      "source": "neon.com",
+      "title": "The Night We Moved Our CI",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.006905205547809601,
+        "router_scores": {
+          "MCP": 0.03968178480863571,
+          "RAG": 0.03277657926082611,
+          "Quantum Computing": -0.025784220546483994,
+          "LLMs": -0.0758223906159401
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
