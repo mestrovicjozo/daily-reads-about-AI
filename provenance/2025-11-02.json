@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "url": "https://milvus.io/blog/drag-drop-and-deploy-how-to-build-rag-workflows-with-langflow-and-milvus.md",
+      "fetch_timestamp": "2025-11-02T06:33:15.480399",
+      "http_status": 200,
+      "content_hash": "6ad3087d3b35da74a0a23247cab95e32742cd4770409e5419c2355c33a5a16e7",
+      "topic": "LLMs",
+      "source": "milvus.io",
+      "title": "Drag, Drop, and Deploy: How to Build RAG Workflows with Langflow and Milvus",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.024086683988571167,
+        "router_scores": {
+          "LLMs": 0.4105781614780426,
+          "RAG": 0.38649147748947144,
+          "MCP": 0.30031347274780273,
+          "Quantum Computing": -0.021425481885671616
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/pearson-correlation-coefficient-explained-simply/",
+      "fetch_timestamp": "2025-11-02T06:33:12.048242",
+      "http_status": 200,
+      "content_hash": "64c7e28dea2928f86e6c9613571d1bc51de9467eac110f3b302ee4bdd711cda7",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "The Pearson Correlation Coefficient, Explained Simply",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.012767627835273743,
+        "router_scores": {
+          "MCP": 0.05547754466533661,
+          "Quantum Computing": 0.042709916830062866,
+          "RAG": -0.044047947973012924,
+          "LLMs": -0.0669727772474289
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/tds-newsletter-october-must-reads-on-agents-python-context-engineering-and-more/",
+      "fetch_timestamp": "2025-11-02T06:33:12.048892",
+      "http_status": 200,
+      "content_hash": "28bfb13925f54d5f9d9124466827329b5649095ff7cd94860ca6783972fa7058",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "TDS Newsletter: October Must-Reads on Agents, Python, Context Engineering, and More",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.03782457113265991,
+        "router_scores": {
+          "LLMs": 0.302356481552124,
+          "MCP": 0.2645319104194641,
+          "RAG": 0.2428608238697052,
+          "Quantum Computing": 0.20412427186965942
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://milvus.io/blog/understanding-ivf-vector-index-how-It-works-and-when-to-choose-it-over-hnsw.md",
+      "fetch_timestamp": "2025-11-02T06:33:15.480424",
+      "http_status": 200,
+      "content_hash": "00f486e84ef142d6583c30aa3a7f6bfeaeabb3368910cabdbcfbb7b7a1d39eac",
+      "topic": "RAG",
+      "source": "milvus.io",
+      "title": "Understanding IVF Vector Index: How It Works and When to Choose It Over HNSW",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.2220449596643448,
+        "router_scores": {
+          "RAG": 0.4024682641029358,
+          "LLMs": 0.180423304438591,
+          "MCP": 0.03795800358057022,
+          "Quantum Computing": 0.024687064811587334
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/graph-rag-vs-sql-rag/",
+      "fetch_timestamp": "2025-11-02T06:33:12.048351",
+      "http_status": 200,
+      "content_hash": "0c8b2d6d67ae0c25e1b15df670469e2bbb788fcf23fa588b099cd754d40b4acf",
+      "topic": "RAG",
+      "source": "towardsdatascience.com",
+      "title": "Graph RAG vs SQL RAG",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.286538690328598,
+        "router_scores": {
+          "RAG": 0.5840834379196167,
+          "LLMs": 0.2975447475910187,
+          "MCP": 0.19064190983772278,
+          "Quantum Computing": 0.08920937776565552
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://prometheus.io/blog/2025/10/30/non-code-contribution/",
+      "fetch_timestamp": "2025-11-02T06:35:22.379993",
+      "http_status": 200,
+      "content_hash": "4e55652d849b17b3fa28516740f7b0eb360241d0f06b986de42b22c87d82bdb4",
+      "topic": "MCP",
+      "source": "prometheus.io",
+      "title": "How Non-Developers Can Contribute to Prometheus",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.029349476099014282,
+        "router_scores": {
+          "MCP": 0.07575710862874985,
+          "LLMs": 0.046407632529735565,
+          "Quantum Computing": 0.030664365738630295,
+          "RAG": 0.026965782046318054
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
