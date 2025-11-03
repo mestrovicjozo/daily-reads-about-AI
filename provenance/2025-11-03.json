@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/from-classical-models-to-ai-forecasting-humidity-for-energy-and-water-efficiency-in-data-centers-2/",
+      "fetch_timestamp": "2025-11-03T06:37:14.801562",
+      "http_status": 200,
+      "content_hash": "a3f8df84e4ae7f028d1361ad88513d2d75ff5e6279084f911ccaa169aaa26df4",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "From Classical Models to AI: Forecasting Humidity for Energy and Water Efficiency in Data Centers",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.05213019251823425,
+        "router_scores": {
+          "LLMs": 0.2535726726055145,
+          "MCP": 0.20144248008728027,
+          "Quantum Computing": 0.1281600296497345,
+          "RAG": 0.00846087746322155
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/mobilenetv3-paper-walkthrough-the-tiny-giant-getting-even-smarter/",
+      "fetch_timestamp": "2025-11-03T06:37:14.801671",
+      "http_status": 200,
+      "content_hash": "9a8cff81d9f2d4a2b612ea35eea2863cb56f4a96b838d16919eb338ec8414f20",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "MobileNetV3 Paper Walkthrough: The Tiny Giant Getting Even Smarter",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.013650953769683838,
+        "router_scores": {
+          "LLMs": 0.19237256050109863,
+          "MCP": 0.1787216067314148,
+          "RAG": 0.06481707096099854,
+          "Quantum Computing": 0.029730379581451416
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/building-a-rules-engine-from-first-principles/",
+      "fetch_timestamp": "2025-11-03T06:37:14.802233",
+      "http_status": 200,
+      "content_hash": "f9ac3484c2873131170da72ae09ffc41ea9c5098bdc64378c34b96e6c7da545e",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Building a Rules Engine from First Principles",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.03535109758377075,
+        "router_scores": {
+          "LLMs": 0.20566681027412415,
+          "Quantum Computing": 0.1703157126903534,
+          "MCP": 0.1691398322582245,
+          "RAG": 0.042696982622146606
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
