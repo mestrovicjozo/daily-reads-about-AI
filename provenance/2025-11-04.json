@@ -1,0 +1,104 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/it-doesnt-need-to-be-a-chatbot/",
+      "fetch_timestamp": "2025-11-04T06:35:49.944560",
+      "http_status": 200,
+      "content_hash": "bb87cf3e3e5bdeb4207b3c82e8428163aba0a7dce3f5358306fcebb03eaaedf5",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "It Doesn\u2019t Need to Be a Chatbot",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.2681741788983345,
+        "router_scores": {
+          "LLMs": 0.35693082213401794,
+          "RAG": 0.08875664323568344,
+          "MCP": 0.05408914014697075,
+          "Quantum Computing": -0.03713533282279968
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/how-to-apply-vision-language-models-to-long-documents/",
+      "fetch_timestamp": "2025-11-04T06:35:49.944708",
+      "http_status": 200,
+      "content_hash": "fd51f422f04b125b5ecae20e6c1cdd6a0a5da9d76aaea80f4c6484cb11dd78d4",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "How to Apply Vision Language Models to Long Documents",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.15132272243499756,
+        "router_scores": {
+          "LLMs": 0.3845035135746002,
+          "RAG": 0.23318079113960266,
+          "MCP": 0.20434631407260895,
+          "Quantum Computing": -0.05083055794239044
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/does-ai-need-to-be-conscious-to-care/",
+      "fetch_timestamp": "2025-11-04T06:35:49.944813",
+      "http_status": 200,
+      "content_hash": "c88327b83fd61924eda949e1bf1f5ff83211f87bc9fe7dbd7f0b06d6e0150c2c",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Does AI Need to Be Conscious to Care?",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.025058463215827942,
+        "router_scores": {
+          "LLMs": 0.16651304066181183,
+          "MCP": 0.1414545774459839,
+          "Quantum Computing": 0.05132998526096344,
+          "RAG": 0.041866980493068695
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/building-a-multimodal-rag-with-text-images-tables-from-sources-in-response/",
+      "fetch_timestamp": "2025-11-04T06:35:49.944895",
+      "http_status": 200,
+      "content_hash": "b1501a473079ac9c38cde195fc827b3274823ab9060dd9024ab38f4645f53ba1",
+      "topic": "RAG",
+      "source": "towardsdatascience.com",
+      "title": "Building a Multimodal RAG That Responds with Text, Images, and Tables from Sources",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.15828761458396912,
+        "router_scores": {
+          "RAG": 0.5023151636123657,
+          "LLMs": 0.3440275490283966,
+          "MCP": 0.09715871512889862,
+          "Quantum Computing": -0.055019646883010864
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://neon.com/blog/major-compute-price-reduction-on-neon",
+      "fetch_timestamp": "2025-11-04T06:36:50.692243",
+      "http_status": 200,
+      "content_hash": "568242c028c3b57fa2a4fd58dbaa7aa55964913003a98a2bce40b965b0bb4704",
+      "topic": "RAG",
+      "source": "neon.com",
+      "title": "Major compute price reduction on Neon",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.015890739858150482,
+        "router_scores": {
+          "Quantum Computing": 0.1076907366514206,
+          "RAG": 0.09179999679327011,
+          "LLMs": 0.09115491062402725,
+          "MCP": 0.07144749164581299
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
