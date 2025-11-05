@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/train-humanoid-robots-with-ai-and-python/",
+      "fetch_timestamp": "2025-11-05T06:35:25.644133",
+      "http_status": 200,
+      "content_hash": "5e19d8bef5b939ceb131a0847965092fce26bf9eb552a84f5011d6486b84326c",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Train a Humanoid Robot with AI and Python",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.09426760673522949,
+        "router_scores": {
+          "LLMs": 0.3744329512119293,
+          "MCP": 0.28016534447669983,
+          "Quantum Computing": 0.27876248955726624,
+          "RAG": 0.14252375066280365
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/your-credit-risk-model-works-today-it-breaks-in-six-months/",
+      "fetch_timestamp": "2025-11-05T06:35:25.644039",
+      "http_status": 200,
+      "content_hash": "e816a9a59c03ce86ec498562b5bf19e2f7cf6ffee0a653968beaa45a5a50feeb",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "What to Do When Your Credit Risk Model Works Today, but Breaks Six Months Later",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.05957166105508804,
+        "router_scores": {
+          "LLMs": 0.12156044691801071,
+          "RAG": 0.06198878586292267,
+          "Quantum Computing": 0.06006300449371338,
+          "MCP": 0.04188571870326996
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/numpy-for-absolute-beginners-a-project-based-approach-to-data-analysis/",
+      "fetch_timestamp": "2025-11-05T06:35:25.643761",
+      "http_status": 200,
+      "content_hash": "babfe51dd9a57874277ad0f60821396d6e94be20eb00e45480227b112432476d",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "NumPy for Absolute Beginners: A Project-Based Approach to Data Analysis",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.06968352198600769,
+        "router_scores": {
+          "MCP": 0.19953018426895142,
+          "LLMs": 0.12984666228294373,
+          "Quantum Computing": 0.12067876756191254,
+          "RAG": 0.006112180650234222
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://neon.com/blog/the-hidden-ops-layer-of-agent-platforms",
+      "fetch_timestamp": "2025-11-05T06:36:29.443536",
+      "http_status": 200,
+      "content_hash": "ca5970901f2e86a0c18035e2551c80e85473af028b63778a7c8cba97ca879b3b",
+      "topic": "RAG",
+      "source": "neon.com",
+      "title": "The Hidden Ops Layer of Agent Platforms",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.05023983120918274,
+        "router_scores": {
+          "MCP": 0.28746289014816284,
+          "LLMs": 0.2372230589389801,
+          "Quantum Computing": 0.07840920984745026,
+          "RAG": 0.041907139122486115
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
