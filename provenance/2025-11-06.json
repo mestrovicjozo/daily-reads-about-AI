@@ -1,0 +1,104 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/ai-papers-to-read-in-2025/",
+      "fetch_timestamp": "2025-11-06T06:35:17.096745",
+      "http_status": 200,
+      "content_hash": "1ce9fc6567813ad7e1a5bee3e59f87000afaec9f3c5ca3428b0b6d9ac9ba299c",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "AI Papers to Read in 2025",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.12764865159988403,
+        "router_scores": {
+          "LLMs": 0.3238521218299866,
+          "MCP": 0.19620347023010254,
+          "RAG": 0.16476427018642426,
+          "Quantum Computing": 0.1644437611103058
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/we-didnt-invent-attention-we-just-rediscovered-it/",
+      "fetch_timestamp": "2025-11-06T06:35:17.096635",
+      "http_status": 200,
+      "content_hash": "d4c09c6f0dad67c0dcc9ef7c44a9967c73f76289a5b7c72810962c58427d4e8c",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "We Didn\u2019t Invent Attention \u2014 We Just Rediscovered It",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.10257796943187714,
+        "router_scores": {
+          "LLMs": 0.3023831844329834,
+          "RAG": 0.19980521500110626,
+          "Quantum Computing": 0.17579856514930725,
+          "MCP": 0.12421472370624542
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/why-nonparametric-models-deserve-a-second-look/",
+      "fetch_timestamp": "2025-11-06T06:35:17.096932",
+      "http_status": 200,
+      "content_hash": "e362569ec664fe9226b13929479ed125a161391462719a719bd9f21cb3425282",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Why Nonparametric Models Deserve a Second Look",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.011523082852363586,
+        "router_scores": {
+          "RAG": 0.13262856006622314,
+          "MCP": 0.12110547721385956,
+          "Quantum Computing": 0.08129528909921646,
+          "LLMs": 0.0712924599647522
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/how-to-evaluate-retrieval-quality-in-rag-pipelines-part-2-mean-reciprocal-rank-mrr-and-average-precision-ap/",
+      "fetch_timestamp": "2025-11-06T06:35:17.096838",
+      "http_status": 200,
+      "content_hash": "bdd2b5dd5bdf516df7318e9aa32462354172afec4079bef4bd3338da355f41d8",
+      "topic": "RAG",
+      "source": "towardsdatascience.com",
+      "title": "How to Evaluate Retrieval Quality in RAG Pipelines (part 2): Mean Reciprocal Rank (MRR) and Average Precision (AP)",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.38436363637447357,
+        "router_scores": {
+          "RAG": 0.4604324698448181,
+          "LLMs": 0.07606883347034454,
+          "MCP": 0.05081956088542938,
+          "Quantum Computing": 0.03794468194246292
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://neon.com/blog/one-command-to-bridge-cursor-and-neon",
+      "fetch_timestamp": "2025-11-06T06:36:17.624995",
+      "http_status": 200,
+      "content_hash": "48d39eae4cb489350df37b1d596c0a111849a0cdc0eae44c941f37f59e75fa9c",
+      "topic": "MCP",
+      "source": "neon.com",
+      "title": "One Command to Bridge Cursor and Neon",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.0856899619102478,
+        "router_scores": {
+          "MCP": 0.21337835490703583,
+          "LLMs": 0.12768839299678802,
+          "RAG": 0.08909659087657928,
+          "Quantum Computing": 0.009792424738407135
+        },
+        "router_overrode": true
+      }
+    }
+  ]
+}
