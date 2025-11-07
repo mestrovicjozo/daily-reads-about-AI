@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/tds-newsletter-the-theory-and-practice-of-using-ai-effectively/",
+      "fetch_timestamp": "2025-11-07T06:35:01.084117",
+      "http_status": 200,
+      "content_hash": "568e2853204e33084a610cae3d729e8a7b94607b32f9e71b7ed19e9cdf6e3b32",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "TDS Newsletter: The Theory and Practice of Using AI Effectively",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.20382609963417053,
+        "router_scores": {
+          "LLMs": 0.42618528008461,
+          "MCP": 0.22235918045043945,
+          "Quantum Computing": 0.18756352365016937,
+          "RAG": 0.1686217188835144
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/the-handbook-of-reinforcement-learning-guide-to-the-foundational-questions/",
+      "fetch_timestamp": "2025-11-07T06:35:01.084322",
+      "http_status": 200,
+      "content_hash": "77d38b7931c26651bf9531688ed1c32742831fd7651334a5e80e0a25dc4fb4ba",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "The Reinforcement Learning Handbook: A Guide to Foundational Questions",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.0157318115234375,
+        "router_scores": {
+          "LLMs": 0.2319582998752594,
+          "MCP": 0.2162264883518219,
+          "RAG": 0.15211613476276398,
+          "Quantum Computing": 0.14748571813106537
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/expected-value-analysis-in-ai-product-management/",
+      "fetch_timestamp": "2025-11-07T06:35:01.084229",
+      "http_status": 200,
+      "content_hash": "0baa60783dac1f667bb12b7a1ca9e5e9aa265809e0dd140df6fb3fe65697baa8",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Expected Value Analysis in AI Product Management",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.10783413052558899,
+        "router_scores": {
+          "LLMs": 0.2519652843475342,
+          "MCP": 0.1441311538219452,
+          "Quantum Computing": 0.1402032971382141,
+          "RAG": 0.1252756118774414
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/multi-agent-sql-assistant-part-2-building-a-rag-manager/",
+      "fetch_timestamp": "2025-11-07T06:35:01.084435",
+      "http_status": 200,
+      "content_hash": "ab2422d607c567339c162993a19724e3d46143136205d9eb8f82143781b94569",
+      "topic": "RAG",
+      "source": "towardsdatascience.com",
+      "title": "Multi-Agent SQL Assistant, Part 2: Building a RAG Manager",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.10929572582244873,
+        "router_scores": {
+          "RAG": 0.36067691445350647,
+          "LLMs": 0.25138118863105774,
+          "MCP": 0.18437615036964417,
+          "Quantum Computing": -0.035919152200222015
+        },
+        "router_overrode": true
+      }
+    }
+  ]
+}
