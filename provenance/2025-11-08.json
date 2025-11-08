@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "url": "https://milvus.io/blog/beyond-context-overload-how-parlant-milvus-brings-control-and-clarity-to-llm-agent-behavior.md",
+      "fetch_timestamp": "2025-11-08T06:32:00.250858",
+      "http_status": 200,
+      "content_hash": "fd917d0dba9f12cc5c349e24c459c532166045ec1492d88d36beef924946d6a3",
+      "topic": "LLMs",
+      "source": "milvus.io",
+      "title": "Beyond Context Overload: How Parlant \u00d7 Milvus Brings Control and Clarity to LLM Agent Behavior",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.1355876922607422,
+        "router_scores": {
+          "LLMs": 0.4290503263473511,
+          "MCP": 0.2934626340866089,
+          "RAG": 0.2247825562953949,
+          "Quantum Computing": -0.029213374480605125
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/evaluating-synthetic-data-the-million-dollar-question-a54701d1b621/",
+      "fetch_timestamp": "2025-11-08T06:31:56.538699",
+      "http_status": 200,
+      "content_hash": "266be6f31b20c5991ee2c7566e0a4c0ed23b689dc9b35e989894a128cb96cebe",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Evaluating Synthetic Data \u2014 The Million Dollar Question",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.013191163539886475,
+        "router_scores": {
+          "LLMs": 0.09228505939245224,
+          "MCP": 0.07909389585256577,
+          "RAG": 0.04630037769675255,
+          "Quantum Computing": 0.03414018079638481
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/how-to-use-gpt-5-effectively/",
+      "fetch_timestamp": "2025-11-08T06:31:56.538934",
+      "http_status": 200,
+      "content_hash": "a7bbc65f20bae84c564e22088dd61230a47d8106ff676f441f2a07cd6953f18e",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "How to Use GPT-5 Effectively",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.01716187596321106,
+        "router_scores": {
+          "LLMs": 0.21227487921714783,
+          "MCP": 0.19511300325393677,
+          "RAG": 0.08200594782829285,
+          "Quantum Computing": -0.07822972536087036
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
