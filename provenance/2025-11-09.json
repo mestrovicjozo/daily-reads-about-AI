@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/power-analysis-in-marketing/",
+      "fetch_timestamp": "2025-11-09T06:32:12.263344",
+      "http_status": 200,
+      "content_hash": "a7275a070780b820bf9e802754aa3807b18854ee2e4ac204b6e3b4bdd4e48ff6",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Power Analysis in Marketing: A Hands-On Introduction",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.03340158052742481,
+        "router_scores": {
+          "MCP": 0.05821734666824341,
+          "Quantum Computing": 0.024815766140818596,
+          "LLMs": 0.02301497757434845,
+          "RAG": 0.013588566333055496
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/beyond-numbers-how-to-humanize-your-data-analysis/",
+      "fetch_timestamp": "2025-11-09T06:32:12.263530",
+      "http_status": 200,
+      "content_hash": "139c5f5f8f508b28a19ae420db714427b036978400768ee8b86c80e02de55f70",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Beyond Numbers: How to Humanize Your Data & Analysis",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.03103523701429367,
+        "router_scores": {
+          "Quantum Computing": 0.012587964534759521,
+          "RAG": -0.01844727247953415,
+          "LLMs": -0.07930850237607956,
+          "MCP": -0.07980413734912872
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "http://www.techmeme.com/251108/p2",
+      "fetch_timestamp": "2025-11-09T06:31:45.286397",
+      "http_status": 200,
+      "content_hash": "a59d8eb9b7ec4e48fcfc67cca03e335d9fc4a188bf4c2e2ef89c9821a1ac9872",
+      "topic": "LLMs",
+      "source": "www.techmeme.com",
+      "title": "Vast Data, which develops data storage tools, inks a $1.17B AI deal with CoreWeave; Vast Data, valued at $9.1B in 2023, said it reached $200M ARR by Jan. 2025 (Krystal Hu/Reuters)",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.03968912363052368,
+        "router_scores": {
+          "LLMs": 0.22036975622177124,
+          "RAG": 0.18068063259124756,
+          "MCP": 0.1798487901687622,
+          "Quantum Computing": 0.04336977377533913
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
