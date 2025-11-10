@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/llm-powered-time-series-analysis/",
+      "fetch_timestamp": "2025-11-10T06:37:22.032588",
+      "http_status": 200,
+      "content_hash": "01ccf781ea6f784de8633fe71ae4d7108e8c046d1a7c78c635bb97e49111eead",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "LLM-Powered Time-Series Analysis",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.17576582729816437,
+        "router_scores": {
+          "LLMs": 0.4145243167877197,
+          "MCP": 0.23875848948955536,
+          "Quantum Computing": 0.12599729001522064,
+          "RAG": 0.08958825469017029
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/how-to-build-your-own-agentic-ai-system-using-crewai/",
+      "fetch_timestamp": "2025-11-10T06:37:22.032711",
+      "http_status": 200,
+      "content_hash": "442b89553a72d610899a90b35c0a2d1de431fef867a4a6d1a735bcdd3c15bdbe",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "How to Build Your Own Agentic AI System Using CrewAI",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.14382541179656982,
+        "router_scores": {
+          "LLMs": 0.5205434560775757,
+          "MCP": 0.37671804428100586,
+          "RAG": 0.18125703930854797,
+          "Quantum Computing": 0.158342182636261
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://weaviate.io/blog/evals-enterprise-workflows-3",
+      "fetch_timestamp": "2025-11-10T06:37:23.453462",
+      "http_status": 200,
+      "content_hash": "4e6e9f29304a75cf4a688353c8b1f06e0d39ec48fa7508c53143b03253b38a2d",
+      "topic": "LLMs",
+      "source": "weaviate.io",
+      "title": "Evals and Guardrails in Enterprise workflows (Part 3)",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.08487638831138611,
+        "router_scores": {
+          "LLMs": 0.3167654275894165,
+          "MCP": 0.2318890392780304,
+          "RAG": 0.12773630023002625,
+          "Quantum Computing": 0.03453647717833519
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
