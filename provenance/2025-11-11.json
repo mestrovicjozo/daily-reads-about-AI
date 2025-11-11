@@ -1,0 +1,104 @@
+{
+  "items": [
+    {
+      "url": "https://milvus.io/blog/power-high-performance-rag-for-genai-with-hpe-alletra-storag-mp-milvus.md",
+      "fetch_timestamp": "2025-11-11T06:35:31.612417",
+      "http_status": 200,
+      "content_hash": "b9f023e9cfee8a7d66a5e3ddb87d275587e8d126854225fadd4447c10f4cecd5",
+      "topic": "LLMs",
+      "source": "milvus.io",
+      "title": "Power high performance RAG for GenAI with HPE Alletra Storage MP + Milvus",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.039718687534332275,
+        "router_scores": {
+          "RAG": 0.4139312505722046,
+          "LLMs": 0.3742125630378723,
+          "MCP": 0.12057696282863617,
+          "Quantum Computing": -0.019089043140411377
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/data-culture-is-the-symptom-not-the-solution/",
+      "fetch_timestamp": "2025-11-11T06:35:27.747516",
+      "http_status": 200,
+      "content_hash": "596a2510facbe1b6529da7174f0c08b4a3833810cf6b2e6b6e3f746c1bdd4ac0",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Data Culture Is the Symptom, Not the Solution",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.08891437202692032,
+        "router_scores": {
+          "LLMs": 0.17859217524528503,
+          "MCP": 0.08967780321836472,
+          "RAG": 0.08059783279895782,
+          "Quantum Computing": 0.02426186017692089
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/make-python-up-to-150x-faster-with-c/",
+      "fetch_timestamp": "2025-11-11T06:35:27.747130",
+      "http_status": 200,
+      "content_hash": "d4ce2d45f822ee0196c233cf8bd54fbf17d84061cd825217f05a9066c658001f",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Make Python Up to 150\u00d7 Faster with C",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.011734828352928162,
+        "router_scores": {
+          "LLMs": 0.21842439472675323,
+          "Quantum Computing": 0.20668956637382507,
+          "RAG": 0.16512838006019592,
+          "MCP": 0.11291328072547913
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://neon.com/blog/three-ways-to-use-your-snapshots",
+      "fetch_timestamp": "2025-11-11T06:36:28.186546",
+      "http_status": 200,
+      "content_hash": "ee19b925fe947fa6de27667afb5f71f79afc60f9a1346ca535ccb283d2811789",
+      "topic": "RAG",
+      "source": "neon.com",
+      "title": "Three Ways to Use Your Snapshots",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.1256643533706665,
+        "router_scores": {
+          "RAG": 0.1544792354106903,
+          "MCP": 0.028814882040023804,
+          "LLMs": 0.027893757447600365,
+          "Quantum Computing": -0.019001169130206108
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/does-more-data-always-yield-better-performance/",
+      "fetch_timestamp": "2025-11-11T06:35:27.747421",
+      "http_status": 200,
+      "content_hash": "c2eaaebdccc84d15dafdf154109cdeaa83228627ee376f517c64e2d7743545cd",
+      "topic": "RAG",
+      "source": "towardsdatascience.com",
+      "title": "Does More Data Always Yield Better Performance?",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.08763629198074341,
+        "router_scores": {
+          "RAG": 0.16280943155288696,
+          "MCP": 0.07517313957214355,
+          "LLMs": 0.03355374559760094,
+          "Quantum Computing": 0.01708749122917652
+        },
+        "router_overrode": true
+      }
+    }
+  ]
+}
