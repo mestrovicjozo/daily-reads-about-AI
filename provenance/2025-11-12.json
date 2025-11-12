@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/the-three-ages-of-data-science-when-to-use-traditional-machine-learning-deep-learning-or-a-large-language-models-explained-with-one-example/",
+      "fetch_timestamp": "2025-11-12T06:35:49.613593",
+      "http_status": 200,
+      "content_hash": "4f6aa3aef8c5ac39b9520ca07560ac92ac95e6f78b3acf79200abe9581c5bf38",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "The Three Ages of Data Science: When to Use Traditional Machine Learning, Deep Learning, or an LLM (Explained with One Example)",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.11846213042736053,
+        "router_scores": {
+          "LLMs": 0.3658384382724762,
+          "Quantum Computing": 0.24737630784511566,
+          "MCP": 0.16834795475006104,
+          "RAG": 0.13369247317314148
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/how-to-build-agents-with-gpt-5/",
+      "fetch_timestamp": "2025-11-12T06:35:49.613717",
+      "http_status": 200,
+      "content_hash": "36f884eab5aed3e8e33c116bb98f5af6fe0a99e3393f1f8d1fcf8ab3bb55fb4d",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "How to Build Agents with GPT-5",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.06087478995323181,
+        "router_scores": {
+          "LLMs": 0.34353190660476685,
+          "MCP": 0.28265711665153503,
+          "RAG": 0.18056416511535645,
+          "Quantum Computing": 0.07677295804023743
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/the-ai-hype-dont-overestimate-the-impact-of-ai/",
+      "fetch_timestamp": "2025-11-12T06:35:49.613809",
+      "http_status": 200,
+      "content_hash": "fb2dedfb2324184295d40023ddb9ba7bf3a6c1176c0dac3570a737df7af540f0",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "AI Hype: Don\u2019t Overestimate the Impact of AI",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.020995691418647766,
+        "router_scores": {
+          "LLMs": 0.16871948540210724,
+          "Quantum Computing": 0.14772379398345947,
+          "RAG": 0.10920310765504837,
+          "MCP": 0.09381933510303497
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/do-you-really-need-graphrag-a-practitioners-guide-beyond-the-hype/",
+      "fetch_timestamp": "2025-11-12T06:35:49.613487",
+      "http_status": 200,
+      "content_hash": "3e676372cfb555ed21c06c556867b7482e90afa43e648cd35008468bf0c5ab70",
+      "topic": "RAG",
+      "source": "towardsdatascience.com",
+      "title": "Do You Really Need GraphRAG? A Practitioner\u2019s Guide Beyond the Hype",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.15287715196609497,
+        "router_scores": {
+          "RAG": 0.340772807598114,
+          "LLMs": 0.18789565563201904,
+          "MCP": 0.13059908151626587,
+          "Quantum Computing": 0.03498019278049469
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://weaviate.io/blog/weaviate-1-34-release",
+      "fetch_timestamp": "2025-11-12T06:35:50.896255",
+      "http_status": 200,
+      "content_hash": "44f6caab895e47378c4f5ac6cba90e3773ebd9f18c57704445ca1ca6e365660d",
+      "topic": "RAG",
+      "source": "weaviate.io",
+      "title": "Weaviate 1.34 Release",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.0837261974811554,
+        "router_scores": {
+          "RAG": 0.28026098012924194,
+          "LLMs": 0.19653478264808655,
+          "Quantum Computing": 0.11365166306495667,
+          "MCP": 0.04398145526647568
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://neon.com/blog/branching-environments-anonymized-pii",
+      "fetch_timestamp": "2025-11-12T06:36:51.381872",
+      "http_status": 200,
+      "content_hash": "7ae44a951e7e3670caedf171dcff88bbea6e401c9a1d59f412c6b8896a81edd6",
+      "topic": "MCP",
+      "source": "neon.com",
+      "title": "Branching With or Without PII: The Future of Environments",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.1468669380992651,
+        "router_scores": {
+          "MCP": 0.1626650094985962,
+          "Quantum Computing": 0.015798071399331093,
+          "LLMs": 0.007928339764475822,
+          "RAG": -0.013071257621049881
+        },
+        "router_overrode": true
+      }
+    }
+  ]
+}
