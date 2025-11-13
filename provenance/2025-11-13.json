@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/power-bi-aggregations-the-ultimate-guide/",
+      "fetch_timestamp": "2025-11-13T06:36:14.620470",
+      "http_status": 200,
+      "content_hash": "52c55019a2637fb4488acaaf145cd3ce59a0f9c9055c40c0b7bd404afea198ee",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "The Ultimate Guide to Power BI Aggregations",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.046899423003196716,
+        "router_scores": {
+          "RAG": 0.16453561186790466,
+          "MCP": 0.11763618886470795,
+          "LLMs": 0.058386996388435364,
+          "Quantum Computing": -0.0052609555423259735
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/deploy-your-ai-assistant-to-monitor-and-debug-n8n-workflows-using-claude-and-mcp/",
+      "fetch_timestamp": "2025-11-13T06:36:14.620366",
+      "http_status": 200,
+      "content_hash": "ea359560d4c6422f7529dea5592651064f45c85c0d8f685b4a9c8f24011c8238",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Deploy Your AI Assistant to Monitor and Debug n8n Workflows Using Claude and MCP",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.039792582392692566,
+        "router_scores": {
+          "MCP": 0.25668323040008545,
+          "LLMs": 0.21689064800739288,
+          "Quantum Computing": 0.0464901402592659,
+          "RAG": 0.024135766550898552
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/feature-detection-part-2-laplace-gaussian-operators/",
+      "fetch_timestamp": "2025-11-13T06:36:14.620662",
+      "http_status": 200,
+      "content_hash": "7d889b730f826a1b68da0614eb2e98c191e72a42a5ced94a74ab576b6c5b66ce",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Feature Detection, Part 2: Laplace & Gaussian Operators",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.008427605032920837,
+        "router_scores": {
+          "MCP": 0.15342701971530914,
+          "LLMs": 0.1449994146823883,
+          "RAG": 0.10209183394908905,
+          "Quantum Computing": 0.08880043029785156
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/how-to-evaluate-retrieval-quality-in-rag-pipelines-part-3-dcgk-and-ndcgk/",
+      "fetch_timestamp": "2025-11-13T06:36:14.620563",
+      "http_status": 200,
+      "content_hash": "0ba7e20f118d73df57f3a8bbb01135fd1b9e2e71c1caefbf98c60786684bab30",
+      "topic": "RAG",
+      "source": "towardsdatascience.com",
+      "title": "How to Evaluate Retrieval Quality in RAG Pipelines (Part 3): DCG@k and NDCG@k",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.37471698224544525,
+        "router_scores": {
+          "RAG": 0.481827974319458,
+          "MCP": 0.10711099207401276,
+          "LLMs": 0.10293378680944443,
+          "Quantum Computing": 0.05417773127555847
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://neon.com/blog/building-versioning-for-ai-generated-apps",
+      "fetch_timestamp": "2025-11-13T06:37:17.270851",
+      "http_status": 200,
+      "content_hash": "693617bd954f3193e0ea7b7aedef10a3905e0b4ab43406aeaa530951e4833592",
+      "topic": "RAG",
+      "source": "neon.com",
+      "title": "Building Versioning for AI-Generated Apps",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.020467817783355713,
+        "router_scores": {
+          "LLMs": 0.16642853617668152,
+          "MCP": 0.1459607183933258,
+          "RAG": 0.06310726702213287,
+          "Quantum Computing": -0.036290720105171204
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.mongodb.com/company/blog/news/mongodb-announces-leadership-transition",
+      "fetch_timestamp": "2025-11-13T06:37:12.588151",
+      "http_status": 200,
+      "content_hash": "11fd1e36687f53ba60e9c5015f74590025d401cfaee1224697a6ba93f1bcbdb1",
+      "topic": "RAG",
+      "source": "www.mongodb.com",
+      "title": "MongoDB Announces Leadership Transition",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.05351649224758148,
+        "router_scores": {
+          "MCP": 0.06838423013687134,
+          "LLMs": 0.014867737889289856,
+          "RAG": -0.03753481060266495,
+          "Quantum Computing": -0.059320226311683655
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
