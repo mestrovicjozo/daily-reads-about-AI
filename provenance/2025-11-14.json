@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/llms-are-randomized-algorithms/",
+      "fetch_timestamp": "2025-11-14T06:35:50.226376",
+      "http_status": 200,
+      "content_hash": "c8b95518bd71280c221008774a622d7fa2a9d968a45d1e0533e06f80de63484f",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "LLMs Are Randomized Algorithms",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.20599666237831116,
+        "router_scores": {
+          "LLMs": 0.46296757459640503,
+          "RAG": 0.25697091221809387,
+          "Quantum Computing": 0.2119506299495697,
+          "MCP": 0.1845417469739914
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/reinforcement-learning-for-robotics-complete-tutorial/",
+      "fetch_timestamp": "2025-11-14T06:35:50.226479",
+      "http_status": 200,
+      "content_hash": "d219c1afa5b6e3ee4171157c74def34520eaa29e35d8cf518486f75ae7cdf578",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Robotics with Python: Q-Learning vs Actor-Critic vs Evolutionary Algorithms",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.0600835382938385,
+        "router_scores": {
+          "LLMs": 0.28749918937683105,
+          "Quantum Computing": 0.22741565108299255,
+          "MCP": 0.20672766864299774,
+          "RAG": 0.11753229796886444
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/organizing-code-experiments-and-research-for-kaggle-competitions/",
+      "fetch_timestamp": "2025-11-14T06:35:50.226577",
+      "http_status": 200,
+      "content_hash": "2bccc521f205df9d76b841e24cc7f3ca88aa70cbfebcc1ed0a729707d28bf6b5",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Organizing Code, Experiments, and Research for Kaggle Competitions",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.013578340411186218,
+        "router_scores": {
+          "Quantum Computing": 0.23111392557621002,
+          "LLMs": 0.2175355851650238,
+          "RAG": 0.19712646305561066,
+          "MCP": 0.1626283824443817
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
