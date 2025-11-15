@@ -1,0 +1,104 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/the-success-of-an-ai-product-depends-on-how-intuitively-users-can-interact-with-its-capabilities/",
+      "fetch_timestamp": "2025-11-15T06:33:03.476280",
+      "http_status": 200,
+      "content_hash": "7f4414235ad15d115801e6aa57f2b5242255732e4207dc16be24b797d8e1db31",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "\u201cThe success of an AI product depends on how intuitively users can interact with its capabilities\u201d",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.17158730328083038,
+        "router_scores": {
+          "LLMs": 0.3914192020893097,
+          "MCP": 0.2198318988084793,
+          "RAG": 0.16956010460853577,
+          "Quantum Computing": 0.11697995662689209
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/cracking-machine-learning-system-design-interviews/",
+      "fetch_timestamp": "2025-11-15T06:33:03.476432",
+      "http_status": 200,
+      "content_hash": "8ab3ec74b4201b4d02010bb65a3b58d770d48fa6611d73e9dfd3ccebcad8578b",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "How to Crack Machine Learning System-Design Interviews",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.03556114435195923,
+        "router_scores": {
+          "LLMs": 0.2884923219680786,
+          "MCP": 0.2529311776161194,
+          "RAG": 0.14326924085617065,
+          "Quantum Computing": 0.1386532336473465
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/music-lyrics-and-agentic-ai-building-a-smart-song-explainer-using-python-and-openai/",
+      "fetch_timestamp": "2025-11-15T06:33:03.476559",
+      "http_status": 200,
+      "content_hash": "74d81eeb5da0774ffe81a6283189ab5c18b1535ad0051d29abec21ad3ac81074",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Music, Lyrics, and Agentic AI: Building a Smart Song Explainer using Python and OpenAI",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.06445159018039703,
+        "router_scores": {
+          "LLMs": 0.3040675222873688,
+          "RAG": 0.23961593210697174,
+          "MCP": 0.08170691877603531,
+          "Quantum Computing": -0.027786172926425934
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://milvus.io/blog/smarter-retrieval-for-rag-late-chunking-with-jina-embeddings-v2-and-milvus.md",
+      "fetch_timestamp": "2025-11-15T06:33:07.047239",
+      "http_status": 200,
+      "content_hash": "cfc5ebd7cccbb21b5c643bcf804101c4b9b183db282a25c4f36bd6c630648b31",
+      "topic": "RAG",
+      "source": "milvus.io",
+      "title": "Smarter Retrieval for RAG: Late Chunking with Jina Embeddings v2 and Milvus",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.2834460139274597,
+        "router_scores": {
+          "RAG": 0.5378803610801697,
+          "LLMs": 0.25443434715270996,
+          "MCP": 0.06111347675323486,
+          "Quantum Computing": -0.007094131782650948
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://neon.com/blog/run-product-analytics-on-your-neon-data-using-fabi-ai",
+      "fetch_timestamp": "2025-11-15T06:34:06.013152",
+      "http_status": 200,
+      "content_hash": "db33275646227832496a00feabc621d91f0890bc1ab4b11978ea40b6533c470b",
+      "topic": "RAG",
+      "source": "neon.com",
+      "title": "Run Product Analytics on Your Neon Data Using Fabi.ai",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.061513423919677734,
+        "router_scores": {
+          "LLMs": 0.23325222730636597,
+          "RAG": 0.17173880338668823,
+          "Quantum Computing": 0.1320757269859314,
+          "MCP": 0.10549789667129517
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
