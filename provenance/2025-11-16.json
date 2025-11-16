@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/i-measured-neural-network-training-every-5-steps-for-10000-iterations/",
+      "fetch_timestamp": "2025-11-16T06:33:29.206065",
+      "http_status": 200,
+      "content_hash": "0adf16d8d470a80ebf1cc475a3c304525eb0a55615a762c6863dfe447ece18ee",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "I Measured Neural Network Training Every 5 Steps for 10,000 Iterations",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.04896494746208191,
+        "router_scores": {
+          "LLMs": 0.1949458122253418,
+          "MCP": 0.1459808647632599,
+          "Quantum Computing": 0.10676264762878418,
+          "RAG": 0.05508513003587723
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/how-to-automate-workflows-with-ai/",
+      "fetch_timestamp": "2025-11-16T06:33:29.205956",
+      "http_status": 200,
+      "content_hash": "2e9b2e7273b8b20acfcbc3b4ac9b9994bfc0553ae825af9a2ec5f4d48a2dc9ad",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "How to Automate Workflows with AI",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.01125246286392212,
+        "router_scores": {
+          "LLMs": 0.3200186491012573,
+          "RAG": 0.3087661862373352,
+          "MCP": 0.21568511426448822,
+          "Quantum Computing": 0.05628729984164238
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/critical-mistakes-companies-make-when-integrating-ai-ml-into-their-processes/",
+      "fetch_timestamp": "2025-11-16T06:33:29.206468",
+      "http_status": 200,
+      "content_hash": "da9908b02c974d74eeb96928db3693550bc97059b7192a40001d9c9473d4e125",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Critical Mistakes Companies Make When Integrating AI/ML into Their Processes",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.11678844690322876,
+        "router_scores": {
+          "LLMs": 0.2659047842025757,
+          "MCP": 0.14911633729934692,
+          "Quantum Computing": 0.12777943909168243,
+          "RAG": 0.08032607287168503
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
