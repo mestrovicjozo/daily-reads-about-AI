@@ -1,0 +1,164 @@
+{
+  "items": [
+    {
+      "url": "https://milvus.io/blog/when-context-engineering-is-done-right-hallucinations-can-spark-ai-creativity.md",
+      "fetch_timestamp": "2025-11-17T06:36:51.377813",
+      "http_status": 200,
+      "content_hash": "168d9251789347c0098482162897f84929293c91a11c7126686d4a0e9b009106",
+      "topic": "LLMs",
+      "source": "milvus.io",
+      "title": "When Context Engineering Is Done Right, Hallucinations Can Be the Spark of AI Creativity",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.2043979912996292,
+        "router_scores": {
+          "LLMs": 0.4294784665107727,
+          "RAG": 0.2250804752111435,
+          "MCP": 0.1536836326122284,
+          "Quantum Computing": 0.06770601868629456
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/i-built-an-ios-app-in-3-days-with-literally-no-prior-swift-knowledge/",
+      "fetch_timestamp": "2025-11-17T06:36:47.418477",
+      "http_status": 200,
+      "content_hash": "57bb5c9fb4f0ad53442b27c27f454e10d6a7f1596fa1cc7d16fac4414823d84c",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "I Built an IOS App in 3 Days with Literally No Prior Swift Knowledge",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.06739107519388199,
+        "router_scores": {
+          "LLMs": 0.19166594743728638,
+          "RAG": 0.12427487224340439,
+          "MCP": 0.06917831301689148,
+          "Quantum Computing": 0.034511350095272064
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/stop-worrying-about-agi-the-immediate-danger-is-reduced-general-intelligence-rgi/",
+      "fetch_timestamp": "2025-11-17T06:36:47.418596",
+      "http_status": 200,
+      "content_hash": "6390cb1849392f12786ed9045c7ecd8f53587efa2af0a7721f952fc5759e204d",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Stop Worrying about AGI: The Immediate Danger is Reduced General Intelligence (RGI)",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.15052887797355652,
+        "router_scores": {
+          "LLMs": 0.29482972621917725,
+          "Quantum Computing": 0.14430084824562073,
+          "RAG": 0.12168866395950317,
+          "MCP": 0.08523446321487427
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://milvus.io/blog/tokenize-smarter-retrieve-better-a-deep-dive-into-milvus-analyzer-for-full-text-search.md",
+      "fetch_timestamp": "2025-11-17T06:36:51.378036",
+      "http_status": 200,
+      "content_hash": "679cf78a843e41e3313b3e4c70e4c718dcad8d8ae8c6630e98cea47b13e32aa8",
+      "topic": "RAG",
+      "source": "milvus.io",
+      "title": "Tokenize Smarter, Retrieve Better: A Deep Dive into Milvus Analyzer for Full-Text Search",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.13060778379440308,
+        "router_scores": {
+          "RAG": 0.501652717590332,
+          "LLMs": 0.37104493379592896,
+          "MCP": 0.1475115716457367,
+          "Quantum Computing": 0.05103931576013565
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://milvus.io/blog/how-opussearch-built-exact-matching-for-enterprise-rag-with-milvus-bm25.md",
+      "fetch_timestamp": "2025-11-17T06:36:51.377983",
+      "http_status": 200,
+      "content_hash": "5187fa27f73f815e9d6f9c206a843bd01ad50429cd1f4864c32ceee011ff623a",
+      "topic": "RAG",
+      "source": "milvus.io",
+      "title": "How OpusSearch Built Exact Matching for Enterprise RAG with Milvus BM25",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.23456764221191406,
+        "router_scores": {
+          "RAG": 0.5016084909439087,
+          "LLMs": 0.26704084873199463,
+          "MCP": 0.10629016906023026,
+          "Quantum Computing": 0.010998954996466637
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://developers.googleblog.com/unlocking-the-potential-of-quantum-computing-a-developers-guide-to-error-correction/",
+      "fetch_timestamp": "2025-11-17T06:39:05.308357",
+      "http_status": 200,
+      "content_hash": "679f0a3219f110ecd935bb9635b97a938bf1075506d9f934f06af34eb6a3875c",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "arrow_forward",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.4046296365559101,
+        "router_scores": {
+          "Quantum Computing": 0.3870529532432556,
+          "LLMs": -0.017576683312654495,
+          "MCP": -0.026372361928224564,
+          "RAG": -0.04321856051683426
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://research.google/blog/making-quantum-error-correction-work/",
+      "fetch_timestamp": "2025-11-17T06:39:05.308309",
+      "http_status": 200,
+      "content_hash": "beddb4dbe9b1af55c0ee890121c0fd8f463de570d5fa05b28487cd1cddb4010a",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "arrow_forward",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.4376901239156723,
+        "router_scores": {
+          "Quantum Computing": 0.48441076278686523,
+          "LLMs": 0.04672063887119293,
+          "RAG": 0.026758039370179176,
+          "MCP": 0.00042277947068214417
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://quantumai.google/quantumcomputer",
+      "fetch_timestamp": "2025-11-17T06:39:05.307752",
+      "http_status": 200,
+      "content_hash": "8b6d9cc4145568357368c5a012e781937b2c014c08f182d377a9c4f6e63cbc38",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Our Work",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.4393310546875,
+        "router_scores": {
+          "Quantum Computing": 0.4741380214691162,
+          "MCP": 0.03480696678161621,
+          "LLMs": 0.018871910870075226,
+          "RAG": -0.03649521619081497
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
