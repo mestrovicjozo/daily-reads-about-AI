@@ -1,0 +1,164 @@
+{
+  "items": [
+    {
+      "url": "https://milvus.io/blog/unlocking-8%C3%97-milvus-performance-with-cloudian-hyperstore-and-nvidia-rdma-for-s3-storage.md",
+      "fetch_timestamp": "2025-11-18T06:34:58.313091",
+      "http_status": 200,
+      "content_hash": "e07a6ef23779a05569ab0f546070d88c72fca81ca810fff1c237989b63063214",
+      "topic": "LLMs",
+      "source": "milvus.io",
+      "title": "Unlocking 8\u00d7 Milvus Performance with Cloudian HyperStore and NVIDIA RDMA for S3 Storage",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.018997833132743835,
+        "router_scores": {
+          "MCP": 0.2120896279811859,
+          "LLMs": 0.19309179484844208,
+          "RAG": 0.17900484800338745,
+          "Quantum Computing": 0.06768584251403809
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/understanding-convolutional-neural-networks-cnns-through-excel/",
+      "fetch_timestamp": "2025-11-18T06:34:54.406621",
+      "http_status": 200,
+      "content_hash": "e6cb94664ed125075b8bcee556a3b7f560a71cd57da2c756dda5aac733da2fea",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Understanding Convolutional Neural Networks (CNNs) Through Excel",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.07316207885742188,
+        "router_scores": {
+          "LLMs": 0.24399706721305847,
+          "RAG": 0.1708349883556366,
+          "MCP": 0.16171686351299286,
+          "Quantum Computing": 0.1180533617734909
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/javascript-fatigue-you-dont-need-js-to-build-chatgpt-part-2/",
+      "fetch_timestamp": "2025-11-18T06:34:54.406770",
+      "http_status": 200,
+      "content_hash": "6d1d7a05cb0340101c9c161a75b891a5233b755968a5240c72e1cd552304dd65",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Javascript Fatigue: HTMX Is All You Need to Build ChatGPT \u2014 Part 2",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.12735652923583984,
+        "router_scores": {
+          "LLMs": 0.2543261647224426,
+          "RAG": 0.12696963548660278,
+          "MCP": 0.07187460362911224,
+          "Quantum Computing": 0.022474218159914017
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://neon.com/blog/handle-pii-staging-databases",
+      "fetch_timestamp": "2025-11-18T06:35:54.933301",
+      "http_status": 200,
+      "content_hash": "0681acde45a9e67417ef8ae71d792d85ae24ce79a54a34f010544744310b8a95",
+      "topic": "MCP",
+      "source": "neon.com",
+      "title": "How to Handle PII in Staging Databases Without Losing Realistic Data",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.17048142664134502,
+        "router_scores": {
+          "MCP": 0.17335295677185059,
+          "RAG": 0.002871530130505562,
+          "LLMs": -0.02629910036921501,
+          "Quantum Computing": -0.0754069983959198
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://replicate.com/blog/replicate-cloudflare",
+      "fetch_timestamp": "2025-11-18T06:35:06.014552",
+      "http_status": 200,
+      "content_hash": "60bad63bcdd62094b520223561537bafcb20785361b9b12ebf18bd800a108e8e",
+      "topic": "MCP",
+      "source": "replicate.com",
+      "title": "Replicate is joining Cloudflare",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.08582454919815063,
+        "router_scores": {
+          "MCP": 0.28231489658355713,
+          "LLMs": 0.1964903473854065,
+          "Quantum Computing": 0.10537004470825195,
+          "RAG": 0.09698794782161713
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://research.google/blog/validating-random-circuit-sampling-as-a-benchmark-for-measuring-quantum-progress/",
+      "fetch_timestamp": "2025-11-18T06:37:12.658586",
+      "http_status": 200,
+      "content_hash": "cd53966dd2f6dcfef60d883a5dc56a43141e4c5f8fb20d74f3026c31341ea5c7",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "arrow_forward",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.4184223860502243,
+        "router_scores": {
+          "Quantum Computing": 0.49995046854019165,
+          "LLMs": 0.08152808248996735,
+          "MCP": 0.06192070245742798,
+          "RAG": 0.03622272610664368
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://quantumai.google/resources",
+      "fetch_timestamp": "2025-11-18T06:37:12.657963",
+      "http_status": 200,
+      "content_hash": "be9a7761cbe31b19b54e296d2825586e7ad53e612a4a9548fe36a6e50ab851d3",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Educational resources",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.47477997839450836,
+        "router_scores": {
+          "Quantum Computing": 0.6281393766403198,
+          "LLMs": 0.15335939824581146,
+          "MCP": 0.12234340608119965,
+          "RAG": 0.12077254056930542
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://quantumai.google/discover/whatisqc",
+      "fetch_timestamp": "2025-11-18T06:37:12.657930",
+      "http_status": 200,
+      "content_hash": "839b56ae1dc7adf935f9c2963ba23d588a5e5ffee985518b4dd9c6ec4e2f0153",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Discover",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.4867682456970215,
+        "router_scores": {
+          "Quantum Computing": 0.5586705207824707,
+          "LLMs": 0.07190227508544922,
+          "MCP": 0.06716923415660858,
+          "RAG": -0.01163492538034916
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
