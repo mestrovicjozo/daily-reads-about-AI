@@ -1,0 +1,224 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/pytorch-tutorial-for-beginners-build-a-multiple-regression-model-from-scratch/",
+      "fetch_timestamp": "2025-11-20T06:35:20.443771",
+      "http_status": 200,
+      "content_hash": "eef4ecc0f2cb975925c9fe8eeb097307e02cf706f380c54cb7b15ec63b7f24f5",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "PyTorch Tutorial for Beginners: Build a Multiple Regression Model from Scratch",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.19111868739128113,
+        "router_scores": {
+          "LLMs": 0.41726380586624146,
+          "MCP": 0.22614511847496033,
+          "RAG": 0.13990400731563568,
+          "Quantum Computing": 0.10711662471294403
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/developing-human-sexuality-in-the-age-of-ai/",
+      "fetch_timestamp": "2025-11-20T06:35:20.443619",
+      "http_status": 200,
+      "content_hash": "b4718c6f813ad683684e13546163efc6845b3b195f59dd5e739c5278e54260e3",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Developing Human Sexuality in the Age of AI",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.20944800972938538,
+        "router_scores": {
+          "LLMs": 0.3539379835128784,
+          "MCP": 0.14448997378349304,
+          "RAG": 0.1310206949710846,
+          "Quantum Computing": 0.12981510162353516
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/making-smarter-bets-towards-a-winning-ai-strategy-with-probabilistic-thinking/",
+      "fetch_timestamp": "2025-11-20T06:35:20.443872",
+      "http_status": 200,
+      "content_hash": "26baf86f71b61ed7d55ac0055b0febcc2cdd9bc532668aa52c3660ae24346a2d",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Making Smarter Bets: Towards a Winning AI Strategy with Probabilistic Thinking",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.03288757801055908,
+        "router_scores": {
+          "LLMs": 0.13789063692092896,
+          "RAG": 0.10500305891036987,
+          "MCP": 0.09937909990549088,
+          "Quantum Computing": 0.08781030029058456
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/how-to-perform-agentic-information-retrieval/",
+      "fetch_timestamp": "2025-11-20T06:35:20.443463",
+      "http_status": 200,
+      "content_hash": "303158fb3b9774a4aa411b8782a29563ba005cfa620dd660ac1d241b6ce527a1",
+      "topic": "RAG",
+      "source": "towardsdatascience.com",
+      "title": "How to Perform Agentic Information Retrieval",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.27936309576034546,
+        "router_scores": {
+          "RAG": 0.6589034795761108,
+          "LLMs": 0.3795403838157654,
+          "MCP": 0.1729802042245865,
+          "Quantum Computing": 0.10755972564220428
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://neon.com/blog/big-dx-improvements-for-neon-users-on-vercel",
+      "fetch_timestamp": "2025-11-20T06:36:21.964817",
+      "http_status": 200,
+      "content_hash": "65104fa2ad5697122713fb05a4464d879c99bc862003e0dc3c77d8ca1cfb2fad",
+      "topic": "RAG",
+      "source": "neon.com",
+      "title": "Big DX Improvements for Neon Users on Vercel",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.038610197603702545,
+        "router_scores": {
+          "RAG": 0.07404211163520813,
+          "LLMs": 0.035431914031505585,
+          "MCP": 0.0007160287350416183,
+          "Quantum Computing": -0.09881462156772614
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://neon.com/blog/integrating-postgres-and-auth-the-easy-way-daisys-neon-setup",
+      "fetch_timestamp": "2025-11-20T06:36:21.964668",
+      "http_status": 200,
+      "content_hash": "95efab5c3618972dff078069dd8ef020ec042d75beba6d39a47086f5b1e10b1d",
+      "topic": "RAG",
+      "source": "neon.com",
+      "title": "Integrating Postgres and Auth the Easy Way: Daisy\u2019s Neon Setup",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.014127582311630249,
+        "router_scores": {
+          "MCP": 0.1305059939622879,
+          "RAG": 0.11637841165065765,
+          "LLMs": 0.0805823802947998,
+          "Quantum Computing": -0.01858549192547798
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://milvus.io/blog/is-mcp-already-outdated-the-real-reason-anthropic-shipped-skills-and-how-to-pair-them-with-milvus.md",
+      "fetch_timestamp": "2025-11-20T06:35:23.894914",
+      "http_status": 200,
+      "content_hash": "3835ab30e7e63be09a52c16451a4eb0d093d62a10850c21e5d68f4a79f12a078",
+      "topic": "MCP",
+      "source": "milvus.io",
+      "title": "Is MCP Already Outdated? The Real Reason Anthropic Shipped Skills\u2014and How to Pair Them with Milvus",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.1860528290271759,
+        "router_scores": {
+          "MCP": 0.4949994385242462,
+          "LLMs": 0.3089466094970703,
+          "RAG": 0.14961497485637665,
+          "Quantum Computing": -0.050049491226673126
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://neon.com/blog/mcp-safety-cheatsheet",
+      "fetch_timestamp": "2025-11-20T06:36:21.964503",
+      "http_status": 200,
+      "content_hash": "d46f492d0cfe527797bdd3d91db522e5fb99fcbb49e7ce09c0069c8e576bdcf8",
+      "topic": "MCP",
+      "source": "neon.com",
+      "title": "MCP Safety Cheatsheet",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.25810153782367706,
+        "router_scores": {
+          "MCP": 0.36569464206695557,
+          "LLMs": 0.1075931042432785,
+          "RAG": -0.06408268213272095,
+          "Quantum Computing": -0.07453463971614838
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://policies.google.com/terms",
+      "fetch_timestamp": "2025-11-20T06:37:40.757200",
+      "http_status": 200,
+      "content_hash": "ac5a0b31f53f18b0da104afb7bf871075bf12ddfa4252907bc6f79c64187799f",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Terms",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.008259713649749756,
+        "router_scores": {
+          "MCP": 0.32280677556991577,
+          "LLMs": 0.314547061920166,
+          "RAG": 0.2678673565387726,
+          "Quantum Computing": 0.1385316252708435
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://policies.google.com/privacy",
+      "fetch_timestamp": "2025-11-20T06:37:40.757182",
+      "http_status": 200,
+      "content_hash": "c02c2c8d655cbe6b22cf56b6343ce68b2a8f92262f5e321480111ed9a5b3a7d3",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Privacy",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.03958582878112793,
+        "router_scores": {
+          "RAG": 0.20544740557670593,
+          "MCP": 0.165861576795578,
+          "LLMs": 0.08445531874895096,
+          "Quantum Computing": 0.052718378603458405
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.google.com/about/careers/applications/jobs/results/?company=Google&employment_type=FULL_TIME&employment_type=PART_TIME&location=California,%20USA&location=Munich,%20Germany&location=Seattle,%20WA,%20USA&location=Zurich,%20Switzerland&q=quantum&sort_by=relevance&src=Online%2FGoogle%20Website%2FQuantum_AI&utm_campaign=Quantum_AI&utm_medium=Google%20Website&utm_source=online",
+      "fetch_timestamp": "2025-11-20T06:37:40.756546",
+      "http_status": 200,
+      "content_hash": "e9417cb187e612da6782b946332d88d05fdc4bb670c97149340044ce99695bc9",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Careers",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.029757238924503326,
+        "router_scores": {
+          "RAG": 0.15139110386371613,
+          "Quantum Computing": 0.1216338649392128,
+          "LLMs": 0.11904703080654144,
+          "MCP": 0.05521073564887047
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
