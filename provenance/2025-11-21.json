@@ -1,0 +1,104 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/how-relevance-models-foreshadowed-transformers-for-nlp/",
+      "fetch_timestamp": "2025-11-21T06:36:40.038073",
+      "http_status": 200,
+      "content_hash": "1bcc76422951ebf249311a251b6cf0bb2bde6e2873c166f7ef661a38d3f6e4b4",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "How Relevance Models Foreshadowed Transformers for NLP",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.12446784973144531,
+        "router_scores": {
+          "LLMs": 0.43682074546813965,
+          "RAG": 0.31235289573669434,
+          "MCP": 0.1930534988641739,
+          "Quantum Computing": 0.1308523714542389
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/how-to-use-gemini-3-pro-efficiently/",
+      "fetch_timestamp": "2025-11-21T06:36:40.037853",
+      "http_status": 200,
+      "content_hash": "263413432bf7f840f26b77de8a541bde45da46fe606ab91a23899c7dbac65ad4",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "How to Use Gemini 3 Pro Efficiently",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.09960222989320755,
+        "router_scores": {
+          "LLMs": 0.20443202555179596,
+          "RAG": 0.10482979565858841,
+          "MCP": 0.07581546902656555,
+          "Quantum Computing": -0.00409090518951416
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://huggingface.co/blog/anylanguagemodel",
+      "fetch_timestamp": "2025-11-21T06:35:57.977595",
+      "http_status": 200,
+      "content_hash": "cf31ce8befa84ecb3ef5d9f83bca197f0ed506624045570601e3b04706ef944e",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "Introducing AnyLanguageModel: One API for Local and Remote LLMs on Apple Platforms",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.039679378271102905,
+        "router_scores": {
+          "LLMs": 0.33578455448150635,
+          "MCP": 0.29610517621040344,
+          "RAG": 0.08817754685878754,
+          "Quantum Computing": -0.03513141721487045
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://weaviate.io/blog/dify-and-weaviate",
+      "fetch_timestamp": "2025-11-21T06:36:41.390097",
+      "http_status": 200,
+      "content_hash": "14f3d38aa136ee021786545ef884ad42572ad9be12c485ba43e21c7c977cac6b",
+      "topic": "RAG",
+      "source": "weaviate.io",
+      "title": "Bringing RAG to Life with Dify and Weaviate",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.37454754114151,
+        "router_scores": {
+          "RAG": 0.6989409327507019,
+          "LLMs": 0.3243933916091919,
+          "MCP": 0.0741245299577713,
+          "Quantum Computing": 0.04465359449386597
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://quantumai.google/roadmap",
+      "fetch_timestamp": "2025-11-21T06:39:01.619185",
+      "http_status": 200,
+      "content_hash": "54c7da81cc4db766d7d06b7eb9f2e21e50216272907f0581727f335d6832ef71",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Roadmap",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.05008596181869507,
+        "router_scores": {
+          "RAG": 0.322642982006073,
+          "LLMs": 0.27255702018737793,
+          "MCP": 0.2266577184200287,
+          "Quantum Computing": 0.0938766747713089
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
