@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/natural-language-visualization-and-the-future-of-data-analysis-and-presentation/",
+      "fetch_timestamp": "2025-11-22T06:32:00.307158",
+      "http_status": 200,
+      "content_hash": "2115acb8fb62260cc50deb8997bc32b16f619b56a6cd78f68387d9937843e1c9",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Natural Language Visualization and the Future of Data Analysis and Presentation",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.06207558512687683,
+        "router_scores": {
+          "LLMs": 0.2803465723991394,
+          "RAG": 0.21827098727226257,
+          "MCP": 0.12924303114414215,
+          "Quantum Computing": 0.08579052984714508
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://huggingface.co/blog/open-asr-leaderboard",
+      "fetch_timestamp": "2025-11-22T06:31:18.084875",
+      "http_status": 200,
+      "content_hash": "9e767fbdfae29d549ace21bcbf49449f19cc967864996c1ebbf00a3a9095e00e",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "Open ASR Leaderboard: Trends and Insights with New Multilingual & Long-Form Tracks",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.053921595215797424,
+        "router_scores": {
+          "LLMs": 0.2744961380958557,
+          "RAG": 0.2205745428800583,
+          "MCP": 0.10663788765668869,
+          "Quantum Computing": -0.013866014778614044
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://huggingface.co/blog/rapidfireai",
+      "fetch_timestamp": "2025-11-22T06:31:18.084728",
+      "http_status": 200,
+      "content_hash": "d67e053d5ac551fb3a1e52df16b25af994088c44c0992b6ac588fe5cf59e58e0",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "20x Faster TRL Fine-tuning with RapidFire AI",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.07602721452713013,
+        "router_scores": {
+          "LLMs": 0.2474275827407837,
+          "MCP": 0.17140036821365356,
+          "RAG": 0.13741850852966309,
+          "Quantum Computing": 0.029071733355522156
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://neon.com/blog/how-axess-intelligence-simplified-their-backend-with-neons-data-api",
+      "fetch_timestamp": "2025-11-22T06:33:00.998234",
+      "http_status": 200,
+      "content_hash": "b3cdf49a3de063684c91cbeda5d667ce8029d3f01b1dd6dc06e03b1ed34a74b3",
+      "topic": "RAG",
+      "source": "neon.com",
+      "title": "How Axess Intelligence Simplified Their Backend With Neon\u2019s Data API",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.004997745156288147,
+        "router_scores": {
+          "RAG": 0.18279555439949036,
+          "LLMs": 0.1777978092432022,
+          "MCP": 0.11418989300727844,
+          "Quantum Computing": 0.02240655943751335
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
