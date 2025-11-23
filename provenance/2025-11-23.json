@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/preprocessing-signal-data-with-empirical-mode-decomposition/",
+      "fetch_timestamp": "2025-11-23T06:33:42.377197",
+      "http_status": 200,
+      "content_hash": "db55daf02507afddc510c76dcfc99cbf218682e2523dab07790af24f29275c38",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Empirical Mode Decomposition: The Most Intuitive Way to Decompose Complex Signals and Time Series",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.01983073353767395,
+        "router_scores": {
+          "LLMs": 0.16188529133796692,
+          "MCP": 0.14205455780029297,
+          "Quantum Computing": 0.11939865350723267,
+          "RAG": 0.11208929121494293
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/overfitting-versus-underfitting/",
+      "fetch_timestamp": "2025-11-23T06:33:42.377286",
+      "http_status": 200,
+      "content_hash": "3a43b338f50226535a33b82258f8e49ab2cb8bc716ae746feea1f730207503cd",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Overfitting vs. Underfitting: Making Sense of the Bias-Variance Trade-Off",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.02122616022825241,
+        "router_scores": {
+          "LLMs": 0.12267916649580002,
+          "MCP": 0.10145300626754761,
+          "Quantum Computing": 0.0456806980073452,
+          "RAG": 0.030281206592917442
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/tds-newsletter-how-to-build-robust-data-and-ai-systems/",
+      "fetch_timestamp": "2025-11-23T06:33:42.377672",
+      "http_status": 200,
+      "content_hash": "cbc42bf260e5f6e9629840797fb9bdb0869b7834eed11dcb5fa07c1534a4be34",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "TDS Newsletter: How to Build Robust Data and AI Systems",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.028059303760528564,
+        "router_scores": {
+          "LLMs": 0.3456764817237854,
+          "RAG": 0.31761717796325684,
+          "MCP": 0.24095094203948975,
+          "Quantum Computing": 0.13926613330841064
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
