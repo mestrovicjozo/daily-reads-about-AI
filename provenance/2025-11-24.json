@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/your-next-large-language-model-might-not-be-large-afterall-2/",
+      "fetch_timestamp": "2025-11-24T06:36:46.980175",
+      "http_status": 200,
+      "content_hash": "24ba840368dbf5c462ac2c144c028df5a38da77e14277c369fcd759e3acc50f9",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Your Next \u2018Large\u2019 Language Model Might Not Be Large After All",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.1865912824869156,
+        "router_scores": {
+          "LLMs": 0.39735108613967896,
+          "RAG": 0.21075980365276337,
+          "MCP": 0.12431371957063675,
+          "Quantum Computing": 0.07047361135482788
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/learning-triton-one-kernel-at-a-time-softmax/",
+      "fetch_timestamp": "2025-11-24T06:36:46.980071",
+      "http_status": 200,
+      "content_hash": "acd295e4911059511eaafc6cd68d3c0b6190a4c140cdf05d46e33c0b0f1739d2",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Learning Triton One Kernel at a Time: Softmax",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.10945825278759003,
+        "router_scores": {
+          "LLMs": 0.2883514165878296,
+          "RAG": 0.17889316380023956,
+          "Quantum Computing": 0.15049093961715698,
+          "MCP": 0.1355273723602295
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/how-to-build-a-recommendation-engine-using-edg-and-neo4j/",
+      "fetch_timestamp": "2025-11-24T06:36:46.980542",
+      "http_status": 200,
+      "content_hash": "087757d4afe6f4d4003bf4e4534fc02861f92560016dae2dcb11b5dd0d04fe4c",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "How To Build a Graph-Based Recommendation Engine Using EDG and Neo4j",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.01646214723587036,
+        "router_scores": {
+          "LLMs": 0.3057633936405182,
+          "RAG": 0.2893012464046478,
+          "MCP": 0.19677099585533142,
+          "Quantum Computing": 0.027787815779447556
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
