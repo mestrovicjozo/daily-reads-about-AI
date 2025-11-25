@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/llm-as-a-judge-what-it-is-why-it-works-and-how-to-use-it-to-evaluate-ai-models/",
+      "fetch_timestamp": "2025-11-25T06:38:02.362404",
+      "http_status": 200,
+      "content_hash": "fd04dfd66da15057d7d50a698eabdb5ac11faae99f0da693b89f889cd680ff34",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "LLM-as-a-Judge: What It Is, Why It Works, and How to Use It to Evaluate AI Models",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.23544220626354218,
+        "router_scores": {
+          "LLMs": 0.34918129444122314,
+          "MCP": 0.11373908817768097,
+          "RAG": 0.11331060528755188,
+          "Quantum Computing": 0.06435472518205643
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/hands-on-with-anthropics-new-structured-output-capabilities/",
+      "fetch_timestamp": "2025-11-25T06:38:02.362311",
+      "http_status": 200,
+      "content_hash": "c342abc9a2abf991945c39f636cb6ef38ef9963180c7543dcd3010124a330b70",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "A Hands-On Guide to Anthropic\u2019s New Structured Output Capabilities",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.014940589666366577,
+        "router_scores": {
+          "MCP": 0.15115275979042053,
+          "LLMs": 0.13621217012405396,
+          "RAG": 0.025667527690529823,
+          "Quantum Computing": -0.01662924699485302
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/struggling-with-data-science-5-common-beginner-mistakes/",
+      "fetch_timestamp": "2025-11-25T06:38:02.362189",
+      "http_status": 200,
+      "content_hash": "087d0ffa7c985dd73f157e0b71ced4dd9003813e04a8e40c1ac99a42e9b9c4ef",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Struggling with Data Science? 5 Common Beginner Mistakes",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.011564284563064575,
+        "router_scores": {
+          "Quantum Computing": 0.27401280403137207,
+          "LLMs": 0.2624485194683075,
+          "MCP": 0.1466408669948578,
+          "RAG": 0.13500052690505981
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
