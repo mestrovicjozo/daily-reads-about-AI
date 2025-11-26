@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "url": "https://milvus.io/blog/openagents-milvus-how-to-build-smarter-multi-agent-systems-that-share-memory.md",
+      "fetch_timestamp": "2025-11-26T06:36:44.998718",
+      "http_status": 200,
+      "content_hash": "a74e9e02e4e6e5d4d71943976b557c3dbe6c4c3217d67b1f21ca5c3edaa260ab",
+      "topic": "LLMs",
+      "source": "milvus.io",
+      "title": "OpenAgents x Milvus: How to Build Smarter Multi-Agent Systems That Share Memory",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.1367785632610321,
+        "router_scores": {
+          "LLMs": 0.3833736777305603,
+          "MCP": 0.2465951144695282,
+          "RAG": 0.16851477324962616,
+          "Quantum Computing": 0.03473523259162903
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/why-crewais-manager-worker-architecture-fails-and-how-to-fix-it/",
+      "fetch_timestamp": "2025-11-26T06:36:41.226352",
+      "http_status": 200,
+      "content_hash": "15d98811d8c6ecaf9b5fb9bbf0ddced76620cd1edfb45483d3f61788bfd29784",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Why CrewAI\u2019s Manager-Worker Architecture Fails \u2014 and How to Fix It",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.15081730484962463,
+        "router_scores": {
+          "LLMs": 0.4549175500869751,
+          "MCP": 0.30410024523735046,
+          "RAG": 0.16521140933036804,
+          "Quantum Computing": 0.03855492174625397
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://huggingface.co/blog/continuous_batching",
+      "fetch_timestamp": "2025-11-26T06:36:00.131108",
+      "http_status": 200,
+      "content_hash": "755ab5d14cf21d92c3d89b7e1d052d9e4f2879a0c6ff6c88c698fea00841a366",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "Continuous batching from first principles",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.26574864983558655,
+        "router_scores": {
+          "LLMs": 0.44294506311416626,
+          "RAG": 0.1771964132785797,
+          "MCP": 0.161445751786232,
+          "Quantum Computing": 0.09332452714443207
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://neon.com/blog/promoting-postgres-changes-safely-production",
+      "fetch_timestamp": "2025-11-26T06:37:42.240047",
+      "http_status": 200,
+      "content_hash": "2ca78d2bba344fb642ff100981e169fef607950b66409a79987bf271e3ebbcb5",
+      "topic": "MCP",
+      "source": "neon.com",
+      "title": "Promoting Postgres Changes Safely From Multiple Environments to Production",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.16846291720867157,
+        "router_scores": {
+          "MCP": 0.2112947702407837,
+          "RAG": 0.04283185303211212,
+          "LLMs": 0.03980507701635361,
+          "Quantum Computing": -0.052657827734947205
+        },
+        "router_overrode": true
+      }
+    }
+  ]
+}
