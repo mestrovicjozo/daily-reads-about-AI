@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/risats-silent-promise-decoding-disasters-with-synthetic-aperture-radar/",
+      "fetch_timestamp": "2025-11-27T06:37:35.655452",
+      "http_status": 200,
+      "content_hash": "29e9a53391fde26919caf89ef44d2ec3d8e1be28823cc40a282d19700261417e",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "RISAT\u2019s Silent Promise: Decoding Disasters with Synthetic Aperture Radar",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.07711780071258545,
+        "router_scores": {
+          "LLMs": 0.14096595346927643,
+          "MCP": 0.06384815275669098,
+          "Quantum Computing": 0.04964696243405342,
+          "RAG": 0.04408261179924011
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/how-to-create-professional-articles-with-latex-in-cursor/",
+      "fetch_timestamp": "2025-11-27T06:37:35.655932",
+      "http_status": 200,
+      "content_hash": "c1acecb487f9cb451dff7361c12b2a3cc6499a662972c3fc1102a5a5babb9816",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "How to Create Professional Articles with LaTeX in Cursor",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.027179285883903503,
+        "router_scores": {
+          "LLMs": 0.2739836573600769,
+          "RAG": 0.2468043714761734,
+          "MCP": 0.11640267074108124,
+          "Quantum Computing": -0.020792152732610703
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://huggingface.co/blog/flux-2",
+      "fetch_timestamp": "2025-11-27T06:36:53.605708",
+      "http_status": 200,
+      "content_hash": "b89a623b933d9e617a6cf40cb19561c33c924e6882b43d469eaaa5110a6e898f",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "Diffusers welcomes FLUX-2",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.11995285749435425,
+        "router_scores": {
+          "LLMs": 0.30627065896987915,
+          "RAG": 0.1863178014755249,
+          "MCP": 0.14269594848155975,
+          "Quantum Computing": -0.02858351729810238
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://milvus.io/blog/multimodal-rag-made-simple-rag-anything-milvus-instead-of-20-separate-tools.md",
+      "fetch_timestamp": "2025-11-27T06:37:39.474179",
+      "http_status": 200,
+      "content_hash": "b2d88cf1a6bac600972a5b6269478a76b8209e4a2d123fda76e2f5baa1505fa8",
+      "topic": "RAG",
+      "source": "milvus.io",
+      "title": "Multimodal RAG Made Simple: RAG-Anything + Milvus Instead of 20 Separate Tools",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.32283449172973633,
+        "router_scores": {
+          "RAG": 0.657983660697937,
+          "LLMs": 0.3351491689682007,
+          "MCP": 0.15673920512199402,
+          "Quantum Computing": 0.017082102596759796
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/i-cleaned-a-messy-csv-file-using-pandas-heres-the-exact-process-i-follow-every-time/",
+      "fetch_timestamp": "2025-11-27T06:37:35.655347",
+      "http_status": 200,
+      "content_hash": "d1912904d02113b17908fd04cba689ee17dcb3b9fe96e99995bd2b089d2a5cd7",
+      "topic": "RAG",
+      "source": "towardsdatascience.com",
+      "title": "I Cleaned a Messy CSV File Using Pandas . Here\u2019s the Exact Process I Follow Every Time.",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.10975625365972519,
+        "router_scores": {
+          "RAG": 0.15404579043388367,
+          "Quantum Computing": 0.04428953677415848,
+          "MCP": 0.03283822908997536,
+          "LLMs": 0.032606691122055054
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/how-i-use-ai-to-convince-companies-to-adopt-sustainability/",
+      "fetch_timestamp": "2025-11-27T06:37:35.655547",
+      "http_status": 200,
+      "content_hash": "a3371982107269acace40d499b9831e269a5f5812ad98aea90792b048496f89a",
+      "topic": "MCP",
+      "source": "towardsdatascience.com",
+      "title": "How I Use AI to Convince Companies to Adopt Sustainability",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.15432365238666534,
+        "router_scores": {
+          "MCP": 0.29733216762542725,
+          "LLMs": 0.1430085152387619,
+          "Quantum Computing": 0.07948756217956543,
+          "RAG": -0.04802422225475311
+        },
+        "router_overrode": true
+      }
+    }
+  ]
+}
