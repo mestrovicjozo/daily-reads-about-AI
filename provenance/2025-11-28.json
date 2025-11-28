@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/tds-newsletter-november-must-reads-on-graphrag-ml-projects-llm-powered-time-series-analysis-and-more/",
+      "fetch_timestamp": "2025-11-28T06:37:26.800358",
+      "http_status": 200,
+      "content_hash": "0a2a00fee974f65c5d79b39d3e765cc8785a4d225291550c6ec773c70b694954",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "TDS Newsletter: November Must-Reads on GraphRAG, ML Projects, LLM-Powered Time-Series Analysis, and More",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.01612609624862671,
+        "router_scores": {
+          "LLMs": 0.3487478792667389,
+          "RAG": 0.3326217830181122,
+          "MCP": 0.24341131746768951,
+          "Quantum Computing": 0.1388418823480606
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/neuro-symbolic-systems-the-art-of-compromise-2/",
+      "fetch_timestamp": "2025-11-28T06:37:26.800464",
+      "http_status": 200,
+      "content_hash": "d5e09b0b76655823fd28a5973c30045e223524e1641734300f24ff65feaa73aa",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Neural Networks Are Blurry, Symbolic Systems Are Fragmented. Sparse Autoencoders Help Us Combine Them.",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.03152594715356827,
+        "router_scores": {
+          "LLMs": 0.14067290723323822,
+          "RAG": 0.10914696007966995,
+          "Quantum Computing": 0.10244783759117126,
+          "MCP": 0.028993740677833557
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/water-cooler-small-talk-ep-10-so-what-about-the-ai-bubble/",
+      "fetch_timestamp": "2025-11-28T06:37:26.800601",
+      "http_status": 200,
+      "content_hash": "867420c33861d326785973142fc2b0be95cd62ee59256a723a003afb6f3035dd",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Water Cooler Small Talk, Ep. 10: So, What About the AI Bubble?",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.08304716646671295,
+        "router_scores": {
+          "LLMs": 0.22821341454982758,
+          "Quantum Computing": 0.14516624808311462,
+          "MCP": 0.10787344723939896,
+          "RAG": -0.0147868562489748
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://neon.com/blog/why-so-many-projects-in-the-neon-free-plan",
+      "fetch_timestamp": "2025-11-28T06:38:29.002618",
+      "http_status": 200,
+      "content_hash": "48e494eee43503c39dfc5fad6eb2989dafaa1e168aa53b1c0956b6c9e9e0b78f",
+      "topic": "RAG",
+      "source": "neon.com",
+      "title": "Why So Many Projects in the Neon Free Plan?",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.0012178421020507812,
+        "router_scores": {
+          "MCP": 0.10549916326999664,
+          "Quantum Computing": 0.10428132116794586,
+          "LLMs": 0.0883336290717125,
+          "RAG": 0.06486528366804123
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
