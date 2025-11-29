@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/data-science-in-2026-is-it-still-worth-it/",
+      "fetch_timestamp": "2025-11-29T06:34:08.286917",
+      "http_status": 200,
+      "content_hash": "9bec5e9e64f0794b78d5434114bd6aef0868db11013db0e3683a7408d66857b1",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Data Science in 2026: Is It Still Worth It?",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.025697290897369385,
+        "router_scores": {
+          "Quantum Computing": 0.25312256813049316,
+          "LLMs": 0.22742527723312378,
+          "RAG": 0.1272699385881424,
+          "MCP": 0.0672464445233345
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/why-weve-been-optimizing-the-wrong-thing-in-llms-for-years/",
+      "fetch_timestamp": "2025-11-29T06:34:08.287017",
+      "http_status": 200,
+      "content_hash": "d8f4ddb0361b25f60d0d777c4c1dd7e99aad062b9250e9b9570dc5a08fb4aa92",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Why We\u2019ve Been Optimizing the Wrong Thing in LLMs for Years",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.22682225704193115,
+        "router_scores": {
+          "LLMs": 0.48805904388427734,
+          "RAG": 0.2612367868423462,
+          "MCP": 0.17552053928375244,
+          "Quantum Computing": 0.12082698941230774
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/the-product-health-score-how-i-reduced-critical-incidents-by-35-with-unified-monitoring-and-n8n-automation/",
+      "fetch_timestamp": "2025-11-29T06:34:08.287108",
+      "http_status": 200,
+      "content_hash": "c9600e21d48c1ae8441efe4d52e27635d8b4d6243a41456f2d3b51c1f9bfa146",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "The Product Health Score: How I Reduced Critical Incidents by 35% with Unified Monitoring and n8n Automation",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.015088990330696106,
+        "router_scores": {
+          "MCP": 0.15786249935626984,
+          "LLMs": 0.14277350902557373,
+          "RAG": 0.06516706943511963,
+          "Quantum Computing": -0.009944578632712364
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://milvus.io/blog/choosing-a-vector-database-for-ann-search-at-reddit.md",
+      "fetch_timestamp": "2025-11-29T06:34:12.400173",
+      "http_status": 200,
+      "content_hash": "84d7ac34a644c2af2166156da47b22073cdaa5776e28e34b256d3d93381d9863",
+      "topic": "RAG",
+      "source": "milvus.io",
+      "title": "Choosing a vector database for ANN search at Reddit",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.129085510969162,
+        "router_scores": {
+          "RAG": 0.40357211232185364,
+          "LLMs": 0.27448660135269165,
+          "Quantum Computing": 0.1266394853591919,
+          "MCP": 0.11981746554374695
+        },
+        "router_overrode": true
+      }
+    }
+  ]
+}
