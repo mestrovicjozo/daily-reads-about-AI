@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/how-to-scale-your-llm-usage/",
+      "fetch_timestamp": "2025-11-30T06:35:05.221491",
+      "http_status": 200,
+      "content_hash": "8aa1071c6afbdba36844d3f80f002c5635261a293172501a362c28e3a6437978",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "How to Scale Your LLM Usage",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.281830370426178,
+        "router_scores": {
+          "LLMs": 0.5109012126922607,
+          "MCP": 0.22907084226608276,
+          "RAG": 0.12983930110931396,
+          "Quantum Computing": 0.046373795717954636
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "http://www.techmeme.com/251130/p2",
+      "fetch_timestamp": "2025-11-30T06:34:38.695433",
+      "http_status": 200,
+      "content_hash": "2af0933e0d46d2273bdc70f6f01da3d9cf95a36d4b63aaa1bb83907b1c5bd9f1",
+      "topic": "LLMs",
+      "source": "www.techmeme.com",
+      "title": "Taiwan raises its 2025 GDP growth forecast to 7.37%, up from 4.45% forecasted in August, the fastest in 15 years, as AI demand boosts its electronics exports (Kathrin Hille/Financial Times)",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.04465870559215546,
+        "router_scores": {
+          "LLMs": 0.20169171690940857,
+          "Quantum Computing": 0.1570330113172531,
+          "MCP": 0.10150650143623352,
+          "RAG": 0.010791625827550888
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/metric-deception-when-your-best-kpis-hide-your-worst-failures/",
+      "fetch_timestamp": "2025-11-30T06:35:05.221336",
+      "http_status": 200,
+      "content_hash": "9bfc0898f04e0e9685ddda88bea82c6eded1b9cf1a7ffcebc3bdd90a592693eb",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Metric Deception: When Your Best KPIs Hide Your Worst Failures",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.01783490926027298,
+        "router_scores": {
+          "MCP": 0.14277596771717072,
+          "LLMs": 0.12494105845689774,
+          "Quantum Computing": 0.09445519000291824,
+          "RAG": 0.04200984537601471
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
