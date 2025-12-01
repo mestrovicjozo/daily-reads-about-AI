@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/machine-learning-and-deep-learning-in-excel-advent-calendar-announcement/",
+      "fetch_timestamp": "2025-12-01T06:39:11.475640",
+      "http_status": 200,
+      "content_hash": "c6a775c2f191862af10856f088b757b8fccc0ef9e36a66534e361e25d1eb713d",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "The Machine Learning and Deep Learning \u201cAdvent Calendar\u201d Series: The Blueprint",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.12940454483032227,
+        "router_scores": {
+          "LLMs": 0.42371666431427,
+          "MCP": 0.29431211948394775,
+          "RAG": 0.20254409313201904,
+          "Quantum Computing": 0.1798650473356247
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "http://www.techmeme.com/251130/p13",
+      "fetch_timestamp": "2025-12-01T06:38:45.157359",
+      "http_status": 200,
+      "content_hash": "d8d899b90a5c41831453c0e3f0e6cc1aa5266a6d9f891429ff9a08d5084e1f9d",
+      "topic": "LLMs",
+      "source": "www.techmeme.com",
+      "title": "US startups are increasingly adopting Chinese open source AI models, as some capabilities of Chinese models start to catch up with those of frontier US labs (NBC News)",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.14061668515205383,
+        "router_scores": {
+          "LLMs": 0.37174615263938904,
+          "MCP": 0.2311294674873352,
+          "RAG": 0.16723540425300598,
+          "Quantum Computing": 0.12115661054849625
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/the-greedy-boruta-algorithm-faster-feature-selection-without-sacrificing-recall/",
+      "fetch_timestamp": "2025-12-01T06:39:11.475757",
+      "http_status": 200,
+      "content_hash": "807f9be9ecd53f589586319dd1ab9670bf402217a02291533fc276f2b1e3e89c",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "The Greedy Boruta Algorithm: Faster Feature Selection Without Sacrificing Recall",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.03574341535568237,
+        "router_scores": {
+          "LLMs": 0.20739826560020447,
+          "RAG": 0.1716548502445221,
+          "Quantum Computing": 0.1505134552717209,
+          "MCP": 0.09528783708810806
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
