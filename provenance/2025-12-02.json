@@ -1,0 +1,104 @@
+{
+  "items": [
+    {
+      "url": "https://milvus.io/blog/drag-drop-and-deploy-how-to-build-rag-workflows-with-langflow-and-milvus.md",
+      "fetch_timestamp": "2025-12-02T06:38:12.987407",
+      "http_status": 200,
+      "content_hash": "6ad3087d3b35da74a0a23247cab95e32742cd4770409e5419c2355c33a5a16e7",
+      "topic": "LLMs",
+      "source": "milvus.io",
+      "title": "Drag, Drop, and Deploy: How to Build RAG Workflows with Langflow and Milvus",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.024086683988571167,
+        "router_scores": {
+          "LLMs": 0.4105781614780426,
+          "RAG": 0.38649147748947144,
+          "MCP": 0.30031347274780273,
+          "Quantum Computing": -0.021425481885671616
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/learning-hacking-and-shipping-ml/",
+      "fetch_timestamp": "2025-12-02T06:38:09.111831",
+      "http_status": 200,
+      "content_hash": "5106a955e8cd1fa00bbff909b762882e1aac47a2f93633c2694277eb12162b30",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Learning, Hacking, and Shipping ML",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.07606250047683716,
+        "router_scores": {
+          "LLMs": 0.24465343356132507,
+          "RAG": 0.16859093308448792,
+          "Quantum Computing": 0.14514362812042236,
+          "MCP": 0.09487077593803406
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/why-ai-alignment-starts-with-better-evaluation/",
+      "fetch_timestamp": "2025-12-02T06:38:09.111920",
+      "http_status": 200,
+      "content_hash": "8352fc8de232fdba2fa8f8a1054e525edf3128bfe131cc9b49f98f4a40c9b1bc",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Why AI Alignment Starts With Better Evaluation",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.10189232230186462,
+        "router_scores": {
+          "LLMs": 0.21265798807144165,
+          "MCP": 0.11076566576957703,
+          "RAG": 0.10259022563695908,
+          "Quantum Computing": 0.026200374588370323
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://milvus.io/blog/understanding-ivf-vector-index-how-It-works-and-when-to-choose-it-over-hnsw.md",
+      "fetch_timestamp": "2025-12-02T06:38:12.987431",
+      "http_status": 200,
+      "content_hash": "00f486e84ef142d6583c30aa3a7f6bfeaeabb3368910cabdbcfbb7b7a1d39eac",
+      "topic": "RAG",
+      "source": "milvus.io",
+      "title": "Understanding IVF Vector Index: How It Works and When to Choose It Over HNSW",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.2220449596643448,
+        "router_scores": {
+          "RAG": 0.4024682641029358,
+          "LLMs": 0.180423304438591,
+          "MCP": 0.03795800358057022,
+          "Quantum Computing": 0.024687064811587334
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://neon.com/blog/improving-dns-performance-with-nodelocaldns",
+      "fetch_timestamp": "2025-12-02T06:39:11.385451",
+      "http_status": 200,
+      "content_hash": "ddc48f3aa2d170aa26516ca398d437c08fb7dccbdf4fb089105dff0a102bfc13",
+      "topic": "MCP",
+      "source": "neon.com",
+      "title": "Improving DNS performance with NodeLocalDNS",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.10652308538556099,
+        "router_scores": {
+          "MCP": 0.16148413717746735,
+          "RAG": 0.05496105179190636,
+          "LLMs": -0.0077982814982533455,
+          "Quantum Computing": -0.03729884326457977
+        },
+        "router_overrode": true
+      }
+    }
+  ]
+}
