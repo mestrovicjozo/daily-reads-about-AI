@@ -1,0 +1,144 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/the-architecture-behind-web-search-in-ai-chatbots-2/",
+      "fetch_timestamp": "2025-12-04T06:37:53.631342",
+      "http_status": 200,
+      "content_hash": "787f956f3c16b0f7237956f31ddd6bff2263c7e9adea29a842d6feac812033bd",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "The Architecture Behind Web Search in AI Chatbots",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.07505917549133301,
+        "router_scores": {
+          "RAG": 0.48375222086906433,
+          "LLMs": 0.4086930453777313,
+          "MCP": 0.14382877945899963,
+          "Quantum Computing": 0.11479312181472778
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/how-to-turn-your-llm-prototype-into-a-production-ready-system/",
+      "fetch_timestamp": "2025-12-04T06:37:53.631732",
+      "http_status": 200,
+      "content_hash": "8b5f3293891f052383bff22ec1f0805c6b72d389cb421c48cb4b9eb6436f79e8",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "How to Turn Your LLM Prototype into a Production-Ready System",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.28512540459632874,
+        "router_scores": {
+          "LLMs": 0.46649694442749023,
+          "MCP": 0.1813715398311615,
+          "RAG": 0.1287035197019577,
+          "Quantum Computing": 0.07326989620923996
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/overcoming-the-hidden-performance-traps-of-variable-shaped-tensors-efficient-data-sampling-in-pytorch/",
+      "fetch_timestamp": "2025-12-04T06:37:53.631494",
+      "http_status": 200,
+      "content_hash": "275a2324b257c12a23f0860bc262e712b8542af38cc2ab2c200e02dd32889011",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Overcoming the Hidden Performance Traps of Variable-Shaped Tensors: Efficient Data Sampling in PyTorch",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.029769986867904663,
+        "router_scores": {
+          "LLMs": 0.20689189434051514,
+          "MCP": 0.17712190747261047,
+          "RAG": 0.1594037264585495,
+          "Quantum Computing": 0.1073470190167427
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://neon.com/blog/practical-guide-to-database-branching",
+      "fetch_timestamp": "2025-12-04T06:38:55.621546",
+      "http_status": 200,
+      "content_hash": "4c5cfe591af14a8756a662e12cfcf684e477a820984cca7d84b5804371599fa2",
+      "topic": "RAG",
+      "source": "neon.com",
+      "title": "Practical Guide to Database Branching",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.0024237707257270813,
+        "router_scores": {
+          "RAG": 0.06698340177536011,
+          "MCP": 0.06455963104963303,
+          "LLMs": 0.05424392968416214,
+          "Quantum Computing": 0.027569016441702843
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://neon.com/blog/just-launched-neon-is-now-a-kiro-power",
+      "fetch_timestamp": "2025-12-04T06:38:55.621665",
+      "http_status": 200,
+      "content_hash": "a1f226d58d85293841035c83f95b20d65a1b56c0a5ab47355024a45310214598",
+      "topic": "RAG",
+      "source": "neon.com",
+      "title": "Just Launched: Neon Is Now a Kiro Power",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.037749677896499634,
+        "router_scores": {
+          "LLMs": 0.27057451009750366,
+          "MCP": 0.23282483220100403,
+          "RAG": 0.1654483675956726,
+          "Quantum Computing": 0.03894534707069397
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/how-to-use-simple-data-contracts-in-python-for-data-scientists/",
+      "fetch_timestamp": "2025-12-04T06:37:53.632175",
+      "http_status": 200,
+      "content_hash": "af9ab5d60ce360bbfb53eaa11e2beea726e2718d1b5e725655c905a5d8d25198",
+      "topic": "MCP",
+      "source": "towardsdatascience.com",
+      "title": "How to Use Simple Data Contracts in Python for Data Scientists",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.11810146272182465,
+        "router_scores": {
+          "MCP": 0.18092745542526245,
+          "LLMs": 0.0628259927034378,
+          "RAG": 0.057066790759563446,
+          "Quantum Computing": 0.011013781651854515
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://prometheus.io/blog/2025/12/02/visualizing-target-relabeling-rules-in-the-prometheus-ui/",
+      "fetch_timestamp": "2025-12-04T06:40:02.654152",
+      "http_status": 200,
+      "content_hash": "6a1177ca86a8f1323a5e8f3b3566d9c2d2d41becf89fdec0320304436b35fcbf",
+      "topic": "MCP",
+      "source": "prometheus.io",
+      "title": "Visualizing Target Relabeling Rules in Prometheus 3.8.0",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.07173236832022667,
+        "router_scores": {
+          "MCP": 0.12774941325187683,
+          "LLMs": 0.05601704493165016,
+          "RAG": 0.03149435669183731,
+          "Quantum Computing": -0.020407376810908318
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
