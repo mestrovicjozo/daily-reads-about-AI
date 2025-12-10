@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "url": "https://milvus.io/blog/gemini-3-pro-milvus-building-a-more-robust-rag-with-advanced-reasoning-and-multimodal-power.md",
+      "fetch_timestamp": "2025-12-10T06:39:11.898318",
+      "http_status": 200,
+      "content_hash": "df7e219caf59bff95700371a4d38caad9442b543230b01d09b1362d4714f3177",
+      "topic": "LLMs",
+      "source": "milvus.io",
+      "title": "filter.tutorialNov 20, 2025Gemini 3 Pro + Milvus: Building a More Robust RAG With Advanced Reasoning and Multimodal Power",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.07381398975849152,
+        "router_scores": {
+          "LLMs": 0.29580631852149963,
+          "MCP": 0.22199232876300812,
+          "RAG": 0.17980000376701355,
+          "Quantum Computing": 0.0736585259437561
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://huggingface.co/blog/ServiceNow-AI/apriel-1p6-15b-thinker",
+      "fetch_timestamp": "2025-12-10T06:38:27.485540",
+      "http_status": 200,
+      "content_hash": "8cb7bfc6eaaada3f0a59f39fd8d5f20eac996f8075f968cd471bf18e0ad8345b",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "Apriel-1.6-15b-Thinker: Cost-efficient Frontier Multimodal Performance",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.13803543150424957,
+        "router_scores": {
+          "LLMs": 0.3579349219799042,
+          "RAG": 0.2198994904756546,
+          "MCP": 0.14886009693145752,
+          "Quantum Computing": 0.05908510461449623
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/how-to-develop-ai-powered-solutions-accelerated-by-ai/",
+      "fetch_timestamp": "2025-12-10T06:39:08.001726",
+      "http_status": 200,
+      "content_hash": "acc8fe6a2a69a7d4939cbe727dbab856a0549ffcbdaa87ff23861bbb195c99d7",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "How to Develop AI-Powered Solutions, Accelerated by AI",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.027434498071670532,
+        "router_scores": {
+          "LLMs": 0.26740342378616333,
+          "MCP": 0.2399689257144928,
+          "Quantum Computing": 0.18088629841804504,
+          "RAG": 0.09965666383504868
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://milvus.io/blog/unlocking-true-entity-level-retrieval-new-array-of-structs-and-max-sim-capabilities-in-milvus.md",
+      "fetch_timestamp": "2025-12-10T06:39:11.898146",
+      "http_status": 200,
+      "content_hash": "d285c4b22c8e68e742abb12e05749b52b12ae87d159a949889097e4f24e79c32",
+      "topic": "RAG",
+      "source": "milvus.io",
+      "title": "Unlocking True Entity-Level Retrieval: New Array-of-Structs and MAX_SIM Capabilities in Milvus",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.32023775577545166,
+        "router_scores": {
+          "RAG": 0.5118551254272461,
+          "LLMs": 0.19161736965179443,
+          "MCP": 0.09653683006763458,
+          "Quantum Computing": 0.03087502159178257
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://milvus.io/blog/data-in-and-data-out-in-milvus-2-6.md",
+      "fetch_timestamp": "2025-12-10T06:39:11.898199",
+      "http_status": 200,
+      "content_hash": "83d00872a3343c10fac1b2da95439ff4036e5a60c7ac5b7c3e8ee97de8350b8f",
+      "topic": "RAG",
+      "source": "milvus.io",
+      "title": "Introducing the Embedding Function: How Milvus 2.6 Streamlines Vectorization and Semantic Search",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.14589586853981018,
+        "router_scores": {
+          "RAG": 0.4829353392124176,
+          "LLMs": 0.3370394706726074,
+          "MCP": 0.24988605082035065,
+          "Quantum Computing": 0.002084227278828621
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://milvus.io/blog/json-shredding-in-milvus-faster-json-filtering-with-flexibility.md",
+      "fetch_timestamp": "2025-12-10T06:39:11.898176",
+      "http_status": 200,
+      "content_hash": "75a55ced9d17c8f18dd051922eb16e28ec0aaebf66db9d7c03a99f84883a925c",
+      "topic": "RAG",
+      "source": "milvus.io",
+      "title": "JSON Shredding in Milvus: 88.9x Faster JSON Filtering with Flexibility",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.08685257285833359,
+        "router_scores": {
+          "RAG": 0.19730325043201447,
+          "LLMs": 0.11045067757368088,
+          "MCP": 0.09469687193632126,
+          "Quantum Computing": -0.07517150044441223
+        },
+        "router_overrode": true
+      }
+    }
+  ]
+}
