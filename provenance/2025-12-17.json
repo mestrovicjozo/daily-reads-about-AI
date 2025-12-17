@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "url": "https://huggingface.co/blog/transformers-v5",
+      "fetch_timestamp": "2025-12-17T17:27:41.021824",
+      "http_status": 200,
+      "content_hash": "af30a20c594dfc570f1337b7f0665a57b1e6d29240c79cbe41efd4416cabd14b",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "Transformers v5: Simple model definitions powering the AI ecosystem",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.11298161745071411,
+        "router_scores": {
+          "LLMs": 0.35926520824432373,
+          "MCP": 0.24628359079360962,
+          "RAG": 0.16293036937713623,
+          "Quantum Computing": 0.10572870820760727
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://huggingface.co/blog/hf-skills-training",
+      "fetch_timestamp": "2025-12-17T17:27:41.021780",
+      "http_status": 200,
+      "content_hash": "bcc1ec9df521d4b219de1fce70c6df789d9b3d0bbce3d355b976f9a9d8b56bdd",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "We Got Claude to Fine-Tune an Open Source LLM",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.181841641664505,
+        "router_scores": {
+          "LLMs": 0.39630088210105896,
+          "MCP": 0.21445924043655396,
+          "RAG": 0.14886322617530823,
+          "Quantum Computing": 0.10095112025737762
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://replicate.com/blog/isaac-01",
+      "fetch_timestamp": "2025-12-17T17:28:30.461798",
+      "http_status": 200,
+      "content_hash": "3a1469161262891384cf6d9a9d87f43767dba8bb7080b934bd459e7c9b54e896",
+      "topic": "LLMs",
+      "source": "replicate.com",
+      "title": "Run Isaac 0.1 on Replicate",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.0458202064037323,
+        "router_scores": {
+          "LLMs": 0.3059051036834717,
+          "MCP": 0.2600848972797394,
+          "RAG": 0.17980094254016876,
+          "Quantum Computing": 0.10690717399120331
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "items": [
+    {
+      "url": "https://milvus.io/blog/milvus-exceeds-40k-github-stars.md",
+      "fetch_timestamp": "2025-12-17T15:12:15.003763",
+      "http_status": 200,
+      "content_hash": "eb6623b5f0e0f0853fe6d76d23c15237973c596576090c013e97fc3c94cd765b",
+      "topic": "LLMs",
+      "source": "milvus.io",
+      "title": "7 Years, 2 Major Rebuilds, 40K+ GitHub Stars: The Rise of Milvus as the Leading Open-Source Vector Database",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.03599578142166138,
+        "router_scores": {
+          "LLMs": 0.3503882884979248,
+          "RAG": 0.3143925070762634,
+          "MCP": 0.24246414005756378,
+          "Quantum Computing": 0.049524880945682526
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://milvus.io/blog/faster-index-builds-and-scalable-queries-with-gpu-cagra-in-milvus.md",
+      "fetch_timestamp": "2025-12-17T15:12:15.003782",
+      "http_status": 200,
+      "content_hash": "24d14f52d463d99ce751bb520392491d3acc740010727ded4536bb09e07ca736",
+      "topic": "LLMs",
+      "source": "milvus.io",
+      "title": "Optimizing NVIDIA CAGRA in Milvus: A Hybrid GPU\u2013CPU Approach to Faster Indexing and Cheaper Queries",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.07335324585437775,
+        "router_scores": {
+          "RAG": 0.25903236865997314,
+          "LLMs": 0.1856791228055954,
+          "MCP": 0.1387246698141098,
+          "Quantum Computing": 0.08516472578048706
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-evaluation-recipe",
+      "fetch_timestamp": "2025-12-17T15:11:34.818424",
+      "http_status": 200,
+      "content_hash": "e0698c7bfa1ae0bd919842273212173c4cd0e1fce3774d7f6d6964082cfb1798",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "The Open Evaluation Standard: Benchmarking NVIDIA Nemotron 3 Nano with NeMo Evaluator",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.01709546148777008,
+        "router_scores": {
+          "LLMs": 0.11574814468622208,
+          "MCP": 0.098652683198452,
+          "RAG": 0.03454345464706421,
+          "Quantum Computing": 0.03164096549153328
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://milvus.io/blog/multimodal-rag-made-simple-rag-anything-milvus-instead-of-20-separate-tools.md",
+      "fetch_timestamp": "2025-12-17T15:12:15.003879",
+      "http_status": 200,
+      "content_hash": "b2d88cf1a6bac600972a5b6269478a76b8209e4a2d123fda76e2f5baa1505fa8",
+      "topic": "RAG",
+      "source": "milvus.io",
+      "title": "Multimodal RAG Made Simple: RAG-Anything + Milvus Instead of 20 Separate Tools",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.32283449172973633,
+        "router_scores": {
+          "RAG": 0.657983660697937,
+          "LLMs": 0.3351491689682007,
+          "MCP": 0.15673905611038208,
+          "Quantum Computing": 0.017082061618566513
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://milvus.io/blog/introducing-aisaq-in-milvus-billion-scale-vector-search-got-3200-cheaper-on-memory.md",
+      "fetch_timestamp": "2025-12-17T15:12:15.003794",
+      "http_status": 200,
+      "content_hash": "93e7b44b083a998d722594802cb4313c619064328646880ec0f468d60d6dce8f",
+      "topic": "RAG",
+      "source": "milvus.io",
+      "title": "Introducing AISAQ in Milvus: Billion-Scale Vector Search Just Got 3,200\u00d7 Cheaper on Memory",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.10531032085418701,
+        "router_scores": {
+          "RAG": 0.3437756896018982,
+          "LLMs": 0.23846536874771118,
+          "MCP": 0.11139862984418869,
+          "Quantum Computing": 0.038273461163043976
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://milvus.io/blog/choosing-a-vector-database-for-ann-search-at-reddit.md",
+      "fetch_timestamp": "2025-12-17T15:12:15.003869",
+      "http_status": 200,
+      "content_hash": "84d7ac34a644c2af2166156da47b22073cdaa5776e28e34b256d3d93381d9863",
+      "topic": "RAG",
+      "source": "milvus.io",
+      "title": "Choosing a vector database for ANN search at Reddit",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.1290854811668396,
+        "router_scores": {
+          "RAG": 0.40357205271720886,
+          "LLMs": 0.27448657155036926,
+          "Quantum Computing": 0.12663936614990234,
+          "MCP": 0.11981738358736038
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/mcp/comments/1poui9b/i_built_signed_lockfiles_for_mcp_servers/",
+      "fetch_timestamp": "2025-12-17T15:11:20.722626",
+      "http_status": 200,
+      "content_hash": "c87960dd15d0953b29c9eb682221c0c8eda5bbfd1a8e4e4b8fc6bbc78490c2f0",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "I built signed lockfiles for MCP servers (package-lock.json for agent tools)",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.31862052343785763,
+        "router_scores": {
+          "MCP": 0.3190042972564697,
+          "LLMs": 0.0003837738186120987,
+          "RAG": -0.03532569855451584,
+          "Quantum Computing": -0.15466678142547607
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://developers.googleblog.com/unlocking-the-potential-of-quantum-computing-a-developers-guide-to-error-correction/",
+      "fetch_timestamp": "2025-12-17T15:14:40.216735",
+      "http_status": 200,
+      "content_hash": "679f0a3219f110ecd935bb9635b97a938bf1075506d9f934f06af34eb6a3875c",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "arrow_forward",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.40462978556752205,
+        "router_scores": {
+          "Quantum Computing": 0.3870530426502228,
+          "LLMs": -0.01757674291729927,
+          "MCP": -0.026372427120804787,
+          "RAG": -0.04321847856044769
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://research.google/blog/making-quantum-error-correction-work/",
+      "fetch_timestamp": "2025-12-17T15:14:40.216725",
+      "http_status": 200,
+      "content_hash": "beddb4dbe9b1af55c0ee890121c0fd8f463de570d5fa05b28487cd1cddb4010a",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "arrow_forward",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.4376901760697365,
+        "router_scores": {
+          "Quantum Computing": 0.48441076278686523,
+          "LLMs": 0.046720586717128754,
+          "RAG": 0.026758011430501938,
+          "MCP": 0.00042271800339221954
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://policies.google.com/terms",
+      "fetch_timestamp": "2025-12-17T15:14:40.216849",
+      "http_status": 200,
+      "content_hash": "ecf241a14948714dd4b172b9bc4ed8dc63a7e1ee7e6de23a0a7b0a140e1c870d",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Terms",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.05008286237716675,
+        "router_scores": {
+          "MCP": 0.25947391986846924,
+          "RAG": 0.2093910574913025,
+          "LLMs": 0.19660526514053345,
+          "Quantum Computing": 0.08144480735063553
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}

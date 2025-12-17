@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "url": "https://weaviate.io/blog/context-engineering",
+      "fetch_timestamp": "2025-12-17T16:43:25.843611",
+      "http_status": 200,
+      "content_hash": "869861e55fe7cfac25edcd1568268026dfeacc72a97477ca5bdcd97dcb7ae6ab",
+      "topic": "LLMs",
+      "source": "weaviate.io",
+      "title": "Context Engineering for AI Agents",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.10928353667259216,
+        "router_scores": {
+          "LLMs": 0.4018702507019043,
+          "MCP": 0.29258671402931213,
+          "RAG": 0.11892665177583694,
+          "Quantum Computing": -0.023109186440706253
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://weaviate.io/blog/aws-2025-partner-award",
+      "fetch_timestamp": "2025-12-17T16:43:25.843644",
+      "http_status": 200,
+      "content_hash": "bde43951cfae041484628101c38823dd02abb24c30f4f86cbab15f5aa780621c",
+      "topic": "LLMs",
+      "source": "weaviate.io",
+      "title": "AWS 2025 Rising Star Technology Partner",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.0754389762878418,
+        "router_scores": {
+          "LLMs": 0.24836522340774536,
+          "RAG": 0.17292624711990356,
+          "MCP": 0.15043535828590393,
+          "Quantum Computing": 0.07704940438270569
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://weaviate.io/blog/weaviate-java-client-v6",
+      "fetch_timestamp": "2025-12-17T16:43:25.843679",
+      "http_status": 200,
+      "content_hash": "5ac6c91995b9dc2f26f0aff3095f4f6effc5b931e506d8e65fec1151deb34443",
+      "topic": "LLMs",
+      "source": "weaviate.io",
+      "title": "Announcing the new Weaviate Java Client v6",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.059446439146995544,
+        "router_scores": {
+          "RAG": 0.1699291467666626,
+          "LLMs": 0.11048270761966705,
+          "MCP": 0.05719262361526489,
+          "Quantum Computing": -0.02373102307319641
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://weaviate.io/blog/dify-and-weaviate",
+      "fetch_timestamp": "2025-12-17T16:43:25.843723",
+      "http_status": 200,
+      "content_hash": "14f3d38aa136ee021786545ef884ad42572ad9be12c485ba43e21c7c977cac6b",
+      "topic": "RAG",
+      "source": "weaviate.io",
+      "title": "Bringing RAG to Life with Dify and Weaviate",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.3745476007461548,
+        "router_scores": {
+          "RAG": 0.6989409923553467,
+          "LLMs": 0.3243933916091919,
+          "MCP": 0.07412439584732056,
+          "Quantum Computing": 0.04465349018573761
+        },
+        "router_overrode": true
+      }
+    }
+  ]
+}

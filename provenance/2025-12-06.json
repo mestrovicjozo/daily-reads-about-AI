@@ -1,0 +1,184 @@
+{
+  "items": [
+    {
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1pozanv/d_hi_recsys_fellows_what_is_the_current_benchmark/",
+      "fetch_timestamp": "2025-12-17T15:31:04.270159",
+      "http_status": 200,
+      "content_hash": "425caefa75db0b810ed423532b0d23f4fc6722d123e288f65f4ddee9586defd7",
+      "topic": "LLMs",
+      "source": "reddit.com/r/MachineLearning",
+      "title": "[D] Hi recsys fellows: what is the current benchmark dataset for personalized ranking? is there any leaderboard out there with sota models for the personalized ranking task?",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.007357850670814514,
+        "router_scores": {
+          "LLMs": 0.24988298118114471,
+          "RAG": 0.2425251305103302,
+          "MCP": 0.15299326181411743,
+          "Quantum Computing": 0.1249699592590332
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1poy0pn/p_lace_is_a_probabilistic_ml_tool_that_lets_you/",
+      "fetch_timestamp": "2025-12-17T15:31:04.270197",
+      "http_status": 200,
+      "content_hash": "4c9ff3871b8d87080329c00c895a421d9c02a68378db7ae247b92377ba1b011a",
+      "topic": "LLMs",
+      "source": "reddit.com/r/MachineLearning",
+      "title": "[P] Lace is a probabilistic ML tool that lets you ask pretty much anything about your tabular data. Like TabPFN but Bayesian.",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.007335886359214783,
+        "router_scores": {
+          "MCP": 0.2153497338294983,
+          "LLMs": 0.2080138474702835,
+          "RAG": 0.20216378569602966,
+          "Quantum Computing": 0.06819870322942734
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/lessons-learned-after-8-years-of-machine-learning/",
+      "fetch_timestamp": "2025-12-17T15:31:58.894653",
+      "http_status": 200,
+      "content_hash": "a1a957fed4c70c9b92ef6213f24ee1ef02714cdcb8c3d15750b3f12853c4f6ad",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Lessons Learned After 8 Years of Machine Learning",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.16357338428497314,
+        "router_scores": {
+          "LLMs": 0.35047703981399536,
+          "MCP": 0.18690365552902222,
+          "Quantum Computing": 0.182976633310318,
+          "RAG": 0.1788024604320526
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/when-not-to-use-vector-db/",
+      "fetch_timestamp": "2025-12-17T15:31:58.894397",
+      "http_status": 200,
+      "content_hash": "be9de37ca848d449b4b5e7110a23507c0fe7576b8a001ed6c255f740015aa672",
+      "topic": "RAG",
+      "source": "towardsdatascience.com",
+      "title": "When (Not) to Use Vector DB",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.372180312871933,
+        "router_scores": {
+          "RAG": 0.5366110801696777,
+          "LLMs": 0.16443076729774475,
+          "MCP": 0.062720388174057,
+          "Quantum Computing": 0.03276839479804039
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://prometheus.io/blog/2025/12/16/introducing-info-function/",
+      "fetch_timestamp": "2025-12-17T15:34:12.463068",
+      "http_status": 200,
+      "content_hash": "4a7fb781e447f53bab9411683876990814a9c7d97bc5ef00d3eff7aa65a88d0c",
+      "topic": "RAG",
+      "source": "prometheus.io",
+      "title": "Introducing the Experimental info() Function",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.19039486348628998,
+        "router_scores": {
+          "RAG": 0.3202567398548126,
+          "MCP": 0.12986187636852264,
+          "LLMs": 0.11375599354505539,
+          "Quantum Computing": 0.05803638696670532
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://neon.com/blog/why-your-staging-database-never-matches-production",
+      "fetch_timestamp": "2025-12-17T15:33:02.810984",
+      "http_status": 200,
+      "content_hash": "9e1eef198cd05700769044fc3554d8abc6472c61d041b03b5c001d697e6acceb",
+      "topic": "RAG",
+      "source": "neon.com",
+      "title": "Why Your Staging Database Never Matches Production",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.07634922862052917,
+        "router_scores": {
+          "MCP": 0.16417662799358368,
+          "RAG": 0.0878273993730545,
+          "LLMs": 0.01667860895395279,
+          "Quantum Computing": -0.13819050788879395
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://quantumai.google/resources",
+      "fetch_timestamp": "2025-12-17T15:34:28.344981",
+      "http_status": 200,
+      "content_hash": "be9a7761cbe31b19b54e296d2825586e7ad53e612a4a9548fe36a6e50ab851d3",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Educational resources",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.4747799336910248,
+        "router_scores": {
+          "Quantum Computing": 0.6281393766403198,
+          "LLMs": 0.15335944294929504,
+          "MCP": 0.12234331667423248,
+          "RAG": 0.12077260762453079
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://quantumai.google/discover/whatisqc",
+      "fetch_timestamp": "2025-12-17T15:34:28.344962",
+      "http_status": 200,
+      "content_hash": "839b56ae1dc7adf935f9c2963ba23d588a5e5ffee985518b4dd9c6ec4e2f0153",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Discover",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.4867682158946991,
+        "router_scores": {
+          "Quantum Computing": 0.5586704611778259,
+          "LLMs": 0.07190224528312683,
+          "MCP": 0.06716915965080261,
+          "RAG": -0.011634997092187405
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://quantumai.google/",
+      "fetch_timestamp": "2025-12-17T15:34:28.344944",
+      "http_status": 200,
+      "content_hash": "dee1b92bfa597e662cba24237accde278efd3f50231a8efa03d33d89c45544cb",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Google Quantum AI",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.2443467378616333,
+        "router_scores": {
+          "Quantum Computing": 0.49407899379730225,
+          "LLMs": 0.24973225593566895,
+          "MCP": 0.1051906943321228,
+          "RAG": 0.10022062063217163
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/6-technical-skills-that-make-you-a-senior-data-scientist/",
+      "fetch_timestamp": "2025-12-17T15:51:01.165029",
+      "http_status": 200,
+      "content_hash": "60abf0f2775e46936e61d75a65c881574a33aafb225540b7ed8768fa2444b124",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "6 Technical Skills That Make You a Senior Data Scientist",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.042724043130874634,
+        "router_scores": {
+          "LLMs": 0.26478323340415955,
+          "Quantum Computing": 0.2220591902732849,
+          "RAG": 0.16250941157341003,
+          "MCP": 0.11102412641048431
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/the-machine-learning-advent-calendar-day-15-svm-in-excel/",
+      "fetch_timestamp": "2025-12-17T15:51:01.164986",
+      "http_status": 200,
+      "content_hash": "8dd0e93b97b7418a04e4883bce34666da2e9771e8000e5391178162db56e73ef",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "The Machine Learning \u201cAdvent Calendar\u201d Day 15: SVM in Excel",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.012682557106018066,
+        "router_scores": {
+          "LLMs": 0.2288016676902771,
+          "RAG": 0.21611911058425903,
+          "MCP": 0.18459445238113403,
+          "Quantum Computing": 0.07836035639047623
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/lessons-learnt-from-upgrading-to-langchain-1-0-in-production/",
+      "fetch_timestamp": "2025-12-17T15:51:01.165114",
+      "http_status": 200,
+      "content_hash": "9563fb551045d9b630b250ff0ae57b739f83fc1f96c9eb3fae875e515e0a7fc8",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Lessons Learned from Upgrading to LangChain 1.0 in Production",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.06573992967605591,
+        "router_scores": {
+          "LLMs": 0.25138914585113525,
+          "RAG": 0.18564921617507935,
+          "MCP": 0.13488569855690002,
+          "Quantum Computing": -0.004743431694805622
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://neon.com/blog/why-so-many-projects-in-the-neon-free-plan",
+      "fetch_timestamp": "2025-12-17T15:52:04.214924",
+      "http_status": 200,
+      "content_hash": "9af04d5d062897ef9cf692f92f14ffad657d6f1cf781e673c0facc3e24eef1b3",
+      "topic": "RAG",
+      "source": "neon.com",
+      "title": "Why So Many Projects in the Neon Free Plan?",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.0041126832365989685,
+        "router_scores": {
+          "MCP": 0.10494372993707657,
+          "Quantum Computing": 0.1008310467004776,
+          "LLMs": 0.08189481496810913,
+          "RAG": 0.06931091845035553
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://neon.com/blog/how-axess-intelligence-simplified-their-backend-with-neons-data-api",
+      "fetch_timestamp": "2025-12-17T15:52:04.215011",
+      "http_status": 200,
+      "content_hash": "b3cdf49a3de063684c91cbeda5d667ce8029d3f01b1dd6dc06e03b1ed34a74b3",
+      "topic": "RAG",
+      "source": "neon.com",
+      "title": "How Axess Intelligence Simplified Their Backend With Neon\u2019s Data API",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.0049977898597717285,
+        "router_scores": {
+          "RAG": 0.18279559910297394,
+          "LLMs": 0.1777978092432022,
+          "MCP": 0.11418993026018143,
+          "Quantum Computing": 0.02240642160177231
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://neon.com/blog/integrating-postgres-and-auth-the-easy-way-daisys-neon-setup",
+      "fetch_timestamp": "2025-12-17T15:52:04.215098",
+      "http_status": 200,
+      "content_hash": "95efab5c3618972dff078069dd8ef020ec042d75beba6d39a47086f5b1e10b1d",
+      "topic": "RAG",
+      "source": "neon.com",
+      "title": "Integrating Postgres and Auth the Easy Way: Daisy\u2019s Neon Setup",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.0141277015209198,
+        "router_scores": {
+          "MCP": 0.13050606846809387,
+          "RAG": 0.11637836694717407,
+          "LLMs": 0.08058232814073563,
+          "Quantum Computing": -0.018585603684186935
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://neon.com/blog/promoting-postgres-changes-safely-production",
+      "fetch_timestamp": "2025-12-17T15:52:04.214968",
+      "http_status": 200,
+      "content_hash": "2ca78d2bba344fb642ff100981e169fef607950b66409a79987bf271e3ebbcb5",
+      "topic": "MCP",
+      "source": "neon.com",
+      "title": "Promoting Postgres Changes Safely From Multiple Environments to Production",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.16846288368105888,
+        "router_scores": {
+          "MCP": 0.21129471063613892,
+          "RAG": 0.04283182695508003,
+          "LLMs": 0.039805106818675995,
+          "Quantum Computing": -0.05265790969133377
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://neon.com/blog/mcp-safety-cheatsheet",
+      "fetch_timestamp": "2025-12-17T15:52:04.215053",
+      "http_status": 200,
+      "content_hash": "d46f492d0cfe527797bdd3d91db522e5fb99fcbb49e7ce09c0069c8e576bdcf8",
+      "topic": "MCP",
+      "source": "neon.com",
+      "title": "MCP Safety Cheatsheet",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.2581014335155487,
+        "router_scores": {
+          "MCP": 0.36569464206695557,
+          "LLMs": 0.10759320855140686,
+          "RAG": -0.06408273428678513,
+          "Quantum Computing": -0.07453467696905136
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://www.google.com/about/careers/applications/jobs/results/?company=Google&employment_type=FULL_TIME&employment_type=PART_TIME&location=California,%20USA&location=Munich,%20Germany&location=Seattle,%20WA,%20USA&location=Zurich,%20Switzerland&q=quantum&sort_by=relevance&src=Online%2FGoogle%20Website%2FQuantum_AI&utm_campaign=Quantum_AI&utm_medium=Google%20Website&utm_source=online",
+      "fetch_timestamp": "2025-12-17T15:53:29.302503",
+      "http_status": 200,
+      "content_hash": "e9417cb187e612da6782b946332d88d05fdc4bb670c97149340044ce99695bc9",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Careers",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.029757104814052582,
+        "router_scores": {
+          "RAG": 0.15139099955558777,
+          "Quantum Computing": 0.12163389474153519,
+          "LLMs": 0.11904709041118622,
+          "MCP": 0.05521076172590256
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1popuf4/p_eigenvalues_as_models/",
+      "fetch_timestamp": "2025-12-17T15:50:06.630436",
+      "http_status": 200,
+      "content_hash": "1d04c8303d2c886fc55402b36c850d05de132d46f132f883ad9510272bbd0b12",
+      "topic": "Quantum Computing",
+      "source": "reddit.com/r/MachineLearning",
+      "title": "[P] Eigenvalues as models",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.1311265453696251,
+        "router_scores": {
+          "Quantum Computing": 0.21006456017494202,
+          "LLMs": 0.07893801480531693,
+          "MCP": 0.07461901754140854,
+          "RAG": 0.02854844368994236
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://www.livescience.com/technology/computing/record-breaking-feat-means-information-lasts-15-times-longer-in-new-kind-of-quantum-processor-than-those-used-by-google-and-ibm",
+      "fetch_timestamp": "2025-12-17T15:50:11.816597",
+      "http_status": 200,
+      "content_hash": "4a5ba2726fcab8b7852ec78fe5f058daef01ff8775f5eaff408f0bf7b2251d5e",
+      "topic": "Quantum Computing",
+      "source": "reddit.com/r/QuantumComputing",
+      "title": "Record-breaking feat means information lasts 15 times longer in new kind of quantum processor than those used by Google and IBM",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.22574293613433838,
+        "router_scores": {
+          "Quantum Computing": 0.370376855134964,
+          "RAG": 0.1446339190006256,
+          "LLMs": 0.07870499789714813,
+          "MCP": 0.01610369235277176
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}

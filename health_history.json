@@ -1,11 +1,105 @@
 [
   {
-    "timestamp": "2025-10-23T14:51:09.681390",
+    "timestamp": "2025-12-17T16:11:15.808561",
+    "feeds": {},
+    "topics": {
+      "RAG": {
+        "articles_found": 100,
+        "articles_filtered": 8,
+        "fallbacks_used": []
+      },
+      "LLMs": {
+        "articles_found": 100,
+        "articles_filtered": 16,
+        "fallbacks_used": []
+      },
+      "Quantum Computing": {
+        "articles_found": 54,
+        "articles_filtered": 16,
+        "fallbacks_used": []
+      },
+      "MCP": {
+        "articles_found": 67,
+        "articles_filtered": 1,
+        "fallbacks_used": []
+      }
+    }
+  },
+  {
+    "timestamp": "2025-12-17T16:21:29.241517",
+    "feeds": {},
+    "topics": {
+      "RAG": {
+        "articles_found": 100,
+        "articles_filtered": 5,
+        "fallbacks_used": []
+      },
+      "LLMs": {
+        "articles_found": 100,
+        "articles_filtered": 13,
+        "fallbacks_used": []
+      },
+      "Quantum Computing": {
+        "articles_found": 54,
+        "articles_filtered": 13,
+        "fallbacks_used": []
+      }
+    }
+  },
+  {
+    "timestamp": "2025-12-17T16:31:02.217389",
     "feeds": {},
     "topics": {
       "LLMs": {
         "articles_found": 100,
+        "articles_filtered": 11,
+        "fallbacks_used": []
+      },
+      "Quantum Computing": {
+        "articles_found": 54,
+        "articles_filtered": 10,
+        "fallbacks_used": []
+      },
+      "RAG": {
+        "articles_found": 100,
+        "articles_filtered": 3,
+        "fallbacks_used": []
+      }
+    }
+  },
+  {
+    "timestamp": "2025-12-17T16:40:30.180878",
+    "feeds": {},
+    "topics": {
+      "Quantum Computing": {
+        "articles_found": 54,
+        "articles_filtered": 7,
+        "fallbacks_used": []
+      },
+      "LLMs": {
+        "articles_found": 100,
+        "articles_filtered": 8,
+        "fallbacks_used": []
+      },
+      "RAG": {
+        "articles_found": 100,
+        "articles_filtered": 3,
+        "fallbacks_used": []
+      }
+    }
+  },
+  {
+    "timestamp": "2025-12-17T16:50:04.626296",
+    "feeds": {},
+    "topics": {
+      "Quantum Computing": {
+        "articles_found": 54,
         "articles_filtered": 4,
+        "fallbacks_used": []
+      },
+      "LLMs": {
+        "articles_found": 100,
+        "articles_filtered": 5,
         "fallbacks_used": []
       },
       "RAG": {
@@ -14,47 +108,68 @@
         "fallbacks_used": []
       },
       "MCP": {
-        "articles_found": 13,
+        "articles_found": 67,
         "articles_filtered": 2,
-        "fallbacks_used": []
-      },
-      "Quantum Computing": {
-        "articles_found": 54,
-        "articles_filtered": 4,
         "fallbacks_used": []
       }
     }
   },
   {
-    "timestamp": "2025-10-26T20:56:35.176571",
+    "timestamp": "2025-12-17T17:00:26.167124",
     "feeds": {},
     "topics": {
       "LLMs": {
         "articles_found": 100,
-        "articles_filtered": 5,
-        "fallbacks_used": []
-      },
-      "RAG": {
-        "articles_found": 100,
-        "articles_filtered": 2,
-        "fallbacks_used": []
-      },
-      "MCP": {
-        "articles_found": 13,
-        "articles_filtered": 2,
+        "articles_filtered": 3,
         "fallbacks_used": []
       },
       "Quantum Computing": {
         "articles_found": 54,
-        "articles_filtered": 2,
+        "articles_filtered": 1,
+        "fallbacks_used": []
+      },
+      "RAG": {
+        "articles_found": 100,
+        "articles_filtered": 1,
+        "fallbacks_used": []
+      },
+      "MCP": {
+        "articles_found": 67,
+        "articles_filtered": 1,
         "fallbacks_used": []
       }
     }
   },
   {
-    "timestamp": "2025-10-26T21:06:15.425315",
+    "timestamp": "2025-12-17T17:14:40.619825",
     "feeds": {},
     "topics": {
+      "LLMs": {
+        "articles_found": 100,
+        "articles_filtered": 3,
+        "fallbacks_used": []
+      },
+      "MCP": {
+        "articles_found": 68,
+        "articles_filtered": 1,
+        "fallbacks_used": []
+      }
+    }
+  },
+  {
+    "timestamp": "2025-12-17T17:28:36.291677",
+    "feeds": {},
+    "topics": {
+      "RAG": {
+        "articles_found": 100,
+        "articles_filtered": 1,
+        "fallbacks_used": []
+      },
+      "MCP": {
+        "articles_found": 68,
+        "articles_filtered": 2,
+        "fallbacks_used": []
+      },
       "LLMs": {
         "articles_found": 100,
         "articles_filtered": 3,

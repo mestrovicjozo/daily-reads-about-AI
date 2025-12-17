@@ -1,0 +1,184 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/the-machine-learning-advent-calendar-day-16-kernel-trick-in-excel/",
+      "fetch_timestamp": "2025-12-17T15:41:27.230415",
+      "http_status": 200,
+      "content_hash": "bcab69284576523793d624aeccaa57c790985bf5a97c92d5a2291958fe31eea7",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "The Machine Learning \u201cAdvent Calendar\u201d Day 16: Kernel Trick in Excel",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.05633915960788727,
+        "router_scores": {
+          "LLMs": 0.2314227968454361,
+          "RAG": 0.17508363723754883,
+          "MCP": 0.17098388075828552,
+          "Quantum Computing": 0.10573559254407883
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://huggingface.co/blog/ibm-research/cuga-on-hugging-face",
+      "fetch_timestamp": "2025-12-17T15:40:49.629530",
+      "http_status": 200,
+      "content_hash": "f374accefe81d01f7c32fa7d89b91e47604c276ec055ea30977980624b690aa7",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "CUGA on Hugging Face: Democratizing Configurable AI Agents",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.0858098566532135,
+        "router_scores": {
+          "LLMs": 0.37354645133018494,
+          "MCP": 0.28773659467697144,
+          "RAG": 0.15083815157413483,
+          "Quantum Computing": 0.09745682775974274
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/separate-numbers-and-text-in-one-column-using-power-query/",
+      "fetch_timestamp": "2025-12-17T15:41:27.230370",
+      "http_status": 200,
+      "content_hash": "259f27617fcb1ee380d4e5a0f53b5a51bcd72ddf6ae48b582d62ff55991e7a35",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Separate Numbers and Text in One Column Using Power Query",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.049294229596853256,
+        "router_scores": {
+          "RAG": 0.039931539446115494,
+          "LLMs": -0.009362690150737762,
+          "MCP": -0.02417869120836258,
+          "Quantum Computing": -0.051067087799310684
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://neon.com/blog/the-transplant-story-that-sparked-a-hackathon-project",
+      "fetch_timestamp": "2025-12-17T15:42:34.716162",
+      "http_status": 200,
+      "content_hash": "90132ffe11613da7bc098b8021e83f199f00463ef46ad88f8e9791a437900fab",
+      "topic": "RAG",
+      "source": "neon.com",
+      "title": "The Transplant Story That Sparked a Hackathon Project",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.013140678405761719,
+        "router_scores": {
+          "LLMs": 0.18048080801963806,
+          "MCP": 0.16734012961387634,
+          "Quantum Computing": 0.11245742440223694,
+          "RAG": 0.1101854145526886
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://neon.com/blog/neon-auth-branchable-identity-in-your-database",
+      "fetch_timestamp": "2025-12-17T15:42:34.716256",
+      "http_status": 200,
+      "content_hash": "768a22e724f42b798cc2e01950af3506378a517ca26ded83b817603ad54cecf2",
+      "topic": "RAG",
+      "source": "neon.com",
+      "title": "Meet the New Neon Auth: Branchable Identity in Your Database",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.010356908664107323,
+        "router_scores": {
+          "LLMs": 0.02730799838900566,
+          "MCP": 0.01695108972489834,
+          "RAG": 0.014584127813577652,
+          "Quantum Computing": -0.0049400292336940765
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://neon.com/blog/the-case-for-owning-your-auth",
+      "fetch_timestamp": "2025-12-17T15:42:34.716212",
+      "http_status": 200,
+      "content_hash": "0c4be5caff50aad17b9e0ae11a8adc6fe90ca9d0758a2bbca325944b0a5ded80",
+      "topic": "RAG",
+      "source": "neon.com",
+      "title": "The Case for Owning Your Auth",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.05534512363374233,
+        "router_scores": {
+          "MCP": 0.0519731305539608,
+          "Quantum Computing": -0.0033719930797815323,
+          "LLMs": -0.042866550385951996,
+          "RAG": -0.09824339300394058
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://policies.google.com/privacy",
+      "fetch_timestamp": "2025-12-17T15:44:00.444066",
+      "http_status": 200,
+      "content_hash": "a5ec13129cb3b881136cd9c66a63938160e1da831c0a0f2c3624f9398a157591",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Privacy",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.039585620164871216,
+        "router_scores": {
+          "RAG": 0.2054472267627716,
+          "MCP": 0.1658616065979004,
+          "LLMs": 0.08445534855127335,
+          "Quantum Computing": 0.05271841958165169
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://quantumai.google/lab",
+      "fetch_timestamp": "2025-12-17T15:44:00.443733",
+      "http_status": 200,
+      "content_hash": "0036766961c25babb819e5fe931dc0cf0311401f2aae86a0c858ca386746f095",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Lab",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.36186738312244415,
+        "router_scores": {
+          "Quantum Computing": 0.49308061599731445,
+          "MCP": 0.1312132328748703,
+          "LLMs": 0.1207335814833641,
+          "RAG": -0.012704843655228615
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://quantumai.google/team",
+      "fetch_timestamp": "2025-12-17T15:44:00.443718",
+      "http_status": 200,
+      "content_hash": "f33d63f3b43eff63b9c7db51df9fcd6d466dc53453c99befc5bbcdee6130fc84",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "About",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.37698039412498474,
+        "router_scores": {
+          "Quantum Computing": 0.5248490571975708,
+          "MCP": 0.14786866307258606,
+          "LLMs": 0.12650245428085327,
+          "RAG": 0.02912932261824608
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}

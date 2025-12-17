@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "url": "https://huggingface.co/blog/hf-skills-training-codex",
+      "fetch_timestamp": "2025-12-17T17:05:13.869105",
+      "http_status": 200,
+      "content_hash": "9b007eced11fa307fb441af7a2f24c9255ea7ce306b80cd445f228f8005d886f",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "Codex is Open Sourcing AI models",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.11533993482589722,
+        "router_scores": {
+          "LLMs": 0.3660287857055664,
+          "RAG": 0.2506888508796692,
+          "MCP": 0.24901844561100006,
+          "Quantum Computing": 0.1095023900270462
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/",
+      "fetch_timestamp": "2025-12-17T17:05:08.516748",
+      "http_status": 200,
+      "content_hash": "6a5ce8b87154dbeaeaf962fa751144832143cda07aab21397c08fbc67225153b",
+      "topic": "LLMs",
+      "source": "deepmind.google",
+      "title": "FACTS Benchmark Suite: Systematically evaluating the factuality of large language models",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.0776539146900177,
+        "router_scores": {
+          "RAG": 0.3829697370529175,
+          "LLMs": 0.3053158223628998,
+          "MCP": 0.19498193264007568,
+          "Quantum Computing": 0.039046742022037506
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://deepmind.google/blog/strengthening-our-partnership-with-the-uk-government-to-support-prosperity-and-security-in-the-ai-era/",
+      "fetch_timestamp": "2025-12-17T17:05:08.516674",
+      "http_status": 200,
+      "content_hash": "01743e547ada033bf7b2ce9134f50564d6a56b1f1e5fc9602141e97388063a3f",
+      "topic": "LLMs",
+      "source": "deepmind.google",
+      "title": "Strengthening our partnership with the UK government to support prosperity and security in the AI era",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.027610689401626587,
+        "router_scores": {
+          "LLMs": 0.2873598337173462,
+          "Quantum Computing": 0.2597491443157196,
+          "MCP": 0.1462150514125824,
+          "RAG": 0.12095100432634354
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}

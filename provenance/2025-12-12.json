@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/neurips-2025-best-paper-review-qwens-systematic-exploration-of-attention-gating/",
+      "fetch_timestamp": "2025-12-17T16:29:43.758696",
+      "http_status": 200,
+      "content_hash": "d0736b13cc37bb5e408a251e07754b522bf31695f8315526f8e817da17afd2f3",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "NeurIPS 2025 Best Paper Review: Qwen\u2019s Systematic Exploration of Attention Gating",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.09465798735618591,
+        "router_scores": {
+          "LLMs": 0.30014246702194214,
+          "Quantum Computing": 0.20548447966575623,
+          "MCP": 0.18968577682971954,
+          "RAG": 0.11474532634019852
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/the-machine-learning-advent-calendar-day-12-logistic-regression-in-excel/",
+      "fetch_timestamp": "2025-12-17T16:29:43.758740",
+      "http_status": 200,
+      "content_hash": "690d28f965b46901f2797dd1c379a640f279e744412b3497c8b7d5930ab2ac82",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "The Machine Learning \u201cAdvent Calendar\u201d Day 12: Logistic Regression in Excel",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.016815274953842163,
+        "router_scores": {
+          "MCP": 0.2379360795021057,
+          "LLMs": 0.22112080454826355,
+          "Quantum Computing": 0.13975903391838074,
+          "RAG": 0.07574392855167389
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://deepmind.google/blog/improved-gemini-audio-models-for-powerful-voice-experiences/",
+      "fetch_timestamp": "2025-12-17T16:28:49.390096",
+      "http_status": 200,
+      "content_hash": "fb57b4a9b247e42c7bed274cf29921efd6175512f036b946d08e36219547d52b",
+      "topic": "LLMs",
+      "source": "deepmind.google",
+      "title": "Improved Gemini audio models for powerful voice experiences",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.18272948265075684,
+        "router_scores": {
+          "LLMs": 0.33002111315727234,
+          "RAG": 0.1472916305065155,
+          "MCP": 0.10342581570148468,
+          "Quantum Computing": 0.011812228709459305
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/a-practical-toolkit-for-time-series-anomaly-detection-using-python/",
+      "fetch_timestamp": "2025-12-17T16:30:55.836664",
+      "http_status": 200,
+      "content_hash": "7916390780321183650ea2e3c1348e5a2e1ee5f8d87221ebe1c9404ddcf8d0b1",
+      "topic": "RAG",
+      "source": "towardsdatascience.com",
+      "title": "A Practical Toolkit for Time Series Anomaly Detection, Using Python",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.02262914925813675,
+        "router_scores": {
+          "RAG": 0.10451970994472504,
+          "MCP": 0.08189056068658829,
+          "LLMs": 0.070074662566185,
+          "Quantum Computing": 0.06550759077072144
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/mcp/comments/1pp0ys9/toolscript_efficient_mcp_usage_in_claude_code_and/",
+      "fetch_timestamp": "2025-12-17T16:32:03.149842",
+      "http_status": 200,
+      "content_hash": "9cb9d10a84b16c896c425c27a7bba768fae0fe16b48956af24a0b2481436f0ad",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "toolscript: Efficient MCP usage in Claude Code and others",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.10369506478309631,
+        "router_scores": {
+          "MCP": 0.37479329109191895,
+          "LLMs": 0.27109822630882263,
+          "RAG": 0.1661805808544159,
+          "Quantum Computing": -0.06734864413738251
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/how-to-increase-coding-iteration-speed/",
+      "fetch_timestamp": "2025-12-17T16:29:43.758654",
+      "http_status": 200,
+      "content_hash": "4ff06471a28e194912c7beccd301bfda8f88c2d1fe98a3e458d48e900c63ba5d",
+      "topic": "MCP",
+      "source": "towardsdatascience.com",
+      "title": "How to Increase Coding Iteration Speed",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.15407003834843636,
+        "router_scores": {
+          "MCP": 0.15333151817321777,
+          "RAG": -0.0007385201752185822,
+          "Quantum Computing": -0.019482247531414032,
+          "LLMs": -0.06077408418059349
+        },
+        "router_overrode": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/geospatial-exploratory-data-analysis-with-geopandas-and-duckdb/",
+      "fetch_timestamp": "2025-12-17T16:01:25.079075",
+      "http_status": 200,
+      "content_hash": "3ace19bc62aa35ed909d7beb6121dea4da3fc31f91bd8ee6610d910e1d7805e3",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Geospatial exploratory data analysis with GeoPandas and DuckDB",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.06950584799051285,
+        "router_scores": {
+          "RAG": 0.15352022647857666,
+          "MCP": 0.08401437848806381,
+          "LLMs": 0.04327315837144852,
+          "Quantum Computing": 0.03760818392038345
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/the-skills-that-bridge-technical-work-and-business-impact/",
+      "fetch_timestamp": "2025-12-17T16:01:25.079204",
+      "http_status": 200,
+      "content_hash": "1aefade24092088d4b770943969b2311547bff30b0e4b2877f9602a665026278",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "The Skills That Bridge Technical Work and Business Impact",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.12933388352394104,
+        "router_scores": {
+          "LLMs": 0.4034374952316284,
+          "MCP": 0.2741036117076874,
+          "Quantum Computing": 0.1622425615787506,
+          "RAG": 0.14285650849342346
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/the-machine-learning-advent-calendar-day-14-softmax-regression-in-excel/",
+      "fetch_timestamp": "2025-12-17T16:01:25.079161",
+      "http_status": 200,
+      "content_hash": "2005b8d692da533eba23abc577259d4920d342d9df139322ba909f9c7bfcfc11",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "The Machine Learning \u201cAdvent Calendar\u201d Day 14: Softmax Regression in Excel",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.09504114091396332,
+        "router_scores": {
+          "LLMs": 0.20910868048667908,
+          "MCP": 0.11406753957271576,
+          "Quantum Computing": 0.09769859164953232,
+          "RAG": 0.08397294580936432
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://neon.com/blog/big-dx-improvements-for-neon-users-on-vercel",
+      "fetch_timestamp": "2025-12-17T16:02:28.108835",
+      "http_status": 200,
+      "content_hash": "65104fa2ad5697122713fb05a4464d879c99bc862003e0dc3c77d8ca1cfb2fad",
+      "topic": "RAG",
+      "source": "neon.com",
+      "title": "Big DX Improvements for Neon Users on Vercel",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.03861008957028389,
+        "router_scores": {
+          "RAG": 0.07404214143753052,
+          "LLMs": 0.03543205186724663,
+          "MCP": 0.0007159709930419922,
+          "Quantum Computing": -0.09881466627120972
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://neon.com/blog/handle-pii-staging-databases",
+      "fetch_timestamp": "2025-12-17T16:02:28.108881",
+      "http_status": 200,
+      "content_hash": "0681acde45a9e67417ef8ae71d792d85ae24ce79a54a34f010544744310b8a95",
+      "topic": "MCP",
+      "source": "neon.com",
+      "title": "How to Handle PII in Staging Databases Without Losing Realistic Data",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.1704813800752163,
+        "router_scores": {
+          "MCP": 0.17335298657417297,
+          "RAG": 0.0028716064989566803,
+          "LLMs": -0.02629907801747322,
+          "Quantum Computing": -0.07540704309940338
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/QuantumComputing/comments/1pnu8xl/is_quantum_computer_still_decades_away/",
+      "fetch_timestamp": "2025-12-17T16:00:33.474281",
+      "http_status": 200,
+      "content_hash": "1da3aa489f5c210fb6bb5ff338be5ca8dda0abcf55e0894426c659ef56c32157",
+      "topic": "Quantum Computing",
+      "source": "reddit.com/r/QuantumComputing",
+      "title": "Is quantum computer still decades away?",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.4227391630411148,
+        "router_scores": {
+          "Quantum Computing": 0.517951250076294,
+          "LLMs": 0.09521208703517914,
+          "MCP": 0.04898957163095474,
+          "RAG": 0.007451684679836035
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}

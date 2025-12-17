@@ -1,0 +1,184 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/the-machine-learning-advent-calendar-day-17-neural-network-regressor-in-excel/",
+      "fetch_timestamp": "2025-12-17T15:22:23.459049",
+      "http_status": 200,
+      "content_hash": "62767f4f9208fc11b6fe6da847aa758bd44d92c593394d1ef2874c0a1559f001",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "The Machine Learning \u201cAdvent Calendar\u201d Day 17: Neural Network Regressor in Excel",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.06839486956596375,
+        "router_scores": {
+          "LLMs": 0.2545371651649475,
+          "MCP": 0.18614229559898376,
+          "Quantum Computing": 0.161756694316864,
+          "RAG": 0.03678223490715027
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/3-techniques-to-effectively-utilize-ai-agents-for-coding/",
+      "fetch_timestamp": "2025-12-17T15:22:23.459322",
+      "http_status": 200,
+      "content_hash": "d0efc1968d819894c776b23c283ba1912c3089bfb1bf7dbc5c5f772a0f7daa5d",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "3 Techniques to Effectively Utilize AI Agents for Coding",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.09900492429733276,
+        "router_scores": {
+          "LLMs": 0.28017735481262207,
+          "Quantum Computing": 0.1811724305152893,
+          "MCP": 0.12439541518688202,
+          "RAG": 0.0879906415939331
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/production-grade-observability-for-ai-agents-a-minimal-code-configuration-first-approach/",
+      "fetch_timestamp": "2025-12-17T15:22:23.459173",
+      "http_status": 200,
+      "content_hash": "530dca195ee905932f18222cede1f914912161a50486bb5d0be6c098b2619384",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Production-Grade Observability for AI Agents: A Minimal-Code, Configuration-First Approach",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.06848470866680145,
+        "router_scores": {
+          "LLMs": 0.27880483865737915,
+          "MCP": 0.2103201299905777,
+          "Quantum Computing": 0.11964231729507446,
+          "RAG": 0.06785889714956284
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://milvus.io/blog/unlock-geo-vector-search-with-geometry-fields-and-rtree-index-in-milvus.md",
+      "fetch_timestamp": "2025-12-17T15:22:28.135445",
+      "http_status": 200,
+      "content_hash": "e816ca7683bde6efaee4e313ef46c50f81d465cd680d5cdea20c5a63dbdf6f79",
+      "topic": "RAG",
+      "source": "milvus.io",
+      "title": "Bringing Geospatial Filtering and Vector Search Together with Geometry Fields and RTREE in Milvus 2.6",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.09378215670585632,
+        "router_scores": {
+          "RAG": 0.33284300565719604,
+          "LLMs": 0.23906084895133972,
+          "MCP": 0.22680310904979706,
+          "Quantum Computing": 0.04401537775993347
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/Rag/comments/1pow3m7/oss_solutions_vs_build_your_own_why_build/",
+      "fetch_timestamp": "2025-12-17T15:21:32.425915",
+      "http_status": 200,
+      "content_hash": "0fbc6154e6c28e9f0f8e9ec02dd918fc7749271c91df1e1ba73af7e84ffb0134",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "OSS Solutions vs build your own? Why build?",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.0028187036514282227,
+        "router_scores": {
+          "RAG": 0.16158346831798553,
+          "LLMs": 0.1587647646665573,
+          "MCP": 0.14911887049674988,
+          "Quantum Computing": 0.03569938614964485
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/Rag/comments/1pou7qv/sparse_retriever_for_nonenglish_languages/",
+      "fetch_timestamp": "2025-12-17T15:21:32.425967",
+      "http_status": 200,
+      "content_hash": "ade54b606390b9174d5f79127844c6cff4c48af1bea9ebae18121771650efa6e",
+      "topic": "RAG",
+      "source": "reddit.com/r/Rag",
+      "title": "Sparse Retriever for non-English languages",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.09891751408576965,
+        "router_scores": {
+          "RAG": 0.35441675782203674,
+          "LLMs": 0.2554992437362671,
+          "MCP": 0.08613964170217514,
+          "Quantum Computing": 0.018603354692459106
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://quantumai.google/quantumcomputer",
+      "fetch_timestamp": "2025-12-17T15:24:52.109876",
+      "http_status": 200,
+      "content_hash": "8b6d9cc4145568357368c5a012e781937b2c014c08f182d377a9c4f6e63cbc38",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Our Work",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.4393310099840164,
+        "router_scores": {
+          "Quantum Computing": 0.4741380214691162,
+          "MCP": 0.03480701148509979,
+          "LLMs": 0.018871955573558807,
+          "RAG": -0.03649507090449333
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://research.google/blog/validating-random-circuit-sampling-as-a-benchmark-for-measuring-quantum-progress/",
+      "fetch_timestamp": "2025-12-17T15:24:52.110175",
+      "http_status": 200,
+      "content_hash": "15acf983c2e1b974eb5b4f952c7d301a658e729df90f224ccf3875c34a2a3c64",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "arrow_forward",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.3928230367600918,
+        "router_scores": {
+          "Quantum Computing": 0.445348858833313,
+          "MCP": 0.05252582207322121,
+          "LLMs": -0.04297420009970665,
+          "RAG": -0.049068424850702286
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://quantumai.google/roadmap",
+      "fetch_timestamp": "2025-12-17T15:24:52.109886",
+      "http_status": 200,
+      "content_hash": "e61add04b87094978b230a0962680c193f0706279903b5e1bcf3ff7ed376e922",
+      "topic": "Quantum Computing",
+      "source": "quantumai.google",
+      "title": "Roadmap",
+      "routing": {
+        "router_best_topic": "Quantum Computing",
+        "router_margin": 0.23684293031692505,
+        "router_scores": {
+          "Quantum Computing": 0.538259744644165,
+          "LLMs": 0.30141681432724,
+          "RAG": 0.2563145160675049,
+          "MCP": 0.1987304836511612
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}

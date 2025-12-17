@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "url": "https://huggingface.co/blog/intel-deepmath",
+      "fetch_timestamp": "2025-12-17T17:16:27.329807",
+      "http_status": 200,
+      "content_hash": "845f1f796962478ddddd97528368982c4781683b3dc3a708a289e59aed8fe829",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "DeepMath: A lightweight math reasoning Agent with smolagents",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.15953369438648224,
+        "router_scores": {
+          "LLMs": 0.3729879558086395,
+          "RAG": 0.2134542614221573,
+          "Quantum Computing": 0.20743265748023987,
+          "MCP": 0.18048810958862305
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://huggingface.co/blog/swift-huggingface",
+      "fetch_timestamp": "2025-12-17T17:16:27.329759",
+      "http_status": 200,
+      "content_hash": "13a2c422068e9623692563b2df2d0ebf7949dd4b405fb911be73641e9665467c",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "Introducing swift-huggingface: The Complete Swift Client for Hugging Face",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.04391906410455704,
+        "router_scores": {
+          "MCP": 0.1662420928478241,
+          "RAG": 0.12232302874326706,
+          "LLMs": 0.09962925314903259,
+          "Quantum Computing": -0.03999076411128044
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://importai.substack.com/p/import-ai-437-co-improving-ai-rl",
+      "fetch_timestamp": "2025-12-17T17:17:23.465094",
+      "http_status": 200,
+      "content_hash": "d987bc1ae3b72533ac87043bf70d78ad7ed423686741e2a211725ecd1d2f2c8b",
+      "topic": "LLMs",
+      "source": "importai.substack.com",
+      "title": "Import AI 437: Co-improving AI; RL dreams; AI labels might be annoying",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.08698263764381409,
+        "router_scores": {
+          "LLMs": 0.2732083201408386,
+          "Quantum Computing": 0.18622568249702454,
+          "RAG": 0.12726974487304688,
+          "MCP": 0.0928700715303421
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://deepmind.google/blog/engineering-more-resilient-crops-for-a-warming-climate/",
+      "fetch_timestamp": "2025-12-17T17:16:21.256716",
+      "http_status": 200,
+      "content_hash": "2d1587752fa3a3d8ec2181aea547fb0bfd7dc5a5c227bee6913ef1ea47d88537",
+      "topic": "MCP",
+      "source": "deepmind.google",
+      "title": "more resilient crops for a warming climate",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.10804915428161621,
+        "router_scores": {
+          "MCP": 0.19298404455184937,
+          "LLMs": 0.08493489027023315,
+          "Quantum Computing": 0.04751770943403244,
+          "RAG": 0.03403245657682419
+        },
+        "router_overrode": true
+      }
+    }
+  ]
+}

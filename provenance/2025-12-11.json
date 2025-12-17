@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "url": "https://deepmind.google/blog/gemini-3-flash-frontier-intelligence-built-for-speed/",
+      "fetch_timestamp": "2025-12-17T16:14:54.334049",
+      "http_status": 200,
+      "content_hash": "49a40f7174f8695f9f0b1d806048cd87c169c1ac7830d962cff6682e43c0469a",
+      "topic": "LLMs",
+      "source": "deepmind.google",
+      "title": "Gemini 3 Flash: frontier intelligence built for speed",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.0818747878074646,
+        "router_scores": {
+          "LLMs": 0.29153478145599365,
+          "RAG": 0.20965999364852905,
+          "MCP": 0.16099563241004944,
+          "Quantum Computing": 0.1103111058473587
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/the-machine-learning-advent-calendar-day-13-lasso-and-ridge-regression-in-excel/",
+      "fetch_timestamp": "2025-12-17T16:15:38.208213",
+      "http_status": 200,
+      "content_hash": "e9af89d7fcdfac3f3d47f21df90538f929a54cac2e60625eea31a4425b041bb2",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "The Machine Learning \u201cAdvent Calendar\u201d Day 13: LASSO and Ridge Regression in Excel",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.006501942873001099,
+        "router_scores": {
+          "LLMs": 0.12410145998001099,
+          "MCP": 0.11759951710700989,
+          "Quantum Computing": 0.07834314554929733,
+          "RAG": 0.07689245790243149
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://towardsdatascience.com/stop-writing-spaghetti-if-else-chains-parsing-json-with-pythons-match-case/",
+      "fetch_timestamp": "2025-12-17T16:15:38.208171",
+      "http_status": 200,
+      "content_hash": "84d5502eeb79deb76df0b7f6ada9a9d0f56421df349c944f8174498e3d7444b6",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Stop Writing Spaghetti if-else Chains: Parsing JSON with Python\u2019s match-case",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.02807062864303589,
+        "router_scores": {
+          "MCP": 0.11323225498199463,
+          "LLMs": 0.08516162633895874,
+          "RAG": 0.08323963731527328,
+          "Quantum Computing": 0.04352114722132683
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://www.reddit.com/r/mcp/comments/1pp0ldp/f1_pitwall_mcp_tools/",
+      "fetch_timestamp": "2025-12-17T16:18:00.661693",
+      "http_status": 200,
+      "content_hash": "18439742d7a68af0c0d333905a12f2bbbb57275e157acdbcefaebd42b5424c1a",
+      "topic": "MCP",
+      "source": "reddit.com/r/mcp",
+      "title": "F1 Pitwall MCP tools",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.021792873740196228,
+        "router_scores": {
+          "MCP": 0.24376849830150604,
+          "LLMs": 0.22197562456130981,
+          "RAG": 0.1898873746395111,
+          "Quantum Computing": 0.03291457146406174
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}

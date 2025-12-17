@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "url": "https://towardsdatascience.com/the-power-of-decentralization/",
+      "fetch_timestamp": "2025-12-17T16:54:13.975607",
+      "http_status": 200,
+      "content_hash": "17d626a27750223ff77981fb7caa8d890ab5a35ace7f0584f9874782950782a0",
+      "topic": "LLMs",
+      "source": "towardsdatascience.com",
+      "title": "Decentralized Computation: The Hidden Principle Behind Deep Learning",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.1776517927646637,
+        "router_scores": {
+          "LLMs": 0.35331177711486816,
+          "MCP": 0.17565998435020447,
+          "Quantum Computing": 0.15862300992012024,
+          "RAG": 0.03565552830696106
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://huggingface.co/blog/ggml-org/model-management-in-llamacpp",
+      "fetch_timestamp": "2025-12-17T16:53:32.149170",
+      "http_status": 200,
+      "content_hash": "142928daa61f55aedf823e9e5aa408203dae03687f09689407c8cf924569c32a",
+      "topic": "LLMs",
+      "source": "huggingface.co",
+      "title": "New in llama.cpp: Model Management",
+      "routing": {
+        "router_best_topic": "MCP",
+        "router_margin": 0.0074360668659210205,
+        "router_scores": {
+          "MCP": 0.22409991919994354,
+          "LLMs": 0.21666385233402252,
+          "RAG": -0.03888622671365738,
+          "Quantum Computing": -0.04514935612678528
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/",
+      "fetch_timestamp": "2025-12-17T16:53:26.789249",
+      "http_status": 200,
+      "content_hash": "593b8675ebde01363b0a2772819a595b60af406badedf074fb132a232b273b3e",
+      "topic": "LLMs",
+      "source": "deepmind.google",
+      "title": "Deepening our partnership with the UK AI Security Institute",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.04302342236042023,
+        "router_scores": {
+          "LLMs": 0.2074972540140152,
+          "MCP": 0.16447383165359497,
+          "Quantum Computing": 0.11528827995061874,
+          "RAG": 0.005035842768847942
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
