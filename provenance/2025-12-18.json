@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "url": "https://neon.com/blog/teaching-ai-how-to-do-auth",
+      "fetch_timestamp": "2025-12-18T06:40:33.185892",
+      "http_status": 200,
+      "content_hash": "15d7c4e41c6a637607cb1cda1ac910544a8d04faac813b5c6aba3a5e8e4ce808",
+      "topic": "LLMs",
+      "source": "neon.com",
+      "title": "Teaching AI to Do Auth (So You Don\u2019t Have To)",
+      "routing": {
+        "router_best_topic": "LLMs",
+        "router_margin": 0.08971701562404633,
+        "router_scores": {
+          "LLMs": 0.20185941457748413,
+          "MCP": 0.1121423989534378,
+          "RAG": 0.0808962881565094,
+          "Quantum Computing": 0.01692213863134384
+        },
+        "router_overrode": true
+      }
+    },
+    {
+      "url": "https://deepmind.google/blog/alphafold-five-years-of-impact/",
+      "fetch_timestamp": "2025-12-18T06:38:36.749649",
+      "http_status": 200,
+      "content_hash": "3caea585adc67c10a2262fe2f2074ca2ec97684074a1cbf376a04f14927e46fd",
+      "topic": "LLMs",
+      "source": "deepmind.google",
+      "title": "AlphaFold: Five years of impact",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.04154856503009796,
+        "router_scores": {
+          "RAG": 0.10657081007957458,
+          "MCP": 0.06502224504947662,
+          "LLMs": 0.057791829109191895,
+          "Quantum Computing": 0.02948976494371891
+        },
+        "router_overrode": false
+      }
+    },
+    {
+      "url": "https://deepmind.google/blog/revealing-a-key-protein-behind-heart-disease/",
+      "fetch_timestamp": "2025-12-18T06:38:36.749788",
+      "http_status": 200,
+      "content_hash": "0cd22e7124cd8b109dda875f1fb75a1f3fcb9a475b3f1b850858f7bf7b917d95",
+      "topic": "LLMs",
+      "source": "deepmind.google",
+      "title": "Revealing a key protein behind heart disease",
+      "routing": {
+        "router_best_topic": "RAG",
+        "router_margin": 0.057049598544836044,
+        "router_scores": {
+          "RAG": 0.054498281329870224,
+          "MCP": -0.0025513172149658203,
+          "LLMs": -0.05072688311338425,
+          "Quantum Computing": -0.06502265483140945
+        },
+        "router_overrode": false
+      }
+    }
+  ]
+}
